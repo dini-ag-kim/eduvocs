@@ -36,19 +36,19 @@
 {#if $db.initialized}
 	<div class="flex w-full flex-col">
 		{#if result}
-			<div class="flex w-full flex-row">
+			<div class="flex w-full flex-row flex-wrap">
 				<div class="text-md breadcrumbs">
-					<ul>
+					<ul class="flex-wrap">
 						<li>
 							<a aria-label={$t('menu.search')} href="/search">{$t('menu.search')}</a>
 						</li>
-						<li>
-							<span>{$t('voc.label')}: {result[vp.name]}</span>
+						<li class="truncate">
+							<span class="truncate">{$t('voc.label')}: {result[vp.name]}</span>
 						</li>
 					</ul>
 				</div>
 				<div class="ml-auto">
-					<ul class="bg-base-400 menu menu-horizontal menu-sm rounded-box">
+					<ul class="bg-base-400 menu menu-horizontal menu-sm gap-1 rounded-box">
 						<li>
 							<a
 								class="tooltip z-30"

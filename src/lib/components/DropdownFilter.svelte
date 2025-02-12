@@ -21,19 +21,19 @@
 	}
 </script>
 
-<div class="dropdown">
+<div class="dropdown max-md:my-1 max-md:w-full">
 	<div
 		tabindex="0"
 		aria-label={$t('dropdown.filter', { values: { filterName: title } })}
 		role="button"
-		class="my-3 select-none rounded-md border p-2"
+		class="select-none rounded-md border p-2 md:my-3"
 	>
-		<div class="flex flex-row items-center justify-between gap-2">
+		<div class="flex flex-row items-center justify-between gap-1">
 			<span>{title}</span>
 			<CaretDown />
 		</div>
 		<ul
-			class="menu dropdown-content z-[20] max-h-96 w-64 flex-nowrap gap-2 overflow-y-auto rounded-box bg-base-100 p-2 shadow"
+			class="menu dropdown-content z-[20] max-h-96 flex-nowrap gap-2 overflow-y-auto rounded-box bg-base-100 p-2 shadow max-md:w-full md:w-64"
 		>
 			<!-- Search Box -->
 			<li class="p-2">

@@ -4,13 +4,15 @@
 	import { t } from 'svelte-i18n';
 
 	function updateSort(event) {
-		const [key, order] = event.target.value.split(' ');
+		const [selectedKey, selectedOrder] = event.target.value.split(' ');
+		const key = selectedKey || vp.name;
+		const order = selectedOrder || 'asc';
 		sort(key, order);
 	}
 </script>
 
 <select
-	class="my-3 ml-auto select-none rounded-md border p-2"
+	class="my-3 ml-auto select-none rounded-md border bg-base-100 p-2"
 	on:change={updateSort}
 	value={$db.sort.key + ' ' + $db.sort.order}
 >
