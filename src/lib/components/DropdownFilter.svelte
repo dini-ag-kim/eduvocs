@@ -19,6 +19,17 @@
 			filterVal.toLowerCase().includes(searchTerm.toLowerCase())
 		);
 	}
+	function capitalize(str) {
+		if (!str) return str;
+		return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+	}
+
+	function sortDropdown(vals) {
+		return [...vals]
+			.map((value) => value.toLowerCase())
+			.sort()
+			.map((v) => capitalize(v));
+	}
 </script>
 
 <div class="dropdown max-md:my-1 max-md:w-full">
@@ -47,12 +58,12 @@
 					class="input input-sm input-bordered w-full"
 				/>
 			</li>
-			{#each filteredValues as filterVal}
+			{#each sortDropdown(filteredValues) as filterVal}
 				<li class="overflow-hidden rounded">
 					<button
 						type="button"
 						role="option"
-						class="btn btn-ghost font-normal"
+						class="btn btn-ghost justify-start text-left font-normal"
 						class:btn-active={$db.selectedFilters[filterKey].includes(filterVal)}
 						aria-selected={$db.selectedFilters[filterKey].includes(filterVal)}
 						onclick={() => {

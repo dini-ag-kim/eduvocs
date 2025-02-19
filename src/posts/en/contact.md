@@ -25,6 +25,7 @@ Diese Datenbank soll die Kommunikation zwischen Zielgruppen und Stakeholdern erl
 
 ## Finanzierung
 
+<div class="flex flex-col gap-2 items-start">
 <figure class="max-w-lg">
   <img class="h-auto max-w-full" src="/img/foerdermittel_eu.jpg" alt="Funded by the European Union (Next Generation EU)">
   <figcaption class="mt-2">The views and opinions expressed are solely those of the authors and do not necessarily reflect the views of the European Union or the European Commission. Neither the European Union nor the European Commission can be held responsible for them.
@@ -36,3 +37,4 @@ Diese Datenbank soll die Kommunikation zwischen Zielgruppen und Stakeholdern erl
   <figcaption class="mt-2">The project is funded by the BMBF as part of the <a href=‘https://www.bildung-forschung.digital/digitalezukunft/de/bildung/initiative-digitale-bildung/initiative-digitale-bildung_node.html’>Digital Education Initiative</a> (FKZ 16NB008).
 </figcaption>
 </figure>
+</div>

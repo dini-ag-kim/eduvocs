@@ -51,7 +51,7 @@
 					<ul class="bg-base-400 menu menu-horizontal menu-sm gap-1 rounded-box">
 						<li>
 							<a
-								class="tooltip z-30"
+								class="tooltip"
 								data-tip={$t('buttons.report')}
 								target="_blank"
 								aria-label={$t('buttons.report')}
@@ -66,7 +66,7 @@
 						</li>
 						<li>
 							<button
-								class="tooltip z-30"
+								class="tooltip"
 								data-tip={copyToClipboardMessage || $t('buttons.clipboard')}
 								aria-label={$t('buttons.clipboard')}
 								onclick={copyToClipboard}

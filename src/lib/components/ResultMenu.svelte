@@ -16,54 +16,63 @@
 <div class="join join-vertical">
 	{#if !hideButtons.includes(vp.id)}
 		<a
-			class="btn btn-outline join-item btn-sm h-auto border-slate-400 py-2"
+			class="btn btn-outline join-item btn-sm flex h-auto justify-start border-slate-400 py-2"
 			aria-label={$t('voc.preview')}
 			href={`/voc/${encodeURIComponent(result[vp.id])}`}
-			><InternalLinkIcon /> {$t('details')}
+			><InternalLinkIcon />
+			<span class="hidden md:inline">{$t('details')}</span>
 		</a>
 	{/if}
 	{#if result[vp.url] && !hideButtons.includes(vp.url)}
 		<a
-			class="btn btn-outline join-item btn-sm h-auto border-slate-400 py-2"
+			class="btn btn-outline join-item btn-sm flex h-auto justify-start border-slate-400 py-2"
 			aria-label={$t('buttons.service')}
 			href={result[vp.url]}
 			target="_blank"
 		>
 			<ServiceIcon />
-			{$t('buttons.service')}
+			<span class="hidden md:inline">
+				{$t('buttons.service')}
+			</span>
 		</a>
 	{/if}
 	{#if result[vp.describedAt] && !hideButtons.includes(vp.describedAt)}
 		<a
-			class="btn btn-outline join-item btn-sm h-auto border-slate-400 py-2"
+			class="btn btn-outline join-item btn-sm flex h-auto justify-start border-slate-400 py-2"
 			aria-label={$t('buttons.external')}
 			href={result[vp.describedAt]}
 			target="_blank"
 		>
 			<ExternalLinkIcon />
-			{$t('buttons.external')}
+			<span class="hidden md:inline">
+				{$t('buttons.external')}
+			</span>
 		</a>
 	{/if}
 	{#if result[vp.endpointUrl] && !hideButtons.includes(vp.endpointUrl)}
 		<a
-			class="btn btn-outline join-item btn-sm h-auto border-slate-400 py-2"
+			class="btn btn-outline join-item btn-sm flex h-auto justify-start border-slate-400 py-2"
 			aria-label={$t('buttons.api')}
 			href={result[vp.endpointUrl]}
 			target="_blank"
 		>
 			<CloudIcon />
-			{$t('buttons.api')}
+			<span class="hidden md:inline">
+				{$t('buttons.api')}
+			</span>
 		</a>
 	{/if}
 	{#if result[vp.repo] && !hideButtons.includes(vp.repo)}
 		<a
-			class="btn btn-outline join-item btn-sm h-auto border-slate-400 py-2"
+			class="btn btn-outline join-item btn-sm flex h-auto justify-start border-slate-400 py-2"
 			aria-label={$t('buttons.repo')}
 			href={result[vp.repo]}
 			target="_blank"
 		>
 			<SourceCodeIcon />
-			{$t('buttons.repo')}
+			<span class="hidden md:inline">
+				{$t('buttons.repo')}
+			</span>
 		</a>
 	{/if}
 	{#if vocabDistribution && vocabDistribution.length && !hideButtons.includes(vp.distribution)}

@@ -274,7 +274,12 @@ _:G__2424 a sdo:DataDownload;
   dct:issued "-"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
   dct:description "Vokabular von Wissenschafts- und Kunstzweigen."@de;
-  dct:title "Wissenschafts-/ Kunstzweige"@de .
+  dct:title "Wissenschafts-/ Kunstzweige"@de ;
+  sdo:distribution _:G__24242 .
+
+_:G__24242 a sdo:DataDownload;
+  sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fstudy_programmes&format=application/ld%2Bjson>;
+  sdo:fileFormat "application/json" .
 
 <http://example.org/16> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
@@ -285,7 +290,13 @@ _:G__2424 a sdo:DataDownload;
   dct:issued "-"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
   dct:description "Verzeichnis von Studienrichtungen."@de;
-  dct:title "Studienrichtungen"@de .
+  dct:title "Studienrichtungen"@de ;
+  sdo:distribution _:G__24243 .
+
+_:G__24243 a sdo:DataDownload;
+  sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fstudy_programmes&format=application/ld%2Bjson>;
+  sdo:fileFormat "application/json" .
+
 
 <http://example.org/17> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;

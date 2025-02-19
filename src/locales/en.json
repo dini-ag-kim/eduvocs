@@ -22,7 +22,7 @@
 		"download": "Download",
 		"repo": "Repository",
 		"api": "API",
-		"clipboard": "Copy link to vocabulary to clipboard",
+		"clipboard": "Copy vocabulary link to clipboard",
 		"report": "Report errors in the data record on GitHub"
 	},
 	"event": {
@@ -112,5 +112,11 @@
 	},
 	"error": {
 		"404": "Could not find content"
+	},
+	"notepad": {
+		"title": "Notepad",
+		"close": "Close",
+		"add": "Add to Notepad",
+		"reset": "Delete Entries"
 	}
 }

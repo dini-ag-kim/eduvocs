@@ -25,14 +25,16 @@ Diese Datenbank soll die Kommunikation zwischen Zielgruppen und Stakeholdern erl
 
 ## Finanzierung
 
-<figure class="max-w-lg">
+<div class="flex flex-col gap-2 items-start">
+<figure class="gap-2">
   <img class="h-auto max-w-full" src="/img/foerdermittel_eu.jpg" alt="Finanziert von der Europäischen Union (Next Generation EU)">
   <figcaption class="mt-2">Die geäußerten Ansichten und Meinungen sind ausschließlich die der Autoren und spiegeln nicht unbedingt die Ansichten der Europäischen Union oder der Europäischen Kommission wider. Weder die Europäische Union noch die Europäische Kommission können für sie verantwortlich gemacht werden.
 </figcaption>
 </figure>
 
-<figure class="max-w-lg">
+<figure class="gap-2">
   <img class="h-auto max-w-full" src="/img/foerdermittel_bmbf.png" alt="Gefördert vom Bundesministerium für Bildung und Forschung">
   <figcaption class="mt-2">Das Projekt wird im Rahmen der <a href="https://www.bildung-forschung.digital/digitalezukunft/de/bildung/initiative-digitale-bildung/initiative-digitale-bildung_node.html">Initiative Digitale Bildung</a> vom BMBF gefördert (FKZ 16NB008).
 </figcaption>
 </figure>
+</div>

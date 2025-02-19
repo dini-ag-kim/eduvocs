@@ -1,5 +1,5 @@
 <script>
-	import { db } from '$lib/db';
+	import { db, toggleSelected } from '$lib/db';
 	import { VOCAB_PROPERTIES as vp, METADATA_KEYS as mdk } from '$lib/constants';
 	import { config } from '$lib/config';
 	import { t } from 'svelte-i18n';
@@ -26,15 +26,18 @@
 				<div class="w-3/4 lg:pr-5">
 					<!-- Card title -->
 					<div class="ml-4 mt-2">
-						<div class="text-lg font-medium">
+						<div class="flex flex-wrap items-center text-lg font-medium">
 							<!-- Name of vocabulary and maintainer -->
 							<a
 								class="hover:text-accent"
 								aria-label={$t('voc.preview')}
 								href={`/voc/${encodeURIComponent(result[vp.id])}`}
-								>{result[vp.name]}
+							>
+								<span>{result[vp.name]}</span>
 							</a>
-							{result[vp.maintainedBy] ? `(${result[vp.maintainedBy]})` : ''}
+							{#if result[vp.maintainedBy]}
+								<span>&nbsp({result[vp.maintainedBy]})</span>
+							{/if}
 							<!-- Year issued (Year "last updated" would be better) -->
 							{#if result[vp.issued] && !isNaN(new Date(result[vp.issued]).getFullYear())}
 								<ResultBadge
@@ -69,13 +72,24 @@
 					<ResultMenu {result} {hideButtons} />
 				</div>
 				<!-- Card footer -->
-				<div class="flex w-full flex-wrap content-start p-2">
+				<div class="flex w-full flex-wrap content-start items-center p-2">
 					<div class="divider !m-0 w-full"></div>
 					{#each config.filterKeys as key}
 						{#if result[vp[key]]}
 							<ResultBadge badgeLabel={$t('terms.' + result[vp[key]])} />
 						{/if}
 					{/each}
+					<div class="form-control md:ml-auto md:mr-0">
+						<label class="label cursor-pointer gap-1">
+							<input
+								onclick={() => toggleSelected('selectedVocabs', result[vp.id])}
+								type="checkbox"
+								checked={$db.selectedVocabs.includes(result[vp.id])}
+								class="checkbox checkbox-sm"
+							/>
+							<span class="label-text">{$t('notepad.add')}</span>
+						</label>
+					</div>
 				</div>
 			</li>
 		</ul>

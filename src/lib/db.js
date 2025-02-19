@@ -15,7 +15,8 @@ export const db = writable({
 	},
 	initizialized: false,
 	filterKeys: config.filterKeys,
-	selectedFilters: initFilters()
+	selectedFilters: initFilters(),
+	selectedVocabs: []
 });
 
 export const paginatedResults = derived(db, ($db) => {
@@ -24,6 +25,8 @@ export const paginatedResults = derived(db, ($db) => {
 	const paginatedResults = $db.results.slice(startIndex, endIndex);
 	return paginatedResults;
 });
+
+export const vocabEntries = writable({});
 
 const { Document } = pkg;
 const index = new Document({ ...config.index });
@@ -84,11 +87,15 @@ export function search(event) {
 	event.preventDefault();
 	const tags = Object.values(get(db).selectedFilters).flat();
 	const groupedResults = get(db).index.search(get(db).query, {
-		index: ['name', 'about'],
+		index: ['id', 'title', 'about', 'P126'],
 		enrich: true,
 		tag: tags
 	});
-	const results = groupedResults.map((g) => g.result.map((r) => r.doc)).flat();
+	const resultSet = Array.from(
+		new Map([...groupedResults.map((e) => e.result).flat()].map((item) => [item.id, item])).values()
+	);
+
+	const results = resultSet.map((r) => r.doc);
 	if (results.length === 0 && Object.values(get(db).selectedFilters).flat()) {
 		fillResults();
 	} else {
@@ -193,4 +200,26 @@ export async function createIndex() {
 		return { ...db, initialized: true };
 	});
 	fillResults();
+}
+
+export function toggleSelected(dbKey, val) {
+	db.update((db) => {
+		if (db[dbKey].includes(val)) {
+			const updated = { [dbKey]: [...db[dbKey].filter((v) => v !== val)] };
+			sessionStorage.setItem(`eduvocs:${dbKey}`, JSON.stringify(updated));
+			return { ...db, ...updated };
+		} else {
+			const updated = { [dbKey]: [...db[dbKey], val] };
+			sessionStorage.setItem(`eduvocs:${dbKey}`, JSON.stringify(updated));
+			return { ...db, ...updated };
+		}
+	});
+}
+
+export function resetSelected(dbKey) {
+	db.update((db) => {
+		const updated = { [dbKey]: [] };
+		sessionStorage.setItem(`eduvocs:${dbKey}`, JSON.stringify(updated));
+		return { ...db, ...updated };
+	});
 }

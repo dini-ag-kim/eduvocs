@@ -112,5 +112,11 @@
 	},
 	"error": {
 		"404": "Could not find content"
+	},
+	"notepad": {
+		"title": "Merkzettel",
+		"close": "Schließen",
+		"add": "Zu Merkzettel hinzufügen",
+		"reset": "Alle Einträge löschen"
 	}
 }

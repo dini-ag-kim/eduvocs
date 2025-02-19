@@ -6,12 +6,12 @@
 
 {#if concept}
 	<div class="my-1">
-		<p>
+		<a target="_blank" href={concept.id}>
 			{concept.prefLabel?.[$locale] ||
 				concept.prefLabel?.[$locale.slice(0, 2)] ||
 				concept.prefLabel?.de ||
 				concept.prefLabel?.en}
-		</p>
+		</a>
 		{#if concept.narrower && concept.narrower.length}
 			<div style="margin-left: 20px;">
 				{#each concept.narrower as narrower}

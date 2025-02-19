@@ -24,7 +24,7 @@
 	</div>
 {/if}
 <article class="card prose mb-5 max-w-full bg-base-100 shadow-md">
-	<div class="card-body">
+	<div class="card-body mt-1 p-0">
 		<hgroup>
 			<h1 class="card-title">
 				<a href={`/content/${$locale.slice(0, 2)}/${item.slug}`}>{item.title}</a>

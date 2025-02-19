@@ -16,7 +16,7 @@
 <div class="flex flex-col">
 	<form onsubmit={(e) => search(e)}>
 		<div>
-			<div class="flex w-full flex-row gap-2">
+			<div class="flex w-full gap-2 md:flex-row">
 				<label class="input input-bordered flex items-center max-lg:w-3/4 lg:w-full">
 					<input
 						class="grow"
@@ -28,11 +28,11 @@
 					/>
 					<SearchIcon />
 				</label>
-				<div class="ml-auto flex justify-end max-lg:w-1/2 lg:w-1/4">
+				<div class="ml-auto flex items-center md:justify-end lg:w-1/4">
 					<ResetFilters />
 				</div>
 			</div>
-			<div class="flex flex-row flex-wrap gap-2">
+			<div class="flex flex-row flex-wrap items-center gap-2">
 				<DropdownFilter title={$t('filter.about')} filterKey={vp.about} />
 				<DropdownFilter title={$t('filter.educationalLevel')} filterKey={vp.educationalLevel} />
 				<DropdownFilter title={$t('filter.maintainedBy')} filterKey={vp.maintainedBy} />

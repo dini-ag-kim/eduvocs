@@ -6,9 +6,13 @@
 </script>
 
 <div class="dropdown dropdown-left">
-	<button class="btn btn-outline join-item btn-sm h-auto w-full border-slate-400 py-2">
+	<button
+		class="btn btn-outline join-item btn-sm flex h-auto w-full justify-start border-slate-400 py-2"
+	>
 		<DownloadIcon />
-		{$t('download')}
+		<span class="hidden md:inline">
+			{$t('download')}
+		</span>
 	</button>
 	<ul class="menu dropdown-content rounded-box bg-base-100 p-2 shadow-md">
 		{#each vocabDistribution as dist}
