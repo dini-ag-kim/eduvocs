@@ -1,11 +1,10 @@
 <script>
 	import Vocab from '$lib/components/Vocab.svelte';
 	import { VOCAB_PROPERTIES as vp, METADATA_KEYS as mdk } from '$lib/constants';
-	import Result from './Result.svelte';
 	import InternalLinkIcon from '$lib/icons/InternalLinkIcon.svelte';
 
 	import ResultInfo from './ResultInfo.svelte';
-	import { t } from 'svelte-i18n';
+	import { t, locale } from 'svelte-i18n';
 	import { db, toggleSelected } from '$lib/db';
 	import ResultBadge from '$lib/components/ResultBadge.svelte';
 	import CloseIcon from '$lib/icons/CloseIcon.svelte';
@@ -26,7 +25,8 @@
 				class="hover:text-accent"
 				aria-label={$t('voc.preview')}
 				href={`/voc/${encodeURIComponent(vocabData[vp.id])}`}
-				>{vocabData[vp.name]}
+			>
+				{$locale.slice(0, 2) == 'de' ? vocabData[vp.name]?.[1] : vocabData[vp.name]?.[0]}
 			</a>
 			<!-- Details Icon -->
 			<a

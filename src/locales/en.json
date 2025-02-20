@@ -5,6 +5,7 @@
 	"searchresults": "Search results",
 	"download": "Download",
 	"preview": "Preview",
+	"loading": "Loading...",
 	"details": "Details",
 	"article": "Article",
 	"vocab": "Vocabulary",
@@ -65,9 +66,9 @@
 		"Fach- und Themenzuordnung": "Subject and topic classification",
 		"Hochschule: Standards und Modulkataloge": "University: Standards and module catalogs",
 		"Lernkontrollen": "Learning assessments",
-		"Zielgruppe": "Target group",
+		"Zielgruppen": "Intended audience",
 		"Themenfeld": "Subject area",
-		"Bildungsstufe": "Educational level",
+		"Bildungsstufen": "Educational level",
 		"Bildungsstandards sowie Lehrplan-/Curricula-orientierte Wertelisten": "Educational standards and curriculum-oriented value lists",
 		"Lehr-/Lernform (Interaktivitätstyp)": "Teaching/learning format (interactivity type)",
 		"Sprachen": "Languages",
@@ -86,6 +87,7 @@
 		"Lehrerbildung": "Teacher education",
 		"Primarbereich": "Primary education",
 		"Schule": "School",
+		"Schlagworte": "Keywords",
 		"Bildungsbereichsübergreifend": "Cross-educational sector",
 		"digitalisierungsbezogene Kompetenzen": "Digital-related competencies"
 	},
@@ -111,7 +113,8 @@
 		"notfound": "Vocabulary not found"
 	},
 	"error": {
-		"404": "Could not find content"
+		"404": "Could not find content",
+		"vocab": "The vocabulary {vocabName} is not retrievable."
 	},
 	"notepad": {
 		"title": "Notepad",

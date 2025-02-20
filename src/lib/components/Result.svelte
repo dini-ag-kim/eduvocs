@@ -2,7 +2,7 @@
 	import { db, toggleSelected } from '$lib/db';
 	import { VOCAB_PROPERTIES as vp, METADATA_KEYS as mdk } from '$lib/constants';
 	import { config } from '$lib/config';
-	import { t } from 'svelte-i18n';
+	import { t, locale } from 'svelte-i18n';
 	import ResultBadge from '$lib/components/ResultBadge.svelte';
 	import ResultMenu from './ResultMenu.svelte';
 	import ResultInfo from './ResultInfo.svelte';
@@ -15,6 +15,12 @@
 
 	function hasResultInfo() {
 		return mdk.some((key) => result[vp[key]]);
+	}
+
+	function highlight(text) {
+		const keyword = $db.query || '';
+		const regex = new RegExp(`(${keyword})`, 'gi');
+		return text.replace(regex, '<mark>$1</mark>');
 	}
 </script>
 
@@ -33,7 +39,9 @@
 								aria-label={$t('voc.preview')}
 								href={`/voc/${encodeURIComponent(result[vp.id])}`}
 							>
-								<span>{result[vp.name]}</span>
+								<span>
+									{$locale.slice(0, 2) == 'de' ? result[vp.name]?.[1] : result[vp.name]?.[0]}
+								</span>
 							</a>
 							{#if result[vp.maintainedBy]}
 								<span>&nbsp({result[vp.maintainedBy]})</span>
@@ -59,7 +67,13 @@
 							bind:checked={isOpen}
 						/>
 						<div class="collapse-title">
-							<p class={!isOpen ? 'line-clamp-3' : ''}>{result[vp.description]}</p>
+							<p class={!isOpen ? 'line-clamp-3' : ''}>
+								{#if $locale.slice(0, 2) == 'de'}
+									{@html highlight(result[vp.description][1])}
+								{:else}
+									{@html highlight(result[vp.description][0])}
+								{/if}
+							</p>
 						</div>
 						<div class="collapse-content">
 							<!-- Additional space for content -->

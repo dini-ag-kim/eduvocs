@@ -5,6 +5,7 @@
 	"searchresults": "Suchergebnisse",
 	"download": "Download",
 	"preview": "Vorschau",
+	"loading": "Wird geladen...",
 	"details": "Details",
 	"article": "Artikel",
 	"vocab": "Vokabular",
@@ -58,16 +59,16 @@
 		"reset": "Filter zurücksetzen",
 		"remove": "Filter {filterName} entfernen",
 		"about": "Themenfeld",
-		"educationalLevel": "Bildungsstufe",
+		"educationalLevel": "Bildungsstufen",
 		"maintainedBy": "Herausgeber"
 	},
 	"terms": {
 		"Fach- und Themenzuordnung": "Fach- und Themenzuordnung",
 		"Hochschule: Standards und Modulkataloge": "Hochschule: Standards und Modulkataloge",
 		"Lernkontrollen": "Lernkontrollen",
-		"Zielgruppe": "Zielgruppe",
+		"Zielgruppen": "Zielgruppen",
 		"Themenfeld": "Themenfeld",
-		"Bildungsstufe": "Bildungsstufe",
+		"Bildungsstufen": "Bildungsstufen",
 		"Bildungsstandards sowie Lehrplan-/Curricula-orientierte Wertelisten": "Bildungsstandards sowie Lehrplan-/Curricula-orientierte Wertelisten",
 		"Lehr-/Lernform (Interaktivitätstyp)": "Lehr-/Lernform (Interaktivitätstyp)",
 		"Sprachen": "Sprachen",
@@ -86,6 +87,7 @@
 		"Lehrerbildung": "Lehrkräftebildung",
 		"Primarbereich": "Primarbereich",
 		"Schule": "Schule",
+		"Schlagworte": "Schlagworte",
 		"Bildungsbereichsübergreifend": "Bildungsbereichsübergreifend",
 		"digitalisierungsbezogene Kompetenzen": "Digitalisierungsbezogene Kompetenzen"
 	},
@@ -111,7 +113,8 @@
 		"notfound": "Vokabular nicht gefunden"
 	},
 	"error": {
-		"404": "Could not find content"
+		"404": "Could not find content",
+		"vocab": "Das Vokabular {vocabName} ist nicht abrufbar."
 	},
 	"notepad": {
 		"title": "Merkzettel",

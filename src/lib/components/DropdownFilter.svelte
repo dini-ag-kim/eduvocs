@@ -25,10 +25,13 @@
 	}
 
 	function sortDropdown(vals) {
-		return [...vals]
-			.map((value) => value.toLowerCase())
-			.sort()
-			.map((v) => capitalize(v));
+		return (
+			[...vals]
+				// TODO: Does not work with current i18n concept
+				//.map((value) => value.toLowerCase())
+				//.map((v) => capitalize(v))
+				.sort()
+		);
 	}
 </script>
 

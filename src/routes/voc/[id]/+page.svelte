@@ -3,7 +3,7 @@
 	import Vocab from '$lib/components/Vocab.svelte';
 	import LoadingSpinner from '$lib/components/LoadingSpinner.svelte';
 	import { VOCAB_PROPERTIES as vp, PROJECT_URL as url } from '$lib/constants';
-	import { t } from 'svelte-i18n';
+	import { t, locale } from 'svelte-i18n';
 	import { db } from '$lib/db';
 	import ReportIcon from '$lib/icons/ReportIcon.svelte';
 	import ClipboardIcon from '$lib/icons/ClipboardIcon.svelte';
@@ -43,7 +43,10 @@
 							<a aria-label={$t('menu.search')} href="/search">{$t('menu.search')}</a>
 						</li>
 						<li class="truncate">
-							<span class="truncate">{$t('voc.label')}: {result[vp.name]}</span>
+							<span class="truncate"
+								>{$t('voc.label')}:
+								{$locale.slice(0, 2) == 'de' ? result[vp.name]?.[1] : result[vp.name]?.[0]}
+							</span>
 						</li>
 					</ul>
 				</div>
@@ -59,7 +62,7 @@
 									'?labels=invalid&body=Affected%20data%20URI%3A%20' +
 									encodeURIComponent(result[vp.id]) +
 									'&title=Data%20issue%20report%3A%20' +
-									encodeURIComponent(result[vp.name])}
+									encodeURIComponent(result[vp.name]?.[0])}
 							>
 								<ReportIcon />
 							</a>

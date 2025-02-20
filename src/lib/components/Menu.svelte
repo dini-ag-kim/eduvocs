@@ -4,11 +4,7 @@
 	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
 	import { t } from 'svelte-i18n';
 	import { locale } from 'svelte-i18n';
-	import { LANGUAGES } from '$lib/constants';
 	import SelectLanguage from './SelectLanguage.svelte';
-	let lang = $locale.slice(0, 2);
-
-	//lang = $locale.slice(0, 2); //LANGUAGES.includes($locale.slice(0, 2)) ? $locale.slice(0, 2) : LANGUAGES[0];
 	let open = false;
 </script>
 
