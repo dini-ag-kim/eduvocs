@@ -1,10 +1,10 @@
 <script>
 	import { locale } from 'svelte-i18n';
-	import { LANGUAGE_KEY as lkey } from '$lib/constants';
+	import { STORAGE_KEYS as sk } from '$lib/constants';
 
 	function toggleLanguage() {
 		locale.set($locale.slice(0, 2) === 'de' ? 'en' : 'de');
-		sessionStorage.setItem(lkey, $locale.slice(0, 2));
+		sessionStorage.setItem(sk.language, $locale.slice(0, 2));
 	}
 </script>
 

@@ -21,7 +21,7 @@ export const VOCAB_PROPERTIES = {
 	format: 'format', // http://purl.org/dc/terms/format
 	fileFormat: 'fileFormat', // https://schema.org/fileFormat
 	distribution: 'distribution', // https://schema.org/distribution
-	rawVocab: 'rawVocab', // https://eduvocs/
+	rawVocab: 'rawVocab', // https://w3id.org/eduvocs/terms/rawVocab
 	keywords: 'keywords', // https://schema.org/keywords
 	contentUrl: 'contentUrl' // https://schema.org/contentUrl
 };
@@ -34,4 +34,7 @@ export const METADATA_KEYS = ['issued', 'compliesWith'];
 
 export const LANGUAGES = ['en', 'de'];
 
-export const LANGUAGE_KEY = 'sveltekit:locale';
+export const STORAGE_KEYS = {
+	language: 'eduvocs:locale',
+	notepad: 'eduvocs:selectedVocabs'
+}

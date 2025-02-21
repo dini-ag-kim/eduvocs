@@ -1,0 +1,280 @@
+A. Humanities and Social Sciences
+  a. Humanities
+    I. Ancient Cultures
+      1. Prehistory and World Archaeology
+      2. Greek and Latin Philology
+      3. Ancient History
+      4. Classical, Roman, Christian and Islamic Archaeology
+      5. Egyptology and Ancient Near Eastern Studies
+    II. History
+      1. Medieval History
+      2. Early Modern History
+      3. Modern and Contemporary History
+      4. History of Science
+    III. Art History, Music, Theatre and Media Studies
+      1. Art History
+      2. Musicology
+      3. Theatre and Media Studies
+    IV. Linguistics
+      1. General and Comparative Linguistics, Experimental Linguistics, Typology, Non-European Languages
+      2. Individual Linguistics, Historical Linguistics
+      3. Applied Linguistics, Computational Linguistics
+    V. Literary Studies
+      1. German Medieval Studies (Medieval German Literature)
+      2. German Literary and Cultural Studies (Modern German Literature)
+      3. European and American Literary and Cultural Studies
+      4. General and Comparative Literary Studies; Cultural Studies
+    VI. Social and Cultural Anthropology, Non-European Cultures, Jewish Studies and Religious Studies
+      1. Social and Cultural Anthropology and Ethnology
+      2. Asian Studies
+      3. African, American and Oceania Studies
+      4. Islamic Studies, Arabian Studies, Semitic Studies
+      5. Religious Studies and Jewish Studies
+    VII. Theology
+      1. Protestant Theology
+      2. Roman Catholic Theology
+    VIII. Philosophy
+      1. History of Philosophy
+      2. Theoretical Philosophy
+      3. Practical Philosophy
+      b. Social and Behavioural Sciences
+      I. Educational Research
+      1. General Education and History of Education
+      2. General and Domain-Specific Teaching and Learning
+      3. Education Systems and Educational Institutions
+      4. Educational Research on Socialisation, Welfare and Professionalism
+    II. Psychology
+      1. General, Cognitive and Mathematical Psychology
+      2. Biological Psychology and Cognitive Neuroscience
+      3. Developmental and Educational Psychology
+      4. Social Psychology, Industrial and Organisational Psychology
+      5. Personality Psychology, Clinical and Medical Psychology, Methodology
+    III. Social Sciences
+      1. Sociological Theory
+      2. Empirical Social Research
+      3. Communication Sciences
+      4. Political Science
+    IV. Economics
+      1. Economic Theory
+      2. Economic Policy, Applied Economics
+      3. Accounting und Finance
+      4. Management and Marketing
+      5. Operations Management and Computer Science for Business Administration
+      6. Statistics and Econometrics
+      7. Economic and Social History
+    V. Jurisprudence
+      1. Principles of Law and Jurisprudence
+      2. Private Law
+      3. Public Law
+      4. Criminal Law
+      5. Criminology
+      a. Biology
+    I. Basic Research in Biology and Medicine
+      1. Biochemistry
+      2. Biophysics
+      3. Cell Biology
+      4. Structural Biology
+      5. General Genetics and Functional Genome Biology
+      6. Developmental Biology
+      7. Bioinformatics and Theoretical Biology
+    II. Plant Sciences
+      1. Evolution and Systematics of Plants and Fungi
+      2. Ecology and Biodiversity of Plants and Ecosystems
+      3. Organismic Interactions, Chemical Ecology and Microbiomes of Plant Systems
+      4. Plant Physiology
+      5. Plant Biochemistry and Biophysics
+      6. Plant Cell and Developmental Biology
+      7. Plant Genetics and Genomics
+    III. Zoology
+      1. Systematics and Morphology (Zoology)
+      2. Evolution, Anthropology
+      3. Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions
+      4. Sensory and Behavioural Biology
+      5. Animal Physiology and Biochemistry
+      6. Evolutionary Cell and Developmental Biology (Zoology)
+  b. Medicine
+    I. Microbiology, Virology and Immunology
+      1. Metabolism, Biochemistry and Genetics of Microorganisms
+      2. Microbial Ecology and Applied Microbiology
+      3. Medical Microbiology and Mycology, Hygiene, Molecular Infection Biology
+      4. Virology
+      5. Immunology
+      6. Parasitology and Biology of Tropical Infectious Disease Pathogens
+    II. Medicine
+      1. Epidemiology and Medical Biometry/Statistics
+      2. Public Heatlh, Healthcare Research, Social and Occupational Medicine
+      3. Human Genetics
+      4. Anatomy and Physiology
+      5. Nutritional Sciences
+      6. Pathology
+      7. Medical Informatics and Medical Bioinformatics
+      8. Pharmacy
+      9. Pharmacology
+      10. Toxicology, Laboratory Medicine
+      11. Anaesthesiology
+      12. Cardiology, Angiology
+      13. Pneumology, Thoracic Surgery
+      14. Hematology, Oncology
+      15. Gastroenterology
+      16. Nephrology
+      17. Endocrinology, Diabetology, Metabolism
+	  18. Rheumatology
+	  19. Dermatology
+	  20. Pediatric and Adolescent Medicine
+	  21. Gynaecology and Obstetrics
+	  22. Clinical Immunology and Allergology
+	  23. Reproductive Medicine, Urology
+	  24. Biogerontology and Geriatric Medicine
+	  25. General and Visceral Surgery
+	  26. Cardiac and Vascular Surgery
+	  27. Orthopaedics, Traumatology, Reconstructive Surgery
+	  28. Dentistry, Oral Surgery
+	  29. Otolaryngology, Phoniatrics and Audiology
+  	  30. Radiology
+	  31. Clinical Infectiology and Tropical Medicine
+	  32. Medical Physics, Biomedical Technology
+      33. Nuclear Medicine, Radiotherapy, Radiobiology
+    III. Neurosciences
+	  1. Developmental Neurobiology
+	  2. Molecular Biology and Physiology of Neurons and Glial Cells
+	  3. Experimental and Theoretical Network Neuroscience
+	  4. Cognitive, Systems and Behavioural Neurobiology
+	  5. Experimental Models for the Understanding of Nervous System Diseases
+	  6. Molecular and Cellular Neurology and Neuropathology
+	  7. Clinical Neurology; Neurosurgery and Neuroradiology
+	  8. Human Cognitive and Systems Neuroscience
+	  9. Biological Psychiatry
+	  10. Clinical Psychiatry, Psychotherapy, Child and Adolescent Psychiatry
+	  11. Ophthalmology
+  c. Agriculture, Forestry and Veterinary Medicine
+	I. Agriculture, Forestry and Veterinary Medicine
+	  1. Soil Sciences
+	  2. Plant Breeding and Plant Pathology
+	  3. Plant Cultivation, Plant Nutrition, Agricultural Technology
+	  4. Ecology of Land Use
+	  5. Agricultural Economics, Agricultural Policy, Agricultural Sociology
+	  6. Forestry
+	  7. Animal Breeding, Animal Nutrition, Animal Husbandry
+	  8. Veterinary Medical Science
+C. Natural Sciences
+  a. Chemistry
+	I. Molecular Chemistry
+	  1. Inorganic Molecular Chemistry - Synthesis and Characterisation
+	  2. Organic Molecular Chemistry - Synthesis and Characterisation
+    II. Chemical Solid State and Surface Research
+	  1. Solid State and Surface Chemistry, Material Synthesis
+	  2. Physical Chemistry of Solids and Surfaces, Material Characterisation
+    III. Physical Chemistry
+	  1. Physical Chemistry of Molecules, Liquids and Interfaces, Biophysical Chemistry
+    IV. Analytical Chemistry
+	  1. Analytical Chemistry
+    V. Biological Chemistry and Food Chemistry
+	  1. Biological and Biomimetic Chemistry
+	  2. Food Chemistry
+    VI. Polymer Research
+	  1. Preparatory and Physical Chemistry of Polymers
+	  2. Experimental and Theoretical Physics of Polymers
+	  3. Polymer Materials
+    VII. Theoretical Chemistry
+	  1. Theoretical Chemistry: Electron Structure, Dynamics, Simulation
+	  2. Theoretical Chemistry: Molecules, Materials, Surfaces
+  b. Physics
+	I. Condensed Matter Physics
+	  1. Experimental Condensed Matter Physics
+	  2. Theoretical Condensed Matter Physics
+    II. Statistical Physics, Nonlinear Dynamics, Complex Systems, Soft and Fluid Matter, Biological Physics
+	  1. Statistical Physics, Nonlinear Dynamics, Complex Systems, Soft and Fluid Matter, Biological Physics
+    III. Optics, Quantum Optics and Physics of Atoms, Molecules and Plasmas
+	  1. Optics, Quantum Optics and Physics of Atoms, Molecules and Plasmas
+    IV. Particles, Nuclei and Fields
+	  1. Nuclear and Elementary Particle Physics, Quantum Mechanics, Relativity, Fields
+    V. Astrophysics and Astronomy
+	  1. Astrophysics and Astronomy
+  c. Mathematics
+    I. Mathematics
+	  1. Mathematics
+  d. Geosciences
+	I. Atmospheric Science, Oceanography and Climate Research
+	  1. Atmospheric Science
+	  2. Oceanography
+    II. Geology and Palaeontology
+	  1. Geology
+	  2. Palaeontology
+    III. Geophysics and Geodesy
+	  1. Geophysics
+	  2. Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartography
+    IV. Mineralogy, Petrology and Geochemistry
+	  1. Mineralogy, Petrology and Geochemistry
+    V. Geography
+	  1. Physical Geography
+	  2. Human Geography
+    VI. Water Research
+	  1. Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management
+D. Engineering Sciences
+  a. Mechanical and Industrial Engineering
+    I. Production Technology
+	  1. Metal-Cutting and Abrasive Manufacturing Engineering
+	  2. Primary Shaping and Reshaping Technology, Additive Manufacturing
+	  3. Joining and Separation Technology
+	  4. Plastics Engineering
+	  5. Production Systems, Operations Management, Quality Management and Factory Planning
+	  6. Production Automation and Assembly Technology
+    II. Mechanics and Constructive Mechanical Engineering
+	  1. Engineering Design, Machine Elements, Product Development
+	  2. Mechanics
+	  3. Lightweight Construction, Textile Technology
+	  4. Acoustics
+  b. Thermal Engineering/Process Engineering
+    I. Process Engineering, Technical Chemistry
+	  1. Chemical and Thermal Process Engineering
+	  2. Technical Chemistry
+	  3. Mechanical Process Engineering
+	  4. Biological Process Engineering
+	  5. Systems Process Engineering
+    II. Fluid Mechanics, Technical Thermodynamics and Thermal Energy Engineering
+	  1. Energy Process Engineering
+	  2. Technical Thermodynamics
+	  3. Fluid Mechanics
+	  4. Hydraulic and Turbo Engines and Piston Engines
+  c. Materials Science and Engineering
+    I. Materials Engineering
+	  1. Metallurgical, Thermal and Thermomechanical Treatment of Materials
+	  2. Materials in Sintering Processes and Generative Manufacturing Processes
+	  3. Coating and Surface Technology
+	  4. Mechanical Properties of Metallic Materials and their Microstructural Origins
+	  5. Glass, Ceramics and Derived Composites
+	  6. Polymeric and Biogenic Materials and Derived Composites
+    II. Materials Science
+	  1. Synthesis and Properties of Functional Materials
+	  2. Biomaterials
+	  3. Thermodynamics and Kinetics as well as Properties of Phases and Microstructure of Materials
+	  4. Computer-Aided Design of Materials and Simulation of Materials Behaviour from Atomic to Microscopic Scale
+  d. Computer Science, Systems and Electrical Engineering
+	I. Systems Engineering
+	  1. Automation, Mechatronics, Control Systems, Intelligent Technical Systems, Robotics
+	  2. Measurement Systems
+	  3. Microsystems
+	  4. Traffic and Transport Systems, Intelligent and Automated Traffic
+	  5. Human Factors, Ergonomics, Human-Machine Systems
+	  6. Biomedical Systems Technology
+    II. Electrical Engineering and Information Technology
+	  1. Electronic Semiconductors, Components and Circuits, Integrated Systems, Sensor Technology, Theoretical Electrical Engineering
+	  2. Communication Technology and Networks, High-Frequency Technology and Photonic Systems, Signnal Processing and Machine Learning for Information Technology
+	  3. Electrical Energy Systems, Power Management, Power Electronics, Electrical Machines and Drives
+	  4. Hardware Systems and Architectures for Information Technology and Artificial Intelligence, Quantum Engineering Systems
+    III. Computer Science
+	  1. Theoretical Computer Science
+	  2. Software Engineering and Programming Languages
+	  3. Security and Dependability, Operating, Communication and Distributed Systems
+	  4. Artificial Intelligence and Machine Learning Methods
+ 	  5. Image and Language Processing, Computer Graphics and Visualisation, Human Computer Interaction, Ubiquitous and Wearable Computing
+	  6. Data Management, Data-Intensive Systems, Computer Science Methods in Business Informatics
+	  7. Computer Architecture, Embedded and Massively Parallel Systems
+  e. Construction Engineering and Architecture
+	I. Construction Engineering and Architecture
+	  1. Architecture, Building and Construction History, Construction Research, Sustainable Building Technology
+	  2. Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning
+	  3. Construction Material Sciences, Chemistry, Building Physics
+	  4. Structural Engineering, Building Informatics and Construction Operation
+	  5. Applied Mechanics, Statics and Dynamics
+	  6. Geotechnics, Hydraulic Engineering

@@ -6,7 +6,11 @@
 
 {#if concept}
 	<div class="my-1">
-		<a target="_blank" href={concept.id}>
+		<a
+			target="_blank"
+			href={concept.id}
+			class={concept.id ? 'hover:text-blue-800 hover:underline' : ''}
+		>
 			{concept.prefLabel?.[$locale] ||
 				concept.prefLabel?.[$locale.slice(0, 2)] ||
 				concept.prefLabel?.de ||

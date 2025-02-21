@@ -121,5 +121,11 @@
 		"close": "Close",
 		"add": "Add to Notepad",
 		"reset": "Delete Entries"
+	},
+	"license": {
+		"disclaimer": "Except icons, logos, trademarks and where otherwise noted, content on this site is licensed under {licenseName}.",
+		"cc": {
+			"by": "Creative Commons Attribution 4.0 International"
+		}
 	}
 }

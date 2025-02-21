@@ -7,7 +7,6 @@
 </script>
 
 {#await getVocabEntries(id)}
-	<p>{$t('loading')}</p>
 	<LoadingSpinner />
 {:then entries}
 	<div class="card mt-1 flex flex-row justify-between bg-base-100 shadow-md">
@@ -23,5 +22,5 @@
 		</div>
 	</div>
 {:catch}
-	<p>{$t('error.vocab', { values: { vocabName: '' } })}</p>
+	<p class="mt-2">{$t('error.vocab', { values: { vocabName: '' } })}</p>
 {/await}

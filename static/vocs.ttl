@@ -5,9 +5,9 @@
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dcat: <https://www.w3.org/ns/dcat#> .
-@prefix eduvocs: <https://eduvocs/> .
+@prefix eduvocs: <https://w3id.org/eduvocs/terms/> .
 
-<http://example.org/1> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/100> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Schule"@de;
   wdt:P1324 <https://github.com/dini-ag-kim/schulfaecher>;
@@ -28,7 +28,7 @@ _:G__2418 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/schulfaecher/refs/heads/main/schulfaecher.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/2> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/200> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Schule"@de;
   wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs>;
@@ -49,7 +49,7 @@ _:G__2420 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/discipline.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/4.1> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/400> a wd:Q1469824;
   wdt:P5009 "Web-API"@de;
   sdo:educationalLevel "Schule"@de;
   dcat:endpointURL <https://digitallearningtools.de/api/subjects>;
@@ -66,7 +66,7 @@ _:G__2421 a sdo:DataDownload;
   sdo:contentUrl <https://digitallearningtools.de/api/subjects?format=json>;
   sdo:fileFormat "application/json" .
 
-<http://example.org/4.2> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/500> a wd:Q1469824;
   wdt:P5009 "Web-API"@de;
   eduvocs:rawVocab """1. Suchen, Verarbeiten & Aufbewahren
 2. Kommunizieren & Kooperieren
@@ -89,7 +89,7 @@ _:G__2422 a sdo:DataDownload;
   sdo:contentUrl <https://digitallearninglab.de/api/competences?format=json>;
   sdo:fileFormat "application/json" .
 
-<http://example.org/5> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/600> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Schule"@de;
   dcat:endpointURL <http://europeanschoolnet-vbe.lexaurus.net/vbe/api>;
@@ -109,7 +109,7 @@ _:G__2424 a sdo:DataDownload;
   sdo:contentUrl <http://europeanschoolnet-vbe.lexaurus.net/vbe/linkeddata/vocab/EUN/EUN.subjectLREValues/topterms.skos>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/6.1> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/700> a wd:Q1469824;
   sdo:educationalLevel "Ausbildung"@de;
   wdt:P126 "Bundesinstitut für Berufsbildung (BIBB)"@de;
   wdt:P973 <https://www.bibb.de/dienst/publikationen/de/19128>;
@@ -125,7 +125,7 @@ _:G__2425 a sdo:DataDownload;
   sdo:contentUrl <https://www.bibb.de/dienst/publikationen/de/download/19128>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/6.2> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/800> a wd:Q1469824;
   sdo:educationalLevel "Ausbildung"@de;
   wdt:P126 "Bundesinstitut für Berufsbildung (BIBB)"@de;
   wdt:P973 <https://www.bibb.de/dienst/publikationen/de/19757>;
@@ -141,7 +141,7 @@ _:G__2426 a sdo:DataDownload;
   sdo:contentUrl <https://www.bibb.de/dienst/publikationen/de/download/19757>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/7> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/900> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Hochschule"@de;
   wdt:P1324 <https://github.com/dini-ag-kim/hochschulfaechersystematik>;
@@ -163,10 +163,10 @@ _:G__2428 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/hochschulfaechersystematik/refs/heads/master/hochschulfaechersystematik.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/8> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/1000> a wd:Q1469824;
   eduvocs:rawVocab "elixier.txt"@de;
   sdo:educationalLevel "Schule"@de;
-  dcat:endpointURL <https://www.bildungsserver.de/elixier/Elixier-API.pdf>;
+  dcat:endpointURL <https://web.archive.org/web/20250209005851/https://www.bildungsserver.de/elixier/Elixier-API.pdf>;
   wdt:P126 "DIPF"@de;
   wdt:P973 <https://www.bildungsserver.de/elixier/elixiersystematikliste.php>;
   sdo:url <https://www.bildungsserver.de/elixier/>;
@@ -175,7 +175,7 @@ _:G__2428 a sdo:DataDownload;
   dct:description "Systematics of the educational server."@en, "Systematik des Bildungsservers."@de;
   dct:title "ELIXIR system"@en, "ELIXIER-Systematik"@de .
 
-<http://example.org/9> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/1100> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Schule"@de;
   wdt:P126 "SODIX/FWU"@de;
@@ -191,7 +191,7 @@ _:G__2429 a sdo:DataDownload;
   sdo:contentUrl <https://vocabs.sodix.de/sodix/educational/sachgebietssystematik/sachgebietssystematik.json>;
   sdo:fileFormat "application/json" .
 
-<http://example.org/10> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/1200> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Schule"@de;
   wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs>;
@@ -211,37 +211,54 @@ _:G__2431 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/oehTopics.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/11> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/1300> a wd:Q1469824;
   eduvocs:rawVocab "re3data.txt"@de;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
   wdt:P126 "re3data"@de;
   wdt:P973 <https://www.re3data.org/browse/by-subject/>;
+  sdo:url <https://www.re3data.org/search>;
   dct:language "de";
   sdo:about "Fach- und Themenzuordnung"@de;
   dct:description "Topic catalog of the Registry of Research Data Repositories."@en,
     "Themenkatalog der Registry of Research Data Repositories."@de;
   dct:title "Subjects: Re3Data.org"@en, "Subjects: Re3Data.org"@de .
 
-<http://example.org/12> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/1400> a wd:Q1469824;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
   wdt:P126 "Library Of Congress"@de;
   wdt:P973 <http://id.loc.gov/authorities/subjects>;
+  sdo:url <https://id.loc.gov/>;
   dct:language "de";
+  dct:modified "2025-02-15"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "Library of Congress Subject Headings (LCSH) has been actively maintained since 1898 to catalog materials held at the Library of Congress. By virtue of cooperative cataloging other libraries around the United States also use LCSH to provide subject access to their collections. In addition LCSH is used internationally, often in translation. LCSH in this service includes all Library of Congress Subject Headings, free-floating subdivisions (topical and form), Genre/Form headings, Children's (AC) headings, and validation strings* for which authority records have been created. The content includes a few name headings (personal and corporate), such as William Shakespeare, Jesus Christ, and Harvard University, and geographic headings that are added to LCSH as they are needed to establish subdivisions, provide a pattern for subdivision practice, or provide reference structure for other terms. This content is expanded beyond the print issue of LCSH (the \"red books\") with inclusion of validation strings. *Validation strings: Some authority records are for headings that have been built by adding subdivisions. These records are the result of an ongoing project to programmatically create authority records for valid subject strings from subject heading strings found in bibliographic records. The authority records for these subject strings were created so the entire string could be machine-validated. The strings do not have broader, narrower, or related terms."@en,
-    "Library of Congress Subject Headings (LCSH) has been actively maintained since 1898 to catalog materials held at the Library of Congress. By virtue of cooperative cataloging other libraries around the United States also use LCSH to provide subject access to their collections. In addition LCSH is used internationally, often in translation. LCSH in this service includes all Library of Congress Subject Headings, free-floating subdivisions (topical and form), Genre/Form headings, Children's (AC) headings, and validation strings* for which authority records have been created. The content includes a few name headings (personal and corporate), such as William Shakespeare, Jesus Christ, and Harvard University, and geographic headings that are added to LCSH as they are needed to establish subdivisions, provide a pattern for subdivision practice, or provide reference structure for other terms. This content is expanded beyond the print issue of LCSH (the \"red books\") with inclusion of validation strings. *Validation strings: Some authority records are for headings that have been built by adding subdivisions. These records are the result of an ongoing project to programmatically create authority records for valid subject strings from subject heading strings found in bibliographic records. The authority records for these subject strings were created so the entire string could be machine-validated. The strings do not have broader, narrower, or related terms."@de;
-  dct:title "Subjects MARC21"@en, "Subjects MARC21"@de .
+  dct:description "Library of Congress Subject Headings (LCSH) has been actively maintained since 1898 to catalog the materials present in the Library of Congress. Because of cooperative cataloging, other libraries in the United States also use LCSH to provide access to their collections. Additionally, LCSH is used internationally, often in translation. LCSH includes in this service all Library of Congress Subject Headings, free-floating divisions (thematic and formal), Genre/Form Headings, Children's (AC) Headings, and Validation Marks* for which authority entries have been created. The content also includes some names (personal and corporate) such as William Shakespeare, Jesus Christ, and Harvard University, as well as geographical names that are added to the LCSH when needed to create subdivisions, provide a model for subdivision practice, or provide a reference structure for other terms. This content is expanded beyond the printed edition of the LCSH (the “red books”) with the inclusion of validation strings. *Validation strings: Some authority entries refer to headings constructed by adding subdivisions. These records are the result of an ongoing project to programmatically create authority records for valid subject strings from subject strings found in bibliographic records. The authority records for these keyword chains were created so that the entire chain could be machine validated. The strings do not have broader, narrower, or related terms."@en,
+    "Library of Congress Subject Headings (LCSH) wird seit 1898 aktiv gepflegt, um die in der Library of Congress vorhandenen Materialien zu katalogisieren. Aufgrund der kooperativen Katalogisierung verwenden auch andere Bibliotheken in den Vereinigten Staaten LCSH, um den Zugang zu ihren Sammlungen zu ermöglichen. Darüber hinaus wird LCSH international verwendet, oft in Übersetzung. LCSH umfasst in diesem Dienst alle Library of Congress Subject Headings, frei schwimmende Unterteilungen (thematisch und formal), Genre/Form Headings, Children's (AC) Headings und Validierungszeichen*, für die Autoritätseinträge erstellt wurden. Zum Inhalt gehören auch einige Namen (Personen- und Körperschaftsnamen) wie William Shakespeare, Jesus Christus und die Harvard University sowie geografische Bezeichnungen, die dem LCSH hinzugefügt werden, wenn sie benötigt werden, um Unterteilungen zu erstellen, ein Muster für die Unterteilungspraxis zu liefern oder eine Referenzstruktur für andere Begriffe bereitzustellen. Dieser Inhalt wird über die gedruckte Ausgabe des LCSH (die „roten Bücher“) hinaus durch die Aufnahme von Validierungszeichenfolgen erweitert. *Validierungsstrings: Einige Autoritätseinträge beziehen sich auf Überschriften, die durch Hinzufügen von Unterteilungen aufgebaut wurden. Diese Datensätze sind das Ergebnis eines laufenden Projekts zur programmatischen Erstellung von Autoritätsdatensätzen für gültige Schlagwortketten aus Schlagwortketten, die in bibliografischen Datensätzen gefunden wurden. Die Autoritätsdatensätze für diese Schlagwortketten wurden erstellt, damit die gesamte Kette maschinell validiert werden kann. Die Zeichenfolgen haben keine umfassenderen, engeren oder verwandten Begriffe."@de;
+  dct:title "Subjects MARC21"@en, "Subjects MARC21"@de;
+  sdo:distribution _:G__2432, _:G__2433 .
 
-<http://example.org/13> a wd:Q1469824;
+_:G__2432 a sdo:DataDownload;
+  sdo:contentUrl <http://id.loc.gov/authorities/subjects.skos.json>;
+  sdo:fileFormat "application/json" .
+
+_:G__2433 a sdo:DataDownload;
+  sdo:contentUrl <http://id.loc.gov/authorities/subjects.skos.rdf>;
+  sdo:fileFormat "application/xml" .
+
+<https://w3id.org/eduvocs/id/1500> a wd:Q1469824;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
   wdt:P126 "Europäische Union"@de;
   wdt:P973 <https://eur-lex.europa.eu/browse/eurovoc.html>;
   dct:language "de";
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "EU multilingual and multidisciplinary thesaurus"@en, "Mehrsprachiger und multidisziplinärer Thesaurus der EU"@de;
+  dct:description """EuroVoc is the EU's multilingual and multidisciplinary thesaurus. It contains keywords organized into 21 areas and 127 subareas that are used to describe the content of documents in EUR-Lex.
+
+Search EU law and related documents (legislation, preparatory documents, international agreements, case law notices, parliamentary questions, etc.) by area and sub-area."""@en,
+    """EuroVoc ist der mehrsprachige und multidisziplinäre Thesaurus der EU. Er enthält Schlüsselwörter, die in 21 Bereichen und 127 Unterbereichen organisiert sind und zur Beschreibung des Inhalts von Dokumenten in EUR-Lex verwendet werden.
+
+Durchsuchen Sie das EU-Recht und verwandte Dokumente (Rechtsvorschriften, vorbereitende Dokumente, internationale Abkommen, Mitteilungen zur Rechtsprechung, parlamentarische Anfragen usw.) nach Bereichen und Unterbereichen."""@de;
   dct:title "EuroVoc"@en, "EuroVoc"@de .
 
-<http://example.org/14> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/1600> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
   wdt:P126 "UNESCO"@de;
@@ -249,20 +266,20 @@ _:G__2431 a sdo:DataDownload;
   dct:license "CC-BY-SA";
   dct:language "de";
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "for thematic analysis and retrieval of documents using multidisciplinary terminology, e.g. also: scientific disciplines, available as JSON-LD, Turtle, RDF/XML, among others."@en,
-    "zur thematischen Analyse und Auffinden von Dokumenten anhand multidisziplinärer Terminologie, bspw. auch: Wissenschaftsdisziplinen, u.a. verfügbar als JSON-LD, Turtle, RDF/XML."@de;
+  dct:description "The UNESCO Thesaurus is a controlled and structured list of terms used in thematic analysis and retrieval of documents and publications in the fields of education, culture, natural sciences, social sciences and humanities, communication and information. Its multidisciplinary terminology is continually expanded and updated, reflecting the evolution of UNESCO's programs and activities."@en,
+    "Der UNESCO-Thesaurus ist eine kontrollierte und strukturierte Liste von Begriffen, die bei der thematischen Analyse und beim Auffinden von Dokumenten und Veröffentlichungen in den Bereichen Bildung, Kultur, Naturwissenschaften, Sozial- und Geisteswissenschaften, Kommunikation und Information verwendet werden. Seine multidisziplinäre Terminologie wird ständig erweitert und aktualisiert und spiegelt die Entwicklung der Programme und Aktivitäten der UNESCO wider."@de;
   dct:title "UNESCO Thesaurus"@en, "UNESCO Thesaurus"@de;
-  sdo:distribution _:G__2432, _:G__2433 .
+  sdo:distribution _:G__2434, _:G__2435 .
 
-_:G__2432 a sdo:DataDownload;
+_:G__2434 a sdo:DataDownload;
   sdo:contentUrl <https://vocabularies.unesco.org/exports/thesaurus/latest/unesco-thesaurus.ttl>;
   sdo:fileFormat "text/turtle" .
 
-_:G__2433 a sdo:DataDownload;
+_:G__2435 a sdo:DataDownload;
   sdo:contentUrl <https://vocabularies.unesco.org/exports/thesaurus/latest/unesco-thesaurus.rdf>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/15> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/1700> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
   wdt:P126 "Universität für angewandte Kunst Wien"@de;
@@ -270,23 +287,23 @@ _:G__2433 a sdo:DataDownload;
   dct:language "de";
   dct:issued "-"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "Vocabulary of branches of science and art."@en, "Vokabular von Wissenschafts- und Kunstzweigen."@de;
+  dct:description "No description available."@en, "Keine Beschreibung verfügbar."@de;
   dct:title "branches of science/art"@en, "Wissenschafts-/ Kunstzweige"@de;
-  sdo:distribution _:G__2434, _:G__2435, _:G__2436 .
-
-_:G__2434 a sdo:DataDownload;
-  sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fstudy_programmes&format=application/ld%2Bjson>;
-  sdo:fileFormat "application/json" .
-
-_:G__2435 a sdo:DataDownload;
-  sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fstudy_programmes&format=text/turtle>;
-  sdo:fileFormat "text/turtle" .
+  sdo:distribution _:G__2436, _:G__2437, _:G__2438 .
 
 _:G__2436 a sdo:DataDownload;
-  sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fstudy_programmes&format=application/rdf%2Bxml>;
+  sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/disciplines/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Fdisciplines%2Foefos&format=application/ld%2Bjson>;
+  sdo:fileFormat "application/json" .
+
+_:G__2437 a sdo:DataDownload;
+  sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/disciplines/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Fdisciplines%2Foefos&format=text/turtle>;
+  sdo:fileFormat "text/turtle" .
+
+_:G__2438 a sdo:DataDownload;
+  sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/disciplines/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Fdisciplines%2Foefos&format=application/rdf%2Bxml>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/16> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/1800> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Hochschule"@de;
   wdt:P126 "Universität für angewandte Kunst Wien"@de;
@@ -294,23 +311,23 @@ _:G__2436 a sdo:DataDownload;
   dct:language "de";
   dct:issued "-"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "Directory of fields of study."@en, "Verzeichnis von Studienrichtungen."@de;
+  dct:description "No description available."@en, "Keine Beschreibung verfügbar."@de;
   dct:title "Fields of study"@en, "Studienrichtungen"@de;
-  sdo:distribution _:G__2437, _:G__2438, _:G__2439 .
+  sdo:distribution _:G__2439, _:G__2440, _:G__2441 .
 
-_:G__2437 a sdo:DataDownload;
+_:G__2439 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fstudy_programmes&format=application/ld%2Bjson>;
   sdo:fileFormat "application/json" .
 
-_:G__2438 a sdo:DataDownload;
+_:G__2440 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fstudy_programmes&format=text/turtle>;
   sdo:fileFormat "text/turtle" .
 
-_:G__2439 a sdo:DataDownload;
+_:G__2441 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fstudy_programmes&format=application/rdf%2Bxml>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/17> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/1900> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Hochschule"@de;
   wdt:P1324 <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fstudy_programmes&format=text/turtle>;
@@ -321,55 +338,62 @@ _:G__2439 a sdo:DataDownload;
   sdo:about "Fach- und Themenzuordnung"@de;
   dct:description "Directory of historical fields of study."@en, "Verzeichnis historischer Studienrichtungen."@de;
   dct:title "Historical fields of study"@en, "Historische Studienrichtungen"@de;
-  sdo:distribution _:G__2440, _:G__2441, _:G__2442 .
+  sdo:distribution _:G__2442, _:G__2443, _:G__2444 .
 
-_:G__2440 a sdo:DataDownload;
+_:G__2442 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fhistoric_study_programmes&format=application/ld%2Bjson>;
   sdo:fileFormat "application/json" .
 
-_:G__2441 a sdo:DataDownload;
+_:G__2443 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fhistoric_study_programmes&format=text/turtle>;
   sdo:fileFormat "text/turtle" .
 
-_:G__2442 a sdo:DataDownload;
+_:G__2444 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basevoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fvocabulary%2Fhistoric_study_programmes&format=application/rdf%2Bxml>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/18> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/2000> a wd:Q1469824;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
   dcat:endpointURL <https://esco.ec.europa.eu/en/use-esco/use-esco-services-api>;
   wdt:P126 "Europäische Union"@de;
   wdt:P973 <https://esco.ec.europa.eu/de>;
   dct:language "de";
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "No description available."@en, "Keine Beschreibung verfügbar."@de;
-  dct:title "European Skills Competencies, and Occupations (ESCO)"@en, "European Skills Competencies, and Occupations (ESCO)"@de .
+  dct:description "ESCO categorizes the skills, competencies, qualifications and professions relevant to the labor market and education and training in the EU. It systematically shows the relationships between the different concepts."@en,
+    "ESCO kategorisiert die Fähigkeiten, Kompetenzen, Qualifikationen und Berufe, die für den Arbeitsmarkt und die allgemeine und berufliche Bildung in der EU relevant sind. Es zeigt systematisch die Beziehungen zwischen den verschiedenen Konzepten."@de;
+  dct:title "European Classification of Skills/Competencies, Qualifications and Occupations (ESCO)"@en,
+    "Europäische Klassifizierung für Fähigkeiten/Kompetenzen, Qualifikationen und Berufe (ESCO)"@de .
 
-<http://example.org/19> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/2100> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
+  wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs/>;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/languageLevel/>;
+  sdo:url <https://wirlernenonline.de/>;
   dct:language "de";
   sdo:about "Sprachen"@de;
-  dct:description ", published by WLO, based on the Common European Framework of Reference for Languages ​​(DAAD 2024) (Glaboniat and Council of Europe 2010) (Trim et al. 2010) / Common European Framework of Reference for Languages ​​(CEFR), published by the Council of Europe"@en,
-    ", veröffentlicht durch WLO, basierend auf dem Gemeinsamen Europäischen Referenzrahmen für Sprachen (DAAD 2024) (Glaboniat and Europarat 2010) (Trim et al. 2010) / Common European Framework of Reference for Languages (CEFR), herausgegeben vom Europarat"@de;
-  dct:title "Language levels"@en, "Sprachniveaustufen"@de;
-  sdo:distribution _:G__2443, _:G__2444 .
+  dct:description "Based on the Common European Framework of Reference for Languages ​​(DAAD 2024) (Glaboniat and Council of Europe 2010) (Trim et al. 2010) / Common European Framework of Reference for Languages ​​(CEFR), published by the Council of Europe"@en,
+    "Basierend auf dem Gemeinsamen Europäischen Referenzrahmen für Sprachen (DAAD 2024) (Glaboniat and Europarat 2010) (Trim et al. 2010) / Common European Framework of Reference for Languages (CEFR), herausgegeben vom Europarat"@de;
+  dct:title "Language levels according to the Common European Framework of Reference for Languages, GER"@en,
+    "Sprachniveaustufen nach dem Gemeinsamen Europäischen Referenzrahmen, GER"@de;
+  sdo:distribution _:G__2445, _:G__2446 .
 
-_:G__2443 a sdo:DataDownload;
+_:G__2445 a sdo:DataDownload;
   sdo:contentUrl <http://w3id.org/openeduhub/vocabs/languageLevel/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2444 a sdo:DataDownload;
+_:G__2446 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/languageLevel.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/20> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/2200> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Schule"@de;
+  wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs/>;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/digCompEdu/>;
+  sdo:url <https://wirlernenonline.de/>;
   dct:language "de";
   sdo:about "Kompetenzen"@de;
   dct:creator "(European Commission. Joint Research Centre., Redecker, and Punie 2017)"@de;
@@ -390,20 +414,22 @@ Mitgliedstaaten, Regionalregierungen, relevante nationale und regionale Agenture
 Bildungsorganisationen selbst sowie öffentliche oder private Anbieter von
 Berufsausbildungen"""@de;
   dct:title "Digital Competence Framework for Educators (DigCompEdu)"@en, "Digital Competence Framework for Educators (DigCompEdu)"@de;
-  sdo:distribution _:G__2445, _:G__2446 .
+  sdo:distribution _:G__2447, _:G__2448 .
 
-_:G__2445 a sdo:DataDownload;
+_:G__2447 a sdo:DataDownload;
   sdo:contentUrl <http://w3id.org/openeduhub/vocabs/digCompEdu/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2446 a sdo:DataDownload;
+_:G__2448 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/digCompEdu.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/21> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/2300> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
+  wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs/>;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/orientierungsrahmenNRW/>;
+  sdo:url <https://wirlernenonline.de/>;
   dct:language "de";
   sdo:about "digitalisierungsbezogene Kompetenzen"@de;
   dct:creator "Eickelmann 2020"@de;
@@ -411,29 +437,29 @@ _:G__2446 a sdo:DataDownload;
     "Mit dem Orientierungsrahmen hat das Land Nordrhein-Westfalen eine verbindliche Grundlage für die Lehreraus- und Lehrerfortbildung in der digitalisierten Welt geschaffen. Anknüpfend an die bekannten Handlungsfelder für Lehrerinnen und Lehrer – Unterrichten, Erziehen, Lernen und Leisten fördern, Beraten und Schule entwickeln – zeigt der Orientierungsrahmen auf, welche neuen – unter den Bedingungen der Digitalisierung künftig aber zentralen – Kompetenzen, es auszubilden gilt. Der Orientierungsrahmen macht transparent, welche pädagogischen und didaktischen Kompetenzen das Land bei Lehrkräften für grundlegend hält, den Herausforderungen und Chancen der Digitalisierung gestaltend zu begegnen. Für die Lehreraus- und Lehrerfortbildung sind damit zukunftsweisende Weichen gestellt worden."@de;
   dct:title "Orientation framework for teacher training and teacher training in North Rhine-Westphalia,"@en,
     "Orientierungsrahmen für die Lehrerausbildung und Lehrerfortbildung in NRW,"@de;
-  sdo:distribution _:G__2447, _:G__2448 .
+  sdo:distribution _:G__2449, _:G__2450 .
 
-_:G__2447 a sdo:DataDownload;
+_:G__2449 a sdo:DataDownload;
   sdo:contentUrl <http://w3id.org/openeduhub/vocabs/orientierungsrahmenNRW/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2448 a sdo:DataDownload;
+_:G__2450 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/orientierungsrahmenNRW.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/22> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/2400> a wd:Q1469824;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
   wdt:P126 "Centre for Curriculum Redesign"@de;
   wdt:P973 <https://curriculumredesign.org/framework/>;
   dct:language "de";
-  dct:issued "Januar 2024"^^xsd:date;
+  dct:issued "2024-01"^^xsd:date;
   sdo:about "digitalisierungsbezogene Kompetenzen"@de;
   dct:creator "CCR 2020"@de;
   dct:description "The CCR's Four Dimensional (4D) Educational Framework is so named to illustrate that today's students must develop in four dimensions - knowledge, skills, character and meta-learning - to best serve themselves and society. The core principle of a 4D education is to link knowledge transfer with the other three dimensions. But how is this done? By dividing these three dimensions into a framework of competencies and sub-competencies, teachers can make their teaching more effective, targeted, logical and relevant."@en,
     "Der vierdimensionale (4D) Bildungsrahmen der CCR wurde so benannt, um zu verdeutlichen, dass die Schüler von heute sich in vier Dimensionen entwickeln müssen - Wissen, Fähigkeiten, Charakter und Meta-Lernen - um sich selbst und der Gesellschaft so gut wie möglich zu dienen. Das Kernprinzip einer 4D-Bildung besteht darin, die Wissensvermittlung mit den anderen drei Dimensionen zu verknüpfen. Aber wie wird das gemacht? Indem diese drei Dimensionen in einen Rahmen von Kompetenzen und Teilkompetenzen unterteilt werden, können Lehrkräfte ihren Unterricht effektiver, zielgerichteter, logischer und relevanter gestalten."@de;
   dct:title "4D Competencies Framework"@en, "4D Competencies Framework"@de .
 
-<http://example.org/23> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/2500> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/ComeIn-NRW/vocabs/tree/master>;
   wdt:P126 "ComeIn"@de;
@@ -450,17 +476,17 @@ Den inneren Kern des Modells bildet die Förderung der fachspezifischen und digi
     """UDE-Modell: Ein integratives Modell digitalisierungsbezogener
     Kompetenzen für die
     Lehramtsausbildung"""@de;
-  sdo:distribution _:G__2449, _:G__2450 .
+  sdo:distribution _:G__2451, _:G__2452 .
 
-_:G__2449 a sdo:DataDownload;
+_:G__2451 a sdo:DataDownload;
   sdo:contentUrl <https://comein-nrw.github.io/vocabs/w3id.org/comein/vocabs/ude-modell/>;
   sdo:fileFormat "application/json" .
 
-_:G__2450 a sdo:DataDownload;
+_:G__2452 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/ComeIn-NRW/vocabs/refs/heads/master/competences/UDE-Modell.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/24> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/2600> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/digitalCompetencies/>;
@@ -481,18 +507,19 @@ auswirkt."""@de;
   dct:title """Competencies in the digital world
   (KMK)"""@en, """Kompetenzen in der digitalen Welt
   (KMK)"""@de;
-  sdo:distribution _:G__2451, _:G__2452 .
+  sdo:distribution _:G__2453, _:G__2454 .
 
-_:G__2451 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/digitalCompetencies/index.json>;
+_:G__2453 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/digitalCompetencies/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2452 a sdo:DataDownload;
+_:G__2454 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/digitalCompetencies.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/25> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/2700> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
+  wdt:P1324 <https://github.com/dini-ag-kim/kmk-vocabs/>;
   wdt:P126 "DINI-AG-KIM"@de;
   wdt:P973 <http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/>;
   dct:language "de";
@@ -510,38 +537,19 @@ Wandel, der sich auf das schulische Lehren und Lernen und auf die Bewältigung u
 tung von Lebens- bzw. Arbeitsprozessen von Kindern, Jugendlichen und jungen Erwachsenen
 auswirkt."""@de;
   dct:title "Competencies in the digital world (KMK),"@en, "Kompetenzen in der digitalen Welt (KMK),"@de;
-  sdo:distribution _:G__2453, _:G__2454 .
+  sdo:distribution _:G__2455, _:G__2456 .
 
-_:G__2453 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/index.json>;
+_:G__2455 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2454 a sdo:DataDownload;
+_:G__2456 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/kmk-vocabs/refs/heads/main/digitalisierungsbezogene-kompetenzen.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/26> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/2900> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
-  wdt:P126 "SODIX"@de;
-  wdt:P973 <https://vocabs.sodix.de/index.de.html>;
-  dct:language "de";
-  sdo:about "digitalisierungsbezogene Kompetenzen"@de;
-  dct:description """Digitalization and mediatization have had an impact on all areas of our lives and work.
-led to decisive changes in the world. These go beyond a purely technical one
-progress and lead to a broad cultural and social
-Change that affects school teaching and learning and coping and shaping
-ment of life and work processes of children, adolescents and young adults
-effects."""@en,
-    """Die Digitalisierung und Mediatisierung haben in allen Bereichen unserer Lebens- und Arbeits-
-welt zu entscheidenden Veränderungen geführt. Diese gehen über einen rein technischen
-Fortschritt hinaus und führen zu einem breit angelegten kulturellen und gesellschaftlichen
-Wandel, der sich auf das schulische Lehren und Lernen und auf die Bewältigung und Gestal-
-tung von Lebens- bzw. Arbeitsprozessen von Kindern, Jugendlichen und jungen Erwachsenen
-auswirkt."""@de;
-  dct:title "Competencies in the digital world (KMK),"@en, "Kompetenzen in der digitalen Welt (KMK),"@de .
-
-<http://example.org/27> a wd:Q1469824;
-  wdt:P5009 "SKOS"@de;
+  wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs>;
   wdt:P126 "Open Edu Hub/WirLernenOnline/ComeIn"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/medienkompetenzrahmenNRW/>;
   dct:language "de";
@@ -549,17 +557,17 @@ auswirkt."""@de;
   dct:description "Standard for school and teaching development to promote media competence at primary and lower secondary level as well as to promote key digital skills at vocational colleges"@en,
     "Standard für die Schul- und Unterrichtsentwicklung zur Förderung von Medienkompetenz in der Primarstufe und der Sekundarstufe I sowie zur Förderung digitaler Schlüsselkompetenzen am Berufskolleg"@de;
   dct:title "Media Competence Framework NRW,"@en, "Medienkompetenzrahmen NRW,"@de;
-  sdo:distribution _:G__2455, _:G__2456 .
+  sdo:distribution _:G__2457, _:G__2458 .
 
-_:G__2455 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/medienkompetenzrahmenNRW/index.json>;
+_:G__2457 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/medienkompetenzrahmenNRW/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2456 a sdo:DataDownload;
+_:G__2458 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/medienkompetenzrahmenNRW.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/28> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/3000> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/ComeIn-NRW/vocabs>;
   wdt:P126 "ComeIn"@de;
@@ -570,13 +578,13 @@ _:G__2456 a sdo:DataDownload;
     "Das DaZKom-Projekt ist ein Kooperationsprojekt der Leuphana Universität Lüneburg und der Universität Bielefeld. Gefördert wird das Projekt vom BMBF im Rahmen des Transferprojektes „Kompetenzmodelle und Instrumente der Kompetenzerfassung im Hochschulsektor – Validierungen und methodische Innovationen“ (KoKoHs)\" (https://www.dazkom.de/links/). Das Projekt hat das Ziel der theoretischen Modellierung und empirischen Überprüfung von Kompetenzen im Bereich Deutsch als Zweitsprache (DaZ), die Lehrer*innen zusätzlich zu ihrer disziplinären Expertise besitzen müssen, um v.a. SchülerInnen mit nichtdeutscher Herkunftssprache im regulären Unterricht angemessen fördern zu können."@de;
   dct:title "DaZKom: A model of professional skills for prospective teachers in the field of German as a second language,"@en,
     "DaZKom: Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache,"@de;
-  sdo:distribution _:G__2457 .
+  sdo:distribution _:G__2459 .
 
-_:G__2457 a sdo:DataDownload;
+_:G__2459 a sdo:DataDownload;
   sdo:contentUrl <https://comein-nrw.github.io/vocabs/w3id.org/comein/vocabs/dazkom/index.json>;
   sdo:fileFormat "application/json" .
 
-<http://example.org/29> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/3100> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Schule"@de;
   wdt:P1324 <https://github.com/iqb-vocabs/iqb-vocabs.github.io>;
@@ -588,7 +596,7 @@ _:G__2457 a sdo:DataDownload;
     "Bildungsstandards sind fachdidaktisch begründete und auf mittlerem Abstraktionsgrad formulierte Leistungserwartungen an die Schüler*innen. Sie nehmen damit eine Mittelstellung zwischen sehr allgemeinen Bildungszielen einerseits und konkreten Aufgabenstellungen andererseits ein und setzen diese miteinander in Beziehung. Sie sind dadurch sowohl zukunfts- und verwendungsoffen als auch gesellschaftlich konsensfähig. Mithilfe der Testergebnisse kann nachgewiesen werden, wie gut Schüler*innen in der Lage sind, fachbezogene Aufgaben und Probleme zu lösen."@de;
   dct:title "Educational Standards (IQB)"@en, "Bildungsstandards (IQB)"@de .
 
-<http://example.org/30> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/3200> a wd:Q1469824;
   sdo:educationalLevel "Schule"@de;
   wdt:P126 "Schulcampus Rheinland-Pfalz"@de;
   wdt:P973 <https://curriculum.schulcampus-rlp.de/navigators/1>;
@@ -597,7 +605,7 @@ _:G__2457 a sdo:DataDownload;
   dct:description "Curricula of the state of Rhineland-Palatinate."@en, "Lehrpläne des Landes Rheinland-Pfalz."@de;
   dct:title "Curricula Rhineland-Palatinate"@en, "Lehrpläne Rheinland-Pfalz"@de .
 
-<http://example.org/31> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/3300> a wd:Q1469824;
   sdo:educationalLevel "Schule"@de;
   wdt:P126 "Institut für Schulqualität der Länder Berlin und Brandenburg e.V."@de;
   wdt:P973 <https://kompetenzbrowser.de/>;
@@ -609,7 +617,16 @@ _:G__2457 a sdo:DataDownload;
   dct:title "Competence browser from the Institute for School Quality of the States of Berlin and Brandenburg e. V. (ISQ)"@en,
     "Kompetenzbrowser des Instituts für Schulqualität der Länder Berlin und Brandenburg e. V. (ISQ)"@de .
 
-<http://example.org/33> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/3500> a wd:Q1469824;
+  sdo:educationalLevel "Schule"@de;
+  wdt:P126 "Mebis"@de;
+  wdt:P973 <https://www.lehrplanplus.bayern.de/>;
+  dct:language "de";
+  sdo:about "Bildungsstandards sowie Lehrplan-/Curricula-orientierte Wertelisten"@de;
+  dct:description "Curricula of the state of Bavaria."@en, "Lehrpläne des Landes Bayern."@de;
+  dct:title "Curriculum Plus Bavaria"@en, "Lehrplan Plus Bayern"@de .
+
+<https://w3id.org/eduvocs/id/3600> a wd:Q1469824;
   sdo:educationalLevel "Hochschule"@de;
   wdt:P126 "Hochschulrektorenkonferenz"@de;
   wdt:P973 <https://www.hochschulkompass.de/>;
@@ -618,9 +635,10 @@ _:G__2457 a sdo:DataDownload;
   dct:description "Directory of study programs."@en, "Verzeichnis von Studiengängen."@de;
   dct:title "University Compass"@en, "Hochschulkompass"@de .
 
-<http://example.org/34> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/3700> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Lehrerbildung"@de;
+  wdt:P1324 <https://github.com/dini-ag-kim/kmk-vocabs/>;
   wdt:P126 "DINI-AG-KIM"@de;
   wdt:P973 <http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/>;
   dct:language "de";
@@ -641,17 +659,17 @@ Aus den angestrebten Kompetenzen ergeben sich Anforderungen für die gesamte Aus
 und die Berufspraxis."""@de;
   dct:title "KMK: Standards for teacher training: educational sciences (from December 16, 2004 as amended from May 16, 2019)"@en,
     "KMK: Standards für die Lehrerbildung: Bildungswissenschaften (vom 16.12.2004 i.d.F. vom 16.05.2019)"@de;
-  sdo:distribution _:G__2458, _:G__2459 .
+  sdo:distribution _:G__2460, _:G__2461 .
 
-_:G__2458 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/index.json>;
+_:G__2460 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/kim/kmk-vocabs/bildungswissenschaften/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2459 a sdo:DataDownload;
+_:G__2461 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/kmk-vocabs/refs/heads/main/bildungswissenschaften.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/35> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/3800> a wd:Q1469824;
   sdo:educationalLevel "Primarbereich"@de;
   wdt:P126 "Martin R. Textor"@de;
   wdt:P973 <https://www.kindergartenpaedagogik.de/fachartikel/bildung-erziehung-betreuung/1951/>;
@@ -661,7 +679,7 @@ _:G__2459 a sdo:DataDownload;
     "Orientierungspläne für Bildung und Erziehung im Kindergarten."@de;
   dct:title "Collection of plans from different countries at primary level"@en, "Sammlung von Plänen verschiedener Länder im Primarbereich"@de .
 
-<http://example.org/36> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/3900> a wd:Q1469824;
   wdt:P126 "Next Generation Science Standards"@de;
   wdt:P973 <https://www.nextgenscience.org/>;
   dct:language "de";
@@ -670,7 +688,7 @@ _:G__2459 a sdo:DataDownload;
     "Im Rahmen der Next Generation Science Standards (NGSS) gibt es drei verschiedene und gleichermaßen wichtige Dimensionen des wissenschaftlichen Lernens. Diese Dimensionen werden kombiniert, um jeden Standard - oder jede Leistungserwartung - zu bilden, und jede Dimension arbeitet mit den beiden anderen zusammen, um den Schülern zu helfen, im Laufe der Zeit ein zusammenhängendes Verständnis der Wissenschaft zu entwickeln."@de;
   dct:title "Next Generation Science Standards "@en, "NextGeneration Science Standards "@de .
 
-<http://example.org/37> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/4000> a wd:Q1469824;
   wdt:P126 "Common Education Data Standards"@de;
   wdt:P973 <https://ceds.ed.gov/element/000029>;
   dct:language "de";
@@ -678,7 +696,7 @@ _:G__2459 a sdo:DataDownload;
   dct:description "The category of a review based on format and content."@en, "Die Kategorie einer Bewertung auf der Grundlage von Format und Inhalt."@de;
   dct:title "Assessment Type, Assessment Type Administered"@en, "Assessment Type, Assessment Type Administered"@de .
 
-<http://example.org/38> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/4100> a wd:Q1469824;
   wdt:P126 "Common Education Data Standards"@de;
   wdt:P973 <https://ceds.ed.gov/element/000026>;
   dct:language "de";
@@ -686,7 +704,7 @@ _:G__2459 a sdo:DataDownload;
   dct:description "The reason an assessment is designed or conducted."@en, "Der Grund, aus dem eine Bewertung konzipiert oder durchgeführt wird."@de;
   dct:title "Assessment purpose"@en, "Assessment Purpose"@de .
 
-<http://example.org/40> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/4300> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/dini-ag-kim/educationalLevel>;
   wdt:P126 "DINI-AG-KIM"@de;
@@ -697,17 +715,17 @@ _:G__2459 a sdo:DataDownload;
   dct:description "A list of values ​​for the level in the education system as a teaching/learning context for which the learning object is designated."@en,
     "Eine Wertelliste für die Stufe im Bildungssystem als Lehr-/Lernkontext, für den Lernobjekt ausgewiesen ist."@de;
   dct:title "Levels of education"@en, "Bildungsstufen"@de;
-  sdo:distribution _:G__2460, _:G__2461 .
+  sdo:distribution _:G__2462, _:G__2463 .
 
-_:G__2460 a sdo:DataDownload;
+_:G__2462 a sdo:DataDownload;
   sdo:contentUrl <https://w3id.org/kim/educationalLevel/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2461 a sdo:DataDownload;
+_:G__2463 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/educationalLevel/refs/heads/main/educationalLevel.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/41> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/4400> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/educationalContext/>;
@@ -716,80 +734,83 @@ _:G__2461 a sdo:DataDownload;
   dct:description "A value list for the educational level at which the learning object can be used. Created in the context of the OpenEduHub."@en,
     "Eine Wertelliste für die Bildungsstufe, in der das Lernobjekt genutzt werden kann. Entstanden im Kontext des OpenEduHub."@de;
   dct:title "Levels of education"@en, "Bildungsstufen"@de;
-  sdo:distribution _:G__2462, _:G__2463 .
+  sdo:distribution _:G__2464, _:G__2465 .
 
-_:G__2462 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/educationalContext/index.json>;
+_:G__2464 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/educationalContext/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2463 a sdo:DataDownload;
+_:G__2465 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/educationalContext.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/42> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/4500> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/dini-ag-kim/vocabs-edu>;
   wdt:P126 "DINI-AG-KIM"@de;
   wdt:P973 <https://w3id.org/kim/isced-1997/scheme>;
   dct:language "de";
+  dct:issued "1997"^^xsd:date;
   sdo:about "Bildungsstufen"@de;
   dct:creator "UNESCO"@de;
   dct:description "This is a SKOS representation of ISCED educational levels in 1997."@en,
     "Dies ist eine SKOS-Darstellung der ISCED-Bildungsniveaus von 1997."@de;
   dct:title "International Standard Classification of Education 1997"@en, "International Standard Classification of Education 1997"@de;
-  sdo:distribution _:G__2464, _:G__2465 .
+  sdo:distribution _:G__2466, _:G__2467 .
 
-_:G__2464 a sdo:DataDownload;
+_:G__2466 a sdo:DataDownload;
   sdo:contentUrl <https://w3id.org/kim/isced-1997/scheme.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2465 a sdo:DataDownload;
+_:G__2467 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/vocabs-edu/refs/heads/master/isced-1997.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/43> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/4600> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/dini-ag-kim/vocabs-edu>;
   wdt:P126 "DINI-AG-KIM"@de;
   wdt:P973 <https://w3id.org/kim/isced-2011/scheme>;
   dct:language "de";
+  dct:issued "2011"^^xsd:date;
   sdo:about "Bildungsstufen"@de;
   dct:creator "UNESCO"@de;
   dct:description "This is a SKOS representation of ISCED education levels in 2011."@en,
     "Dies ist eine SKOS-Darstellung der ISCED-Bildungsniveaus von 2011."@de;
   dct:title "International Standard Classification of Education 2011"@en, "International Standard Classification of Education 2011"@de;
-  sdo:distribution _:G__2466, _:G__2467 .
+  sdo:distribution _:G__2468, _:G__2469 .
 
-_:G__2466 a sdo:DataDownload;
+_:G__2468 a sdo:DataDownload;
   sdo:contentUrl <https://w3id.org/kim/isced-2011/scheme.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2467 a sdo:DataDownload;
+_:G__2469 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/vocabs-edu/refs/heads/master/isced-2011.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/44> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/4700> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/dini-ag-kim/vocabs-edu>;
   wdt:P126 "DINI-AG-KIM"@de;
   wdt:P973 <https://w3id.org/kim/isced-2013/scheme>;
   dct:language "de";
+  dct:issued "2013"^^xsd:date;
   sdo:about "Bildungsstufen"@de;
   dct:creator "UNESCO"@de;
   dct:description "This is a SKOS representation of ISCED education levels in 2013."@en,
     "Dies ist eine SKOS-Darstellung der ISCED-Bildungsniveaus von 2013."@de;
   dct:title "International Standard Classification of Education 2013"@en, "International Standard Classification of Education 2013"@de;
-  sdo:distribution _:G__2468, _:G__2469 .
+  sdo:distribution _:G__2470, _:G__2471 .
 
-_:G__2468 a sdo:DataDownload;
+_:G__2470 a sdo:DataDownload;
   sdo:contentUrl <https://w3id.org/kim/isced-2013/scheme.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2469 a sdo:DataDownload;
+_:G__2471 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/vocabs-edu/refs/heads/master/isced-2013.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/46> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/4900> a wd:Q1469824;
   wdt:P126 "Common Education Data Standards"@de;
   wdt:P973 <https://ceds.ed.gov/element/001246>;
   dct:language "de";
@@ -799,7 +820,7 @@ _:G__2469 a sdo:DataDownload;
   dct:title "Common Education Data Standard: Learning Resource Education Level"@en,
     "Common Education Data Standard: Learning Resource Education Level"@de .
 
-<http://example.org/47> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/5000> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "European Schoolnet Vocabulary Bank for Education"@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
@@ -807,13 +828,13 @@ _:G__2469 a sdo:DataDownload;
   sdo:about "Bildungsstufen"@de;
   dct:description "Educational levels of the European School Net."@en, "Bildungsstufen des European School Net."@de;
   dct:title "EUN Educational Context Values:"@en, "EUN Educational Context Values:"@de;
-  sdo:distribution _:G__2470 .
+  sdo:distribution _:G__2472 .
 
-_:G__2470 a sdo:DataDownload;
+_:G__2472 a sdo:DataDownload;
   sdo:contentUrl <http://europeanschoolnet-vbe.lexaurus.net/vbe/linkeddata/vocab/EUN/EUN.EducationalContextValues/topterms.skos>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/48> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/5100> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "European Schoolnet Vocabulary Bank for Education, Learning Resource Exchange Kommittee"@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
@@ -822,13 +843,13 @@ _:G__2470 a sdo:DataDownload;
   dct:description "This vocabulary contains terms that indicate the institutional environment or level of education appropriate for use of the LO."@en,
     "Dieses Vokabular enthält Begriffe, die das institutionelle Umfeld oder das für die Verwendung des LO geeignete Bildungsniveau angeben."@de;
   dct:title "LRE Educational Learning Context"@en, "LRE Educational Learning Context"@de;
-  sdo:distribution _:G__2471 .
+  sdo:distribution _:G__2473 .
 
-_:G__2471 a sdo:DataDownload;
+_:G__2473 a sdo:DataDownload;
   sdo:contentUrl <http://europeanschoolnet-vbe.lexaurus.net/vbe/linkeddata/vocab/LRE/LRE.contextValues/topterms.skos>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/49> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/5200> a wd:Q1469824;
   wdt:P126 "FWU"@de;
   wdt:P973 <https://web.archive.org/web/20220120213540/https://sodis.de/lom-de/LOM-DE_v0.9_1.pdf>;
   dct:language "de";
@@ -836,13 +857,13 @@ _:G__2471 a sdo:DataDownload;
   dct:description "Educational levels of the German school system, used in LOM-DE."@en,
     "Bildungsstufen des deutschen Schulsystems, verwendet in LOM-DE."@de;
   dct:title "Educational Context (LOM-DE)"@en, "Educational Context (LOM-DE)"@de;
-  sdo:distribution _:G__2472 .
+  sdo:distribution _:G__2474 .
 
-_:G__2472 a sdo:DataDownload;
+_:G__2474 a sdo:DataDownload;
   sdo:contentUrl <https://web.archive.org/web/20220120213540/https://sodis.de/lom-de/LOM-DE_v0.9_1.pdf>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/50> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/5300> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/educationalLevel/>;
@@ -851,17 +872,17 @@ _:G__2472 a sdo:DataDownload;
   dct:description "A value list for grade levels. Created in the context of the OpenEduHub."@en,
     "Eine Wertelliste für Klassenstufen. Entstanden im Kontext des OpenEduHub."@de;
   dct:title "grade level"@en, "Klassenstufe"@de;
-  sdo:distribution _:G__2473, _:G__2474 .
+  sdo:distribution _:G__2475, _:G__2476 .
 
-_:G__2473 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/educationalLevel/index.json>;
+_:G__2475 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/educationalLevel/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2474 a sdo:DataDownload;
+_:G__2476 a sdo:DataDownload;
   sdo:contentUrl <https://github.com/openeduhub/oeh-metadata-vocabs/blob/master/educationalLevel.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/51> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/5400> a wd:Q1469824;
   wdt:P126 "XSchule"@de;
   wdt:P973 <https://web.archive.org/web/20240210154653/https://xschule.digital/def/xschule/1.0/spec/xsc_spezifikation_1.0.pdf>;
   dct:language "de";
@@ -869,17 +890,17 @@ _:G__2474 a sdo:DataDownload;
   dct:creator "XSchule (?)"@de;
   dct:description "Grades of the general education school system."@en, "Jahrgangsstufen des allgemeinbildenden Schulsystems."@de;
   dct:title "XSchool: grade level"@en, "XSchule: Jahrgangsstufe"@de;
-  sdo:distribution _:G__2475, _:G__2476 .
+  sdo:distribution _:G__2477, _:G__2478 .
 
-_:G__2475 a sdo:DataDownload;
+_:G__2477 a sdo:DataDownload;
   sdo:contentUrl <http://xschule.digital/def/xschule/1.1/code/urn-xschule-digital-xschule-codeliste-jahrgangsstufe.xml>;
   sdo:fileFormat "application/xml" .
 
-_:G__2476 a sdo:DataDownload;
+_:G__2478 a sdo:DataDownload;
   sdo:contentUrl <https://web.archive.org/web/20240210154653/https://xschule.digital/def/xschule/1.0/spec/xsc_spezifikation_1.0.pdf>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/52> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/5500> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/unterrichtsvideos/vocabs>;
   wdt:P126 "unterrichtsvideos.net"@de;
@@ -888,17 +909,17 @@ _:G__2476 a sdo:DataDownload;
   sdo:about "Klassenstufen, Jahrgangsstufen oder Fachsemester"@de;
   dct:description "A list of values ​​for the grade level."@en, "Eine Wertelliste für die Jahrgangsstufe."@de;
   dct:title "Meta video portal lehrsvideos.net (repo): grade levels"@en, "Meta-Videoportal unterrichtsvideos.net (Repo): Jahrgangsstufen"@de;
-  sdo:distribution _:G__2477, _:G__2478 .
+  sdo:distribution _:G__2479, _:G__2480 .
 
-_:G__2477 a sdo:DataDownload;
+_:G__2479 a sdo:DataDownload;
   sdo:contentUrl <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/grade/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2478 a sdo:DataDownload;
+_:G__2480 a sdo:DataDownload;
   sdo:contentUrl <https://github.com/unterrichtsvideos/vocabs/>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/54> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/5700> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/dini-ag-kim/schularten>;
   wdt:P126 "DINI-AG-KIM"@de;
@@ -908,18 +929,19 @@ _:G__2478 a sdo:DataDownload;
   dct:description "A list of values ​​for types of schools in the German school system. A type of school is characterized by the fact that it has an independent character in terms of curricula, educational goals and qualification levels. It does not have to be an administratively independent organizational unit."@en,
     "Eine Wertelliste für Schularten im deutschen Schulsystem. Eine Schulart zeichnet sich dadurch aus, dass sie im Hinblick auf Lehrpläne, Bildungsziele und Qualifkationsniveau einen eigenständigen Charakter besitzt. Sie muss dazu keine verwaltungstechnische eigenständige Organisationseinheit sein."@de;
   dct:title "School type vocabulary"@en, "Schularten-Vokabular"@de;
-  sdo:distribution _:G__2479, _:G__2480 .
+  sdo:distribution _:G__2481, _:G__2482 .
 
-_:G__2479 a sdo:DataDownload;
+_:G__2481 a sdo:DataDownload;
   sdo:contentUrl <https://w3id.org/kim/schularten/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2480 a sdo:DataDownload;
+_:G__2482 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/schularten/refs/heads/main/schularten.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/55> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/5800> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
+  wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs>;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/schoolType/>;
   dct:language "de";
@@ -927,17 +949,17 @@ _:G__2480 a sdo:DataDownload;
   dct:description "A list of values ​​of the types of schools that exist in Germany."@en,
     "Eine Werteliste der Schularten, die es in Deutschland gibt."@de;
   dct:title "School type vocabulary"@en, "Schularten-Vokabular"@de;
-  sdo:distribution _:G__2481, _:G__2482 .
+  sdo:distribution _:G__2483, _:G__2484 .
 
-_:G__2481 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/schoolType/index.json>;
+_:G__2483 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/schoolType/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2482 a sdo:DataDownload;
+_:G__2484 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/schoolType.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/56> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/5900> a wd:Q1469824;
   wdt:P126 "FWU / SODIX"@de;
   wdt:P973 <https://mundo.schule/>;
   dct:language "de";
@@ -945,7 +967,7 @@ _:G__2482 a sdo:DataDownload;
   dct:description "Lists of values ​​for school types at mundo.schule"@en, "Wertelisten von Schularten bei mundo.schule"@de;
   dct:title "School types Mundo"@en, "Schularten Mundo"@de .
 
-<http://example.org/57> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6000> a wd:Q1469824;
   wdt:P126 "XBildung"@de;
   wdt:P973 <https://web.archive.org/web/20240210154500/https://xbildung.de/def/xbildung/1.0/spec/xbd_spezifikation_1.0.pdf>;
   dct:language "de";
@@ -954,66 +976,65 @@ _:G__2482 a sdo:DataDownload;
   dct:description "Based on the states' core data set for individual school statistical data"@en,
     "Basierend auf Kerndatensatz der Länder für schulstatistische Individualdaten"@de;
   dct:title "Type of school"@en, "Art der Schule"@de;
-  sdo:distribution _:G__2483, _:G__2484 .
+  sdo:distribution _:G__2485, _:G__2486 .
 
-_:G__2483 a sdo:DataDownload;
+_:G__2485 a sdo:DataDownload;
   sdo:contentUrl <http://xschule.digital/def/xschule/1.1/code/urn-xbildung-de-kmk-codeliste-artderschule.xml>;
   sdo:fileFormat "application/xml" .
 
-_:G__2484 a sdo:DataDownload;
+_:G__2486 a sdo:DataDownload;
   sdo:contentUrl <https://web.archive.org/web/20240210154500/https://xbildung.de/def/xbildung/1.0/spec/xbd_spezifikation_1.0.pdf>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/58> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6100> a wd:Q1469824;
   wdt:P126 "Statistisches Bundesamt"@de;
   wdt:P973 <https://www.datenportal.bmbf.de/portal/de/K231.html>;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
   dct:description "School types from the BMBF data portal."@en, "Schularten aus dem Datenportal BMBF."@de;
   dct:title "Types of schools"@en, "Schularten"@de;
-  sdo:distribution _:G__2485 .
+  sdo:distribution _:G__2487 .
 
-_:G__2485 a sdo:DataDownload;
+_:G__2487 a sdo:DataDownload;
   sdo:contentUrl <https://www.datenportal.bmbf.de/portal/de/Tabelle-2.3.2.pdf>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/59> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6200> a wd:Q1469824;
   wdt:P126 "fobizz"@de;
-  wdt:P973 <https://plattform.fobizz.com/fortbildungen>;
+  sdo:url <https://plattform.fobizz.com/fortbildungen>;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
   dct:creator "Fobizz"@de;
   dct:description "Types of schools on the fobizz platform."@en, "Schularten der Plattform fobizz."@de;
   dct:title "Types of schools"@en, "Schularten"@de .
 
-<http://example.org/60> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6300> a wd:Q1469824;
   wdt:P1324 <https://github.com/unterrichtsvideos/vocabs>;
   wdt:P126 "unterrichtsvideos.net"@de;
-  wdt:P973 <https://unterrichtsvideos.net/metaportal/>;
+  sdo:url <https://unterrichtsvideos.net/metaportal/>;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
   dct:description "Types of schools from türrrichtsvideos.net"@en, "Schularten von unterrrichtsvideos.net"@de;
   dct:title "Types of schools"@en, "Schularten"@de .
 
-<http://example.org/61> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6400> a wd:Q1469824;
   wdt:P126 "MeinUnterrricht"@de;
-  wdt:P973 <https://www.meinunterricht.de/>;
+  sdo:url <https://www.meinunterricht.de/>;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
   dct:creator "meinUnterricht"@de;
   dct:description "Types of schools according to meinlehr.de"@en, "Schularten nach meinunterricht.de"@de;
   dct:title "Types of schools"@en, "Schularten"@de .
 
-<http://example.org/62> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6500> a wd:Q1469824;
   dcat:endpointURL <https://digitallearninglab.de/api/schoolTypes>;
   wdt:P126 "digital.learning.lab"@de;
-  wdt:P973 <https://digitallearninglab.de/api/schoolTypes>;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
   dct:description "Types of schools at digitallearninglab.de"@en, "Schularten des digitallearninglab.de"@de;
   dct:title "Types of schools"@en, "Schularten"@de .
 
-<http://example.org/63> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6600> a wd:Q1469824;
   wdt:P126 "SIF Association"@de;
   wdt:P973 <https://data.a4l.org/sif-specifications/>;
   dct:language "de";
@@ -1022,45 +1043,46 @@ _:G__2485 a sdo:DataDownload;
     "School Type / Organisation Type innerhalb der Schools Interoperability Framework Implementation Specification"@de;
   dct:title "SIF Data Model (UK, AU, NZ, NA)"@en, "SIF Data Model (UK, AU, NZ, NA)"@de .
 
-<http://example.org/64> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6700> a wd:Q1469824;
   sdo:educationalLevel "Schule"@de;
   wdt:P126 "XSchule"@de;
-  wdt:P973 <http://xschule.digital/def/xschule/1.1/spec/xsc_spezifikation_1.1.pdf>;
+  wdt:P973 <https://xschule.digital/def/xschule/1.1/spec/xsc_spezifikation_1.1.pdf>;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
   dct:description "School qualifications according to XHochschule with ISCED mapping."@en,
     "Schulabschlüsse nach XHochschule mit ISCED Mapping."@de;
   dct:title "School qualifications"@en, "Schulabschlüsse"@de;
-  sdo:distribution _:G__2486, _:G__2487 .
+  sdo:distribution _:G__2488, _:G__2489 .
 
-_:G__2486 a sdo:DataDownload;
-  sdo:contentUrl <http://xschule.digital/def/xschule/1.1/code/urn-xbildung-de-destatis-codeliste-artdesschulabschlusses.xml>;
+_:G__2488 a sdo:DataDownload;
+  sdo:contentUrl <https://xschule.digital/def/xschule/1.1/code/urn-xbildung-de-destatis-codeliste-artdesschulabschlusses.xml>;
   sdo:fileFormat "application/xml" .
 
-_:G__2487 a sdo:DataDownload;
-  sdo:contentUrl <http://xschule.digital/def/xschule/1.1/spec/xsc_spezifikation_1.1.pdf>;
+_:G__2489 a sdo:DataDownload;
+  sdo:contentUrl <https://xschule.digital/def/xschule/1.1/spec/xsc_spezifikation_1.1.pdf>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/65> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6800> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Schule"@de;
+  wdt:P1324 <https://github.com/dini-ag-kim/schulabschluesse>;
   wdt:P126 "DINI-AG-KIM"@de;
   wdt:P973 <https://w3id.org/kim/schulabschluesse/>;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
   dct:description "School qualifications with mappings to Wikidata and DNB."@en, "Schulabschlüsse mit Mappings zu Wikidata und DNB."@de;
   dct:title "School qualifications"@en, "Schulabschlüsse"@de;
-  sdo:distribution _:G__2488, _:G__2489 .
+  sdo:distribution _:G__2490, _:G__2491 .
 
-_:G__2488 a sdo:DataDownload;
+_:G__2490 a sdo:DataDownload;
   sdo:contentUrl <https://w3id.org/kim/schulabschluesse/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2489 a sdo:DataDownload;
+_:G__2491 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/schulabschluesse/refs/heads/main/schulabschluesse.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/66> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6900> a wd:Q1469824;
   sdo:educationalLevel "Hochschule"@de;
   wdt:P126 "XHochschule"@de;
   wdt:P973 <https://xhochschule.de/def/xhochschule/1.0/spec/xhs_spezifikation_1.0.pdf>;
@@ -1068,14 +1090,15 @@ _:G__2489 a sdo:DataDownload;
   sdo:about "Abschlüsse"@de;
   dct:description "University degrees according to XHochschule with ISCED mapping."@en,
     "Hochschulabschlüsse nach XHochschule mit ISCED Mapping."@de;
-  dct:title "University degrees"@en, "Hochschulabschlüsse"@de;
-  sdo:distribution _:G__2490 .
+  dct:title "University degrees"@en, "Hochschulabschlüsse"@de .
 
-_:G__2490 a sdo:DataDownload;
+_:G__2492 a sdo:DataDownload;
   sdo:contentUrl <https://xhochschule.de/def/xhochschule/1.0/spec/xhs_spezifikation_1.0.pdf>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/67> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/6900> sdo:distribution _:G__2492 .
+
+<https://w3id.org/eduvocs/id/7000> a wd:Q1469824;
   sdo:educationalLevel "Hochschule"@de;
   wdt:P1324 <https://github.com/dini-ag-kim/destatis-schluesseltabellen>;
   wdt:P126 "Destatis"@de;
@@ -1085,7 +1108,7 @@ _:G__2490 a sdo:DataDownload;
   dct:description "University degrees according to Destatis."@en, "Hochschulabschlüsse nach Destatis."@de;
   dct:title "Destatis key tables for qualifications in the survey portal"@en, "Destatis Schlüsseltabellen für Abschlüsse im Erhebungsportal"@de .
 
-<http://example.org/68> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/7100> a wd:Q1469824;
   sdo:educationalLevel "Hochschule"@de;
   wdt:P126 "Hochschulrektorenkonferenz"@de;
   wdt:P973 <https://www.hochschulkompass.de/>;
@@ -1095,27 +1118,28 @@ _:G__2490 a sdo:DataDownload;
   dct:description "University degrees used by Hochschulkompass."@en, "Hochschulabschlüsse, verwendet bei Hochschulkompass."@de;
   dct:title "Degrees"@en, "Abschlüsse"@de .
 
-<http://example.org/69> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/7200> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Hochschule"@de;
+  wdt:P1324 <https://github.com/dini-ag-kim/kmk-vocabs/>;
   wdt:P126 "DINI-AG-KIM"@de;
-  wdt:P973 <http://w3id.org/kim/kmk-vocabs/lehramtstypen/>;
+  wdt:P973 <https://w3id.org/kim/kmk-vocabs/lehramtstypen/>;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
   dct:description "A list of values ​​for the types of teachers the resource is suitable for."@en,
     "Eine Werteliste für Lehramtstypen, für die die Ressource geeignet ist."@de;
   dct:title "Types of teaching positions"@en, "Lehramtstypen"@de;
-  sdo:distribution _:G__2491, _:G__2492 .
+  sdo:distribution _:G__2493, _:G__2494 .
 
-_:G__2491 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/kim/kmk-vocabs/lehramtstypen/index.json>;
+_:G__2493 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/kim/kmk-vocabs/lehramtstypen/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2492 a sdo:DataDownload;
+_:G__2494 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/kmk-vocabs/refs/heads/main/lehramtstypen.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/70> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/7300> a wd:Q1469824;
   sdo:educationalLevel "Ausbildung"@de;
   wdt:P126 "Bundesinstitut für Berufsbildung"@de;
   wdt:P973 <https://www.bibb.de/dienst/publikationen/de/suche?publication_search_result_voe%5Bseries%5D=verzeichnis%20der%20anerkannten%20ausbildungsberufe&publication_search_result_voe%5BentriesPerPage%5D=10&publication_search_result_voe%5Bsorting%5D=newest_desc>;
@@ -1126,7 +1150,7 @@ _:G__2492 a sdo:DataDownload;
     "Dieses Standardwerk dokumentiert die gültigen Rechtsgrundlagen aller Ausbildungsberufe nach BBiG und HwO. Darüber hinaus enthält es Fortbildungsregelungen sowie bundesrechtliche und landesrechtliche Regelungen zur Ausbildung und Weiterbildung für Berufe im Gesundheits- und Sozialwesen und vieles mehr. Das Verzeichnis wird jährlich aktualisiert."@de;
   dct:title "List of recognized training occupations"@en, "Verzeichnis der anerkannten Ausbildungsberufe"@de .
 
-<http://example.org/71> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/7400> a wd:Q1469824;
   wdt:P126 "FWU"@de;
   wdt:P973 <https://hubbs.schule/search/mediathek>;
   dct:language "de";
@@ -1135,7 +1159,7 @@ _:G__2492 a sdo:DataDownload;
   dct:description "List of careers from the vocational school hub."@en, "Liste von Berufen des Hubs für berufliche Schulen."@de;
   dct:title "Profession/professional field"@en, "Beruf / Berufsfeld"@de .
 
-<http://example.org/72> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/7500> a wd:Q1469824;
   wdt:P126 "NETZWERK Q 4.0"@de;
   wdt:P973 <https://netzwerkq40.de/learning-nuggets-lernmedien-fuer-ausbilderinnen/>;
   dct:language "de";
@@ -1144,27 +1168,28 @@ _:G__2492 a sdo:DataDownload;
   dct:description "List of topics for further training."@en, "Auflistung von Themen für Weiterbildungstrainigs."@de;
   dct:title "Topic / training"@en, "Thema / Trainings"@de .
 
-<http://example.org/73> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/7600> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
+  wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs>;
   wdt:P126 "WirLernenOnline"@de;
-  wdt:P973 <http://w3id.org/openeduhub/vocabs/graduation/>;
+  wdt:P973 <https://w3id.org/openeduhub/vocabs/graduation/>;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
   dct:description "A list of values ​​for school and university degrees. Created in the context of the OpenEduHub."@en,
     "Eine Wertelliste für schulische und Hochschulabschlüsse. Entstanden im Kontext des OpenEduHub."@de;
   dct:title "Diploma"@en, "Abschluss"@de;
-  sdo:distribution _:G__2493, _:G__2494 .
+  sdo:distribution _:G__2495, _:G__2496 .
 
-_:G__2493 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/graduation/index.json>;
+_:G__2495 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/graduation/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2494 a sdo:DataDownload;
+_:G__2496 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/graduation.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/74> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/7700> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "European Schoolnet Vocabulary Bank for Education"@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
@@ -1173,13 +1198,13 @@ _:G__2494 a sdo:DataDownload;
   dct:description "List of qualifications on European Schoolnet."@en, "Liste von Abschlüssen im European Schoolnet."@de;
   dct:title "Degrees (European Schoolnet Vocabulary: Ed Level/Degree Earned Values)"@en,
     "Abschlüsse (European Schoolnet Vocabulary: Ed Level/Degree Earned Values)"@de;
-  sdo:distribution _:G__2495 .
+  sdo:distribution _:G__2497 .
 
-_:G__2495 a sdo:DataDownload;
+_:G__2497 a sdo:DataDownload;
   sdo:contentUrl <http://europeanschoolnet-vbe.lexaurus.net/vbe/linkeddata/vocab/EUN/EUN.highestEdLevelHighestDegreeValues/topterms.skos>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/76> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/7900> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "Universität für angewandte Kunst Wien"@de;
   wdt:P973 <https://voc.uni-ak.ac.at/skosmos/languages/en/page/iso_639_1>;
@@ -1189,39 +1214,39 @@ _:G__2495 a sdo:DataDownload;
   dct:title """
 ISO 639-1 language thesaurus"""@en, """
 ISO 639-1 Sprachthesaurus"""@de;
-  sdo:distribution _:G__2496, _:G__2497, _:G__2498 .
+  sdo:distribution _:G__2498, _:G__2499, _:G__2500 .
 
-_:G__2496 a sdo:DataDownload;
+_:G__2498 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/languages/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Flanguages%2Fiso_639_1&format=application/ld%2Bjson>;
   sdo:fileFormat "application/json" .
 
-_:G__2497 a sdo:DataDownload;
+_:G__2499 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/languages/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Flanguages%2Fiso_639_1&format=text/turtle>;
   sdo:fileFormat "text/turtle" .
 
-_:G__2498 a sdo:DataDownload;
+_:G__2500 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/languages/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Flanguages%2Fiso_639_1&format=application/rdf%2Bxml>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/77> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/8000> a wd:Q1469824;
   wdt:P126 "Library of Congress"@de;
-  wdt:P973 <http://id.loc.gov/vocabulary/languages>;
+  wdt:P973 <https://id.loc.gov/vocabulary/languages>;
   dct:language "de";
   sdo:about "Sprachen"@de;
   dct:description "The MARC list of languages ​​contains three-character, lowercase letter sequences that serve as identifiers for languages ​​and language groups. The codes are usually based on the first three letters of the English form or, in some cases, the vernacular form of the corresponding language name. The codes are varied as necessary to resolve conflicts and are not intended as abbreviations for a language name. Generally, when the name of a language in the list is changed, the original code is retained. The codes in this list correspond to the ISO 639-2 codes (bibliographic codes) and some ISO 639-5 codes, although the language name names may be different. They are linked to the corresponding codes in ISO 639-2 and ISO 639-5 and the corresponding two-digit codes in ISO 639-1. The list contains over 480 discrete codes. It is also searchable at: MARC code list for languages."@en,
     "Die MARC-Liste für Sprachen enthält dreistellige, klein geschriebene Buchstabenfolgen, die als Bezeichner für Sprachen und Sprachgruppen dienen. Die Codes basieren in der Regel auf den ersten drei Buchstaben der englischen Form oder, in einigen Fällen, der landessprachlichen Form des entsprechenden Sprachnamens. Die Codes werden bei Bedarf variiert, um Konflikte zu lösen, und sind nicht als Abkürzungen für einen Sprachnamen gedacht. Wenn der Name einer Sprache in der Liste geändert wird, wird der ursprüngliche Code im Allgemeinen beibehalten. Die Codes in dieser Liste entsprechen den Codes der ISO 639-2 (bibliografische Codes) und einigen Codes der ISO 639-5, auch wenn die Bezeichnungen der Sprachnamen unterschiedlich sein können. Sie sind mit den entsprechenden Codes in ISO 639-2 und ISO 639-5 und den entsprechenden zweistelligen Codes in ISO 639-1 verknüpft. Die Liste enthält über 480 diskrete Codes. Sie ist auch durchsuchbar unter: MARC-Code-Liste für Sprachen."@de;
   dct:title "Languages ​​(MARC)"@en, "Sprachen (MARC)"@de .
 
-<http://example.org/78> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/8100> a wd:Q1469824;
   wdt:P126 "Library of Congress"@de;
-  wdt:P973 <http://id.loc.gov/vocabulary/iso639-1>;
+  wdt:P973 <https://id.loc.gov/vocabulary/iso639-1>;
   dct:language "de";
   sdo:about "Sprachen"@de;
   dct:description "ISO 639-1 is the first part of the international ISO 639 language code family. ISO 639-1 contains two-character, lowercase letter sequences that are used to identify languages. The list contains about 180 discrete codes. There are also three-character ISO 639-2 codes for all ISO 639-1 languages. These codes are linked to the codes for the same languages ​​in ISO 639-2 and the MARC Language Codes."@en,
     "ISO 639-1 ist der erste Teil der internationalen ISO 639-Sprachcodefamilie. ISO 639-1 enthält zweistellige, klein geschriebene Buchstabenfolgen, die zur Identifizierung von Sprachen dienen. Die Liste enthält etwa 180 diskrete Codes. Für alle ISO 639-1-Sprachen gibt es auch ISO 639-2-Codes mit drei Zeichen. Diese Codes sind mit den Codes für dieselben Sprachen in ISO 639-2 und den MARC Language Codes verknüpft."@de;
   dct:title "Languages ​​ISO 639-1"@en, "Sprachen ISO 639-1"@de .
 
-<http://example.org/79> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/8200> a wd:Q1469824;
   wdt:P126 "Library of Congress"@de;
   wdt:P973 <http://id.loc.gov/vocabulary/iso639-2>;
   dct:language "de";
@@ -1230,7 +1255,7 @@ _:G__2498 a sdo:DataDownload;
     "ISO 639-2 ist Teil der ISO 639-Sprachcodefamilie, die auch einen zweistelligen Codesatz (ISO 639-1) für die Darstellung von Sprachnamen enthält. ISO 639-2 enthält Codes für alle in ISO 639-1 enthaltenen Sprachen und mehrere hundert weitere Sprachen. Die Codes von ISO 639-2 (Bibliografie) wurden für die Verwendung in bibliografischen Metadaten entwickelt, z. B. für Bibliotheken, Informationsdienste und Verlage, während ISO 639-2 (Terminologie) auf Terminologie, Lexikografie und linguistische Anwendungen ausgerichtet ist. Die Listen sind identisch, mit Ausnahme von 20 Sprachen, die unterschiedliche bibliographische und terminologische Codes haben. Die Liste enthält über 500 diskrete Codes. Die ISO 639-2 (bibliographischen) Codes entsprechen den MARC-Sprachcodes. Die ISO 639-2-Codes sind mit zweistelligen Codes für dieselbe Sprache in ISO 639-1, mit den MARC-Sprachcodes und mit entsprechenden Codes für Sprachgruppen in ISO 639-5 verknüpft."@de;
   dct:title "Languages ​​ISO 639-2"@en, "Sprachen ISO 639-2"@de .
 
-<http://example.org/80> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/8300> a wd:Q1469824;
   wdt:P126 "Library of Congress"@de;
   wdt:P973 <http://id.loc.gov/vocabulary/iso639-5>;
   dct:language "de";
@@ -1239,7 +1264,7 @@ _:G__2498 a sdo:DataDownload;
     "ISO 639-5 enthält dreistellige klein geschriebene Buchstabenfolgen, die als Bezeichner für die Darstellung von Namen lebender und ausgestorbener Sprachfamilien und Sprachgruppen dienen. Die Liste enthält über 100 diskrete Codes. Die Codes in dieser Liste umfassen alle Codes für Sprachgruppen im MARC-Sprachcodeschema und über 40 weitere Gruppen. Die Codes sind mit den entsprechenden Codes in der MARC-Sprachcodeliste und in ISO 639-2 verknüpft."@de;
   dct:title "Languages ​​ISO 6395"@en, "Sprachen ISO 6395"@de .
 
-<http://example.org/81> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/8400> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "Learning Resource Metadata Initiative"@de;
   wdt:P973 <https://www.dublincore.org/specifications/lrmi/concept_schemes/educationalAudienceRole/>;
@@ -1249,13 +1274,13 @@ _:G__2498 a sdo:DataDownload;
   dct:description "The LRMI Audience Role Vocabulary defines the primary or intended roles of the audience (beneficiaries) of the resource being described. It is used to provide values ​​for the lrmi educationalRole property."@en,
     "Das LRMI Audience Role Vocabulary definiert die primären oder beabsichtigten Rollen des Publikums (Nutznießers) der beschriebenen Ressource. Es dient der Bereitstellung von Werten für die Eigenschaft lrmi educationalRole."@de;
   dct:title "Target group"@en, "Zielgruppe"@de;
-  sdo:distribution _:G__2499 .
+  sdo:distribution _:G__2501 .
 
-_:G__2499 a sdo:DataDownload;
+_:G__2501 a sdo:DataDownload;
   sdo:contentUrl <https://www.dublincore.org/vocabs/educationalAudienceRole.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/83> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/8600> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/intendedEndUserRole/>;
@@ -1264,17 +1289,17 @@ _:G__2499 a sdo:DataDownload;
   dct:description "A list of values ​​for roles for which the resource was created. Created in the context of the OpenEduHub."@en,
     "Eine Werteliste für Rollen, für die die Ressource erstellt wurde. Entstanden im Kontext des OpenEduHub."@de;
   dct:title "Target group"@en, "Zielgruppe"@de;
-  sdo:distribution _:G__2500, _:G__2501 .
+  sdo:distribution _:G__2502, _:G__2503 .
 
-_:G__2500 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/intendedEndUserRole/index.json>;
+_:G__2502 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/intendedEndUserRole/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2501 a sdo:DataDownload;
+_:G__2503 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/intendedEndUserRole.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/84> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/8700> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "European Schoolnet Vocabulary Bank for Education"@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
@@ -1282,13 +1307,13 @@ _:G__2501 a sdo:DataDownload;
   sdo:about "Zielgruppen"@de;
   dct:description "Value list of target groups of the Eurpean Schoolnet."@en, "Werteliste von Zielgruppen des Eurpean Schoolnet."@de;
   dct:title "Target group (EUN Target Groups)"@en, "Zielgruppe (EUN Target Groups,)"@de;
-  sdo:distribution _:G__2502 .
+  sdo:distribution _:G__2504 .
 
-_:G__2502 a sdo:DataDownload;
+_:G__2504 a sdo:DataDownload;
   sdo:contentUrl <http://europeanschoolnet-vbe.lexaurus.net/vbe/linkeddata/vocab/EUN/EUN.targetGroupsValues/topterms.skos>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/85> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/8800> a wd:Q1469824;
   wdt:P126 "Library of Congress"@de;
   wdt:P973 <http://id.loc.gov/vocabulary/maudience>;
   dct:language "de";
@@ -1297,7 +1322,7 @@ _:G__2502 a sdo:DataDownload;
     "Benutzerkategorie, für die der Inhalt einer Ressource bestimmt ist oder für die der Inhalt als geeignet angesehen wird."@de;
   dct:title "Library of Congress (intended audience),"@en, "Library of Congress (intended Audience),"@de .
 
-<http://example.org/86> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/8900> a wd:Q1469824;
   wdt:P126 "Schulflix"@de;
   wdt:P973 <https://www.schulflix.com/kurskatalog/>;
   dct:language "de";
@@ -1306,8 +1331,9 @@ _:G__2502 a sdo:DataDownload;
   dct:description "Roles used at Schulflix."@en, "Rollen die bei Schulflix verwendet werden."@de;
   dct:title "Target groups"@en, "Zielgruppen"@de .
 
-<http://example.org/87> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/9000> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
+  wdt:P1324 <https://github.com/ComeIn-NRW/vocabs>;
   wdt:P126 "Come In"@de;
   wdt:P973 <https://w3id.org/comein/vocabs/educationalAudienceRole/>;
   dct:language "de";
@@ -1316,14 +1342,15 @@ _:G__2502 a sdo:DataDownload;
   dct:description "A list of values ​​for the target group of learners for whom the resource was designed."@en,
     "Eine Werteliste für Zielgruppen als Lernende, für welche die Ressource konzipiert wurde."@de;
   dct:title "Groups of people"@en, "Personengruppen"@de;
-  sdo:distribution _:G__2503 .
+  sdo:distribution _:G__2505 .
 
-_:G__2503 a sdo:DataDownload;
+_:G__2505 a sdo:DataDownload;
   sdo:contentUrl <https://comein-nrw.github.io/vocabs/w3id.org/comein/vocabs/educationalAudienceRole/index.json>;
   sdo:fileFormat "application/json" .
 
-<http://example.org/88> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/9100> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
+  wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs>;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/intendedEndUserRole_BIRD/>;
   dct:language "de";
@@ -1332,26 +1359,31 @@ _:G__2503 a sdo:DataDownload;
   dct:description "A list of values ​​for the target groups of educational offers, as created in the BIRD reference project."@en,
     "Eine Werteliste für die Zielgruppen von Bildungsangeboten, wie sie im BIRD Referenzprojekt angelegt wurde."@de;
   dct:title "Groups of people"@en, "Personengruppen"@de;
-  sdo:distribution _:G__2504, _:G__2505 .
+  sdo:distribution _:G__2506, _:G__2507 .
 
-_:G__2504 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/intendedEndUserRole_BIRD/index.json>;
+_:G__2506 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/intendedEndUserRole_BIRD/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2505 a sdo:DataDownload;
+_:G__2507 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/intendedEndUserRole_BIRD.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/89> a wd:Q1469824;
-  wdt:P1324 <https://hof-halle-wittenberg.github.io/vocabs/audience/>;
-  wdt:P126 "???"@de;
+<https://w3id.org/eduvocs/id/9200> a wd:Q1469824;
+  wdt:P1324 <https://github.com/HoF-Halle-Wittenberg/vocabs>;
+  wdt:P126 "Institut für Hochschulforschung Halle-Wittenberg"@de;
   wdt:P973 <https://padlet.com/justushenke/erweitertes-amb-ycqitnb3y80hkvw1>;
   dct:language "de";
   sdo:about "Zielgruppen"@de;
   dct:description "Target group vocabulary in a university didactic context"@en, "Zielgruppen Vokabular im hochschuldidaktischen Kontext"@de;
-  dct:title "Target group"@en, "Zielgruppe"@de .
+  dct:title "Target group"@en, "Zielgruppe"@de;
+  sdo:distribution _:G__2508 .
 
-<http://example.org/90> a wd:Q1469824;
+_:G__2508 a sdo:DataDownload;
+  sdo:contentUrl <https://hof-halle-wittenberg.github.io/vocabs/audience/index.json>;
+  sdo:fileFormat "application/json" .
+
+<https://w3id.org/eduvocs/id/9300> a wd:Q1469824;
   wdt:P126 "OER Commons"@de;
   wdt:P973 <https://oercommons.org/browse>;
   dct:language "de";
@@ -1359,27 +1391,29 @@ _:G__2505 a sdo:DataDownload;
   dct:description "Target groups at OER Commons."@en, "Zielgruppen bei OER Commons."@de;
   dct:title "Values ​​at OERCommons"@en, "Werte bei OERCommons"@de .
 
-<http://example.org/93> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/9600> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
+  wdt:P1324 <https://github.com/dini-ag-kim/hcrt>;
   wdt:P1535 "AMB, HS-OER-LOM"@de;
   wdt:P126 "DINI-AG-KIM"@de;
   wdt:P973 <https://w3id.org/kim/hcrt/scheme>;
+  sdo:url <https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "A value list for types of learning resources (Learning Resource Type), created in the context of the metadata schema \"LOM for Higher Education OER Repositories\" (https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/)."@en,
-    "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des Metadatenschemas \"LOM for Higher Education OER Repositories\" (https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/)."@de;
-  dct:title " College Campus Resource Types (HCRT)"@en, " Hochschulcampus Ressourcentypen (HCRT)"@de;
-  sdo:distribution _:G__2506, _:G__2507 .
+  dct:description "A list of values ​​for types of learning resources (Learning Resource Type), created in the context of the metadata schema \"LOM for Higher Education OER Repositories\"."@en,
+    "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des Metadatenschemas \"LOM for Higher Education OER Repositories\"."@de;
+  dct:title "College Campus Resource Types (HCRT)"@en, "Hochschulcampus Ressourcentypen (HCRT)"@de;
+  sdo:distribution _:G__2509, _:G__2510 .
 
-_:G__2506 a sdo:DataDownload;
+_:G__2509 a sdo:DataDownload;
   sdo:contentUrl <https://w3id.org/kim/hcrt/scheme.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2507 a sdo:DataDownload;
+_:G__2510 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/dini-ag-kim/hcrt/refs/heads/master/hcrt.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/94> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/9700> a wd:Q1469824;
   wdt:P1535 "EAF"@de;
   wdt:P126 "FWU"@de;
   wdt:P973 <http://agmud.de/eaf-erweitertes-austauschformat/>;
@@ -1388,8 +1422,9 @@ _:G__2507 a sdo:DataDownload;
   dct:description "List of media types from AG MuD."@en, "Liste von Medienarten der AG MuD."@de;
   dct:title "Media types / media classification EAF"@en, "Medienarten / Medienklassifikation EAF"@de .
 
-<http://example.org/95> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/9800> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
+  wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs>;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/new_lrt/>;
   dct:language "de";
@@ -1398,18 +1433,19 @@ _:G__2507 a sdo:DataDownload;
   dct:description "Comprehensive collection of resource types. Created in the context of the OpenEduHub."@en,
     "Umfassende Zusammenstellung von Ressourcentypen. Entstanden im Kontext des OpenEduHub."@de;
   dct:title "New LRT"@en, "Neuer LRT"@de;
-  sdo:distribution _:G__2508, _:G__2509 .
+  sdo:distribution _:G__2511, _:G__2512 .
 
-_:G__2508 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/new_lrt/index.json>;
+_:G__2511 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/new_lrt/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2509 a sdo:DataDownload;
+_:G__2512 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/new_lrt.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/96> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/9900> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
+  wdt:P1324 <https://github.com/openeduhub/oeh-metadata-vocabs>;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/learningResourceType/>;
   dct:language "de";
@@ -1417,17 +1453,17 @@ _:G__2509 a sdo:DataDownload;
   dct:description "List of resource types. Created in the context of the OpenEduHub."@en,
     "Liste von Ressourcentypen. Entstanden im Kontext des OpenEduHub."@de;
   dct:title "“Old” LRT"@en, "Alter\" LRT"@de;
-  sdo:distribution _:G__2510, _:G__2511 .
+  sdo:distribution _:G__2513, _:G__2514 .
 
-_:G__2510 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/learningResourceType/index.json>;
+_:G__2513 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/learningResourceType/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2511 a sdo:DataDownload;
+_:G__2514 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/learningResourceType.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/97> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/10000> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "SODIX"@de;
   wdt:P973 <https://vocabs.sodix.de/sodix/educational/learningresourcetype/learningresourcetype>;
@@ -1437,13 +1473,13 @@ _:G__2511 a sdo:DataDownload;
   dct:description "A list of values ​​for types of learning resources as used in the SODIX content hub. Ordered list, predominant type first."@en,
     "Eine Wertelliste für Typen von Lernressourcen, wie er im SODIX content hub zum Einsatz kommt. Geordnete Liste, der vorherrschende Typ zuerst."@de;
   dct:title "Type of learning resource (SODIX) old"@en, "Typ der Lernressource (SODIX) alt"@de;
-  sdo:distribution _:G__2512 .
+  sdo:distribution _:G__2515 .
 
-_:G__2512 a sdo:DataDownload;
+_:G__2515 a sdo:DataDownload;
   sdo:contentUrl <https://vocabs.sodix.de/sodix/educational/learningresourcetype/learningresourcetype.json>;
   sdo:fileFormat "application/json" .
 
-<http://example.org/100> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/10300> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/dcmi/lrmi/tree/b1b223693d4c5122e9fd015c21b52349a7c58427/lrmi_vocabs/learningResourceType>;
   wdt:P126 "Learning Resource Metadata Initiative"@de;
@@ -1454,13 +1490,13 @@ _:G__2512 a sdo:DataDownload;
   dct:description "A controlled vocabulary denoting different types of learning resources. Such a resource has one or more physical or digital representations and includes, specifies or conditions a learning activity or learning experience."@en,
     "Ein kontrolliertes Vokabular, das verschiedene Arten von Lernressourcen bezeichnet. Eine solche Ressource hat ein oder mehrere physische oder digitiale Repräsentationen und beinhaltet, spezifiziert oder bedingt eine Lernaktivität or Lernerfahrung."@de;
   dct:title "Learning Resource Type"@en, "Learning Resource Type"@de;
-  sdo:distribution _:G__2513 .
+  sdo:distribution _:G__2516 .
 
-_:G__2513 a sdo:DataDownload;
+_:G__2516 a sdo:DataDownload;
   sdo:contentUrl <https://www.dublincore.org/vocabs/learningResourceType.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/101> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/10400> a wd:Q1469824;
   wdt:P126 "DataCite Metadata Working Group"@de;
   wdt:P973 <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
   dct:language "de";
@@ -1468,23 +1504,23 @@ _:G__2513 a sdo:DataDownload;
   dct:creator "Datacite"@de;
   dct:description "Resource types according to the Datacite schema."@en, "Ressourcentypen gemäß des Datacite Schemas."@de;
   dct:title "resourceTypeGeneral"@en, "resourceTypeGeneral"@de;
-  sdo:distribution _:G__2514 .
+  sdo:distribution _:G__2517 .
 
-_:G__2514 a sdo:DataDownload;
+_:G__2517 a sdo:DataDownload;
   sdo:contentUrl <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/102> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/10500> a wd:Q1469824;
   wdt:P126 "Common Education Data Standards"@de;
   wdt:P973 <https://ceds.ed.gov/element/001397>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "Common Education Data Standard"@de;
-  dct:description "The media or file type of the digital resource is based on the media types defined by the Internet Assigned Numbers Authority (AINA) at http://www.iana.org/assignments/media-types."@en,
-    "Der Medien- oder Dateityp der digitalen Ressource basiert auf den von der Internet Assigned Numbers Authority (AINA) unter http://www.iana.org/assignments/media-types definierten Medientypen."@de;
+  dct:description "The media or file type of the digital resource (based on the media types defined by the Internet Assigned Numbers Authority (IANA): http://www.iana.org/assignments/media-types"@en,
+    "Der Medien- oder Dateityp der digitalen Ressource(basiert auf den von der Internet Assigned Numbers Authority (IANA) definierten Medientypen: http://www.iana.org/assignments/media-types"@de;
   dct:title "Digital Media Type"@en, "Dgital Media Type"@de .
 
-<http://example.org/103> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/10600> a wd:Q1469824;
   wdt:P126 "Common Education Data Standards"@de;
   wdt:P973 <https://ceds.ed.gov/element/001401>;
   dct:language "de";
@@ -1494,7 +1530,7 @@ _:G__2514 a sdo:DataDownload;
     "Eine Art physischer Datenträger, auf dem die Lernressource bereitgestellt oder verfügbar ist."@de;
   dct:title "Physical Media Type"@en, "Physical Media Type"@de .
 
-<http://example.org/104> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/10700> a wd:Q1469824;
   wdt:P126 "Common Education Data Standards"@de;
   wdt:P973 <https://ceds.ed.gov/element/001002>;
   dct:language "de";
@@ -1504,7 +1540,7 @@ _:G__2514 a sdo:DataDownload;
     "Der Zweck der Arbeit im Kontext der Bildung.Der Zweck der Arbeit im Kontext der Bildung."@de;
   dct:title "Educational use"@en, "Educational Use"@de .
 
-<http://example.org/105> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/10800> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/unterrichtsvideos/vocabs>;
   wdt:P126 "unterrichtsvideos.net"@de;
@@ -1514,17 +1550,17 @@ _:G__2514 a sdo:DataDownload;
   dct:creator "unterrrichtsvideos.net"@de;
   dct:description "A value list for material types."@en, "Eine Wertelliste für Materialtypen."@de;
   dct:title "Material types"@en, "Materialtypen"@de;
-  sdo:distribution _:G__2515, _:G__2516 .
+  sdo:distribution _:G__2518, _:G__2519 .
 
-_:G__2515 a sdo:DataDownload;
+_:G__2518 a sdo:DataDownload;
   sdo:contentUrl <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/materialTypes/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2516 a sdo:DataDownload;
+_:G__2519 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/unterrichtsvideos/vocabs/refs/heads/main/materialTypes.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/106> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/10900> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P1324 <https://github.com/unterrichtsvideos/vocabs>;
   wdt:P126 "unterrichtsvideos.net"@de;
@@ -1534,17 +1570,17 @@ _:G__2516 a sdo:DataDownload;
   dct:creator "unterrrichtsvideos.net"@de;
   dct:description "A value list for video types."@en, "Eine Wertelliste für Videoarten."@de;
   dct:title "Video Types"@en, "Videotypen"@de;
-  sdo:distribution _:G__2517, _:G__2518 .
+  sdo:distribution _:G__2520, _:G__2521 .
 
-_:G__2517 a sdo:DataDownload;
+_:G__2520 a sdo:DataDownload;
   sdo:contentUrl <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/videoTypes/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2518 a sdo:DataDownload;
+_:G__2521 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/unterrichtsvideos/vocabs/refs/heads/main/videoTypes.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/107> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/11000> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "ORCA.nrw"@de;
   wdt:P973 <https://w3id.org/orca.nrw/medientypen/>;
@@ -1553,13 +1589,13 @@ _:G__2518 a sdo:DataDownload;
   dct:creator "ORCA.nrw"@de;
   dct:description "List of values ​​of media types."@en, "Werteliste von Medientypen."@de;
   dct:title "Media Types"@en, "Medientypen"@de;
-  sdo:distribution _:G__2519 .
+  sdo:distribution _:G__2522 .
 
-_:G__2519 a sdo:DataDownload;
+_:G__2522 a sdo:DataDownload;
   sdo:contentUrl <https://skohub.io/orca.nrw/orca-vocabs/heads/main/w3id.org/orca.nrw/medientypen/index.json>;
   sdo:fileFormat "application/json" .
 
-<http://example.org/108> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/11100> a wd:Q1469824;
   wdt:P126 "OERTX"@de;
   wdt:P973 <https://web.archive.org/web/20231211175418/https://oertx-help.highered.texas.gov/support/solutions/articles/42000077612-material-types>;
   dct:language "de";
@@ -1568,7 +1604,7 @@ _:G__2519 a sdo:DataDownload;
   dct:description "Material types of the OER TX repository."@en, "Materialtypen des OER TX Repositories."@de;
   dct:title "Material types"@en, "Materialtypen"@de .
 
-<http://example.org/109> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/11200> a wd:Q1469824;
   wdt:P126 "Merlot"@de;
   wdt:P973 <https://web.archive.org/web/20221203081203/https://info.merlot.org/merlothelp/MERLOT_Collection.htm>;
   dct:language "de";
@@ -1577,17 +1613,17 @@ _:G__2519 a sdo:DataDownload;
   dct:description "Merlot Repository material types."@en, "Materialtypen des Merlot Repositories."@de;
   dct:title "Material types"@en, "Materialtypen"@de .
 
-<http://example.org/110> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/11300> a wd:Q1469824;
   wdt:P126 "euroCRIS"@de;
   wdt:P973 <https://w3id.org/cerif/vocab/OutputTypes>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "euroCRIS"@de;
-  dct:description "This schema contains CERIF vocabulary terms applicable in the cfResultPublication_Classification, cfResultPatent_Classification, cfResultProduct_Classification, cfEvent_Class link entities and thus represent output types."@en,
-    "Dieses Schema enthält CERIF-Vokabularbegriffe, die in den Verknüpfungsentitäten cfResultPublication_Classification, cfResultPatent_Classification, cfResultProduct_Classification, cfEvent_Class anwendbar sind und somit Ausgabetypen darstellen."@de;
+  dct:description "This schema contains CERIF vocabulary terms that are applicable in link entities and thus represent output types."@en,
+    "Dieses Schema enthält CERIF-Vokabularbegriffe, die in Verknüpfungsentitäten anwendbar sind und somit Ausgabetypen darstellen."@de;
   dct:title "Output types"@en, "Output Types"@de .
 
-<http://example.org/111> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/11400> a wd:Q1469824;
   wdt:P126 "euroCRIS"@de;
   wdt:P973 <https://w3id.org/cerif/vocab/ActivityTypes>;
   dct:language "de";
@@ -1596,7 +1632,7 @@ _:G__2519 a sdo:DataDownload;
   dct:description "The types of research activity."@en, "Die Arten der Forschungstätigkeit."@de;
   dct:title "Activity Types"@en, "Activity Types"@de .
 
-<http://example.org/112> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/11500> a wd:Q1469824;
   wdt:P126 "euroCRIS"@de;
   wdt:P973 <https://w3id.org/cerif/vocab/ActivitySubtypes>;
   dct:language "de";
@@ -1606,7 +1642,7 @@ _:G__2519 a sdo:DataDownload;
     "Die Subtypen einer Aktivität, die für eine spezifischere oder feinere Analyse verwendet werden."@de;
   dct:title "Activity Subtypes"@en, "Activity Subtypes"@de .
 
-<http://example.org/113> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/11600> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "Universität für angewandte Kunst Wien"@de;
   wdt:P973 <https://voc.uni-ak.ac.at/skosmos/potax/en/page/portfolio_taxonomy>;
@@ -1614,21 +1650,21 @@ _:G__2519 a sdo:DataDownload;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:description "No description available."@en, "Keine Beschreibung verfügbar."@de;
   dct:title "Portfolio taxonomy"@en, "Portfolio Taxonomie"@de;
-  sdo:distribution _:G__2520, _:G__2521, _:G__2522 .
+  sdo:distribution _:G__2523, _:G__2524, _:G__2525 .
 
-_:G__2520 a sdo:DataDownload;
+_:G__2523 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/potax/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Ftaxonomy%2Fportfolio_taxonomy&format=application/ld%2Bjson>;
   sdo:fileFormat "application/json" .
 
-_:G__2521 a sdo:DataDownload;
+_:G__2524 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/potax/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Ftaxonomy%2Fportfolio_taxonomy&format=text/turtle>;
   sdo:fileFormat "text/turtle" .
 
-_:G__2522 a sdo:DataDownload;
+_:G__2525 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/potax/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Ftaxonomy%2Fportfolio_taxonomy&format=application/rdf%2Bxml>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/114> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/11700> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "Universität für angewandte Kunst Wien"@de;
   wdt:P973 <https://voc.uni-ak.ac.at/skosmos/povoc/de/>;
@@ -1636,21 +1672,21 @@ _:G__2522 a sdo:DataDownload;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:description "No description available."@en, "Keine Beschreibung verfügbar."@de;
   dct:title "Portfolio vocabulary"@en, "Portfolio Vokabular"@de;
-  sdo:distribution _:G__2523, _:G__2524, _:G__2525 .
+  sdo:distribution _:G__2526, _:G__2527, _:G__2528 .
 
-_:G__2523 a sdo:DataDownload;
+_:G__2526 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/povoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Fvocabulary%2Fportfolio_thesaurus&format=application/ld%2Bjson>;
   sdo:fileFormat "application/json" .
 
-_:G__2524 a sdo:DataDownload;
+_:G__2527 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/povoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Fvocabulary%2Fportfolio_thesaurus&format=text/turtle>;
   sdo:fileFormat "text/turtle" .
 
-_:G__2525 a sdo:DataDownload;
+_:G__2528 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/povoc/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Fvocabulary%2Fportfolio_thesaurus&format=application/rdf%2Bxml>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/115> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/11800> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "Universität für angewandte Kunst Wien"@de;
   wdt:P973 <https://voc.uni-ak.ac.at/skosmos/publikationstypen/de/>;
@@ -1658,21 +1694,21 @@ _:G__2525 a sdo:DataDownload;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:description "List of publication types."@en, "Liste von Publikationstypen."@de;
   dct:title "Publication types"@en, "Publikationstypen"@de;
-  sdo:distribution _:G__2526, _:G__2527, _:G__2528 .
+  sdo:distribution _:G__2529, _:G__2530, _:G__2531 .
 
-_:G__2526 a sdo:DataDownload;
+_:G__2529 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/publikationstypen/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fwissensbilanz%2Fpublikationstypen%2F3B1&format=application/ld%2Bjson>;
   sdo:fileFormat "application/json" .
 
-_:G__2527 a sdo:DataDownload;
+_:G__2530 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/publikationstypen/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fwissensbilanz%2Fpublikationstypen%2F3B1&format=text/turtle>;
   sdo:fileFormat "text/turtle" .
 
-_:G__2528 a sdo:DataDownload;
+_:G__2531 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/publikationstypen/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fwissensbilanz%2Fpublikationstypen%2F3B1&format=application/rdf%2Bxml>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/116> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/11900> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "Universität für angewandte Kunst Wien"@de;
   wdt:P973 <https://voc.uni-ak.ac.at/skosmos/basekw/de/>;
@@ -1680,21 +1716,21 @@ _:G__2528 a sdo:DataDownload;
   sdo:about "Schlagworte"@de;
   dct:description "List of applied keywords."@en, "Liste angewandter Schlagworte."@de;
   dct:title "Applied keywords"@en, "Angewandte Schlagwörter"@de;
-  sdo:distribution _:G__2529, _:G__2530, _:G__2531 .
+  sdo:distribution _:G__2532, _:G__2533, _:G__2534 .
 
-_:G__2529 a sdo:DataDownload;
+_:G__2532 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basekw/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Frecherche%2Fkeywords%2FconceptScheme_cd3d9f29&format=application/ld%2Bjson>;
   sdo:fileFormat "application/json" .
 
-_:G__2530 a sdo:DataDownload;
+_:G__2533 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basekw/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Frecherche%2Fkeywords%2FconceptScheme_cd3d9f29&format=text/turtle>;
   sdo:fileFormat "text/turtle" .
 
-_:G__2531 a sdo:DataDownload;
+_:G__2534 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/basekw/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Frecherche%2Fkeywords%2FconceptScheme_cd3d9f29&format=application/rdf%2Bxml>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/117> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/12000> a wd:Q1469824;
   wdt:P126 "Library Of Congress"@de;
   wdt:P973 <http://id.loc.gov/vocabulary/mencformat>;
   dct:language "de";
@@ -1704,7 +1740,7 @@ _:G__2531 a sdo:DataDownload;
     "Ein Schema oder ein Standard, der zur Kodierung des digitalen Inhalts einer Ressource verwendet wird."@de;
   dct:title "encoding format"@en, "encoding Format"@de .
 
-<http://example.org/118> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/12100> a wd:Q1469824;
   wdt:P126 "Library Of Congress"@de;
   wdt:P973 <http://id.loc.gov/vocabulary/mfiletype>;
   dct:language "de";
@@ -1713,7 +1749,7 @@ _:G__2531 a sdo:DataDownload;
   dct:description "General type of data content encoded in a computer file"@en, "Allgemeine Art des in einer Computerdatei kodierten Dateninhalts"@de;
   dct:title "File Type"@en, "File Type"@de .
 
-<http://example.org/119> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/12200> a wd:Q1469824;
   wdt:P126 "Library Of Congress"@de;
   wdt:P973 <http://id.loc.gov/vocabulary/mediaTypes>;
   dct:language "de";
@@ -1723,7 +1759,7 @@ _:G__2531 a sdo:DataDownload;
     "Das Schema der Medientypen ist von einer kontrollierten Liste von Werten abgeleitet, die den allgemeinen Typ des Vermittlungsgeräts widerspiegeln, das erforderlich ist, um den Inhalt einer Ressource anzuzeigen, abzuspielen, auszuführen usw., und das hauptsächlich in der RDA-Katalogisierung verwendet wird."@de;
   dct:title "Media Types"@en, "Media Types"@de .
 
-<http://example.org/120> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/12300> a wd:Q1469824;
   wdt:P126 "Library Of Congress"@de;
   wdt:P973 <http://id.loc.gov/vocabulary/contentTypes>;
   dct:language "de";
@@ -1733,7 +1769,7 @@ _:G__2531 a sdo:DataDownload;
     "Das Schema der Inhaltstypen ist von einer kontrollierten Liste von Werten abgeleitet, die die Form der Kommunikation darstellen, durch die ein Werk ausgedrückt wird und die hauptsächlich in der RDA-Katalogisierung verwendet wird."@de;
   dct:title "Content Types"@en, "Content Types"@de .
 
-<http://example.org/121> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/12400> a wd:Q1469824;
   sdo:educationalLevel "Hochschule"@de;
   wdt:P126 "ORCID"@de;
   wdt:P973 <https://web.archive.org/web/20231219115237/https://info.orcid.org/ufaqs/what-work-types-does-orcid-support/>;
@@ -1743,7 +1779,7 @@ _:G__2531 a sdo:DataDownload;
   dct:description "List of work types that ORCID supports."@en, "Liste von Werktypen, die ORCID unterstützt."@de;
   dct:title "Work type"@en, "Work Type"@de .
 
-<http://example.org/123> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/12600> a wd:Q1469824;
   wdt:P126 "IANA"@de;
   wdt:P973 <https://www.iana.org/assignments/media-types/media-types.xhtml>;
   dct:language "de";
@@ -1751,13 +1787,13 @@ _:G__2531 a sdo:DataDownload;
   dct:creator "IANA"@de;
   dct:description "Directory of IANA media types."@en, "Verzeichnis der IANA Medientypen."@de;
   dct:title "Media Types"@en, "Media Types"@de;
-  sdo:distribution _:G__2532 .
+  sdo:distribution _:G__2535 .
 
-_:G__2532 a sdo:DataDownload;
+_:G__2535 a sdo:DataDownload;
   sdo:contentUrl <https://www.iana.org/assignments/media-types/media-types.xml>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/124> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/12700> a wd:Q1469824;
   wdt:P126 "Zotero"@de;
   wdt:P973 <https://www.zotero.org/support/kb/item_types_and_fields>;
   dct:language "de";
@@ -1766,7 +1802,7 @@ _:G__2532 a sdo:DataDownload;
   dct:description "Item types at Zotero."@en, "Artikeltypen bei Zotero."@de;
   dct:title "Item Types"@en, "Item Types"@de .
 
-<http://example.org/125> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/12800> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "European Schoolnet Vocabulary Bank for Education"@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
@@ -1775,13 +1811,13 @@ _:G__2532 a sdo:DataDownload;
   dct:description "Learning resource type values ​​for use in ICOPER metadata for the LOM Learning Resource Type property."@en,
     "Werte für Lernressourcentypen zur Verwendung in ICOPER-Metadaten für die Eigenschaft LOM-Lernressourcentyp."@de;
   dct:title "ICOPER Learning Resource Types (European Schoolnet Vocabulary)"@en, "ICOPER Learning Resource Types (European Schoolnet Vocabulary)"@de;
-  sdo:distribution _:G__2533 .
+  sdo:distribution _:G__2536 .
 
-_:G__2533 a sdo:DataDownload;
+_:G__2536 a sdo:DataDownload;
   sdo:contentUrl <http://europeanschoolnet-vbe.lexaurus.net/vbe/linkeddata/vocab/ICOPER/ICOPER.learningResourceTypeValues/topterms.skos>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/126> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/12900> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "European Schoolnet Vocabulary Bank for Education"@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
@@ -1790,13 +1826,13 @@ _:G__2533 a sdo:DataDownload;
   dct:description "This vocabulary provides values ​​that indicate the type(s) of the learning object or the potential educational use(s) of the learning object. There are two categories of learning objects: learning resources and learning objects. A “learning object” is a simple atomic object (e.g. an image, audio, or video file), while a “learning resource” is a more detailed learning material such as a course or lesson plan. Learning materials and learning resources support different phases of developing and providing learning content. It is important not to allow “assets” and “learning resources” to be mixed. One or more values ​​should be selected for this element. The elements are ordered so that the first value indicates the most important one."@en,
     "Dieses Vokabular liefert Werte, die die Art(en) des Lernobjekts oder die potenzielle(n) pädagogische(n) Verwendung(en) des Lernobjekts angeben. Es gibt zwei Kategorien von Lernobjekten: Lernressourcen und Lernobjekte. Ein „Lernobjekt“ ist ein einfaches atomares Objekt (z. B. ein Bild, eine Audio- oder eine Videodatei), während eine „Lernressource“ ein ausführlicheres Lernmaterial wie ein Kurs oder ein Unterrichtsplan ist. Lernmittel und Lernressourcen unterstützen unterschiedliche Phasen der Entwicklung und Bereitstellung von Lerninhalten. Es ist wichtig, keine Vermischung von „Assets“ und „Lernressourcen“ zuzulassen. Für dieses Element sollten ein oder mehrere Werte ausgewählt werden. Die Elemente sind so geordnet, dass der erste Wert den wichtigsten angibt."@de;
   dct:title "LRE Learning Resource Types (European Schoolnet Vocabulary)"@en, "LRE Learning Resource Types (European Schoolnet Vocabulary)"@de;
-  sdo:distribution _:G__2534 .
+  sdo:distribution _:G__2537 .
 
-_:G__2534 a sdo:DataDownload;
+_:G__2537 a sdo:DataDownload;
   sdo:contentUrl <http://europeanschoolnet-vbe.lexaurus.net/vbe/linkeddata/vocab/LRE/LRE.learningResourceTypeValues/topterms.skos>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/127> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/13000> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "European Schoolnet Vocabulary Bank for Education"@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
@@ -1804,13 +1840,13 @@ _:G__2534 a sdo:DataDownload;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:description "Detailed list of resource types."@en, "Ausführliche Liste von Ressourcentypen."@de;
   dct:title "NSDL Resource Type Values ​​(European Schoolnet Vocabulary)"@en, "NSDL Resource Type Values (European Schoolnet Vocabulary)"@de;
-  sdo:distribution _:G__2535 .
+  sdo:distribution _:G__2538 .
 
-_:G__2535 a sdo:DataDownload;
+_:G__2538 a sdo:DataDownload;
   sdo:contentUrl <http://europeanschoolnet-vbe.lexaurus.net/vbe/linkeddata/vocab/NSDL/NSDL.resourceTypeValues/topterms.skos>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/128> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/13100> a wd:Q1469824;
   wdt:P126 "Bundesregierung"@de;
   wdt:P973 <https://web.archive.org/web/20240303113437/https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/gesetze-und-richtlinien/bitv2-0/bitv2-0-node.html>;
   dct:language "de";
@@ -1821,7 +1857,7 @@ _:G__2535 a sdo:DataDownload;
     "Portal zur Barrierefreie-Informationstechnik-Verordnung (BITV 2.0), das verschiedene relevante Listen und Begriffe enthält."@de;
   dct:title "Barrier-free Information Technology Regulation 2.0 (BITV) "@en, "Barrierefreie-Informationstechnik-Verordnung 2.0 (BITV) "@de .
 
-<http://example.org/129> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/13200> a wd:Q1469824;
   wdt:P126 "W3C"@de;
   wdt:P973 <https://www.w3.org/TR/WCAG21/>;
   dct:language "de";
@@ -1830,7 +1866,7 @@ _:G__2535 a sdo:DataDownload;
   dct:description "List of relevant terms in the context of accessibility."@en, "Liste relevanter Begriffe im Kontext von Barrierefreiheit."@de;
   dct:title "Web Content Accessibility Guidelines 2.1"@en, "Web Content Accessibility Guidelines 2.1"@de .
 
-<http://example.org/130> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/13300> a wd:Q1469824;
   wdt:P126 "W3C"@de;
   wdt:P973 <https://www.w3.org/TR/wcag-3.0/>;
   dct:language "de";
@@ -1838,7 +1874,7 @@ _:G__2535 a sdo:DataDownload;
   dct:description "List of relevant terms in the context of accessibility."@en, "Liste relevanter Begriffe im Kontext von Barrierefreiheit."@de;
   dct:title "Web Content Accessibility Guidelines 3.0"@en, "Web Content Accessibility Guidelines 3.0"@de .
 
-<http://example.org/131> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/13400> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "European Schoolnet Vocabulary Bank for Education"@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
@@ -1847,13 +1883,13 @@ _:G__2535 a sdo:DataDownload;
   dct:description "This vocabulary describes the human sensory-perceptual system, or the cognitive faculty through which a person can process or perceive information."@en,
     "Dieses Vokabular beschreibt das menschliche sensorische Wahrnehmungssystem oder das kognitive Vermögen, durch das eine Person Informationen verarbeiten oder wahrnehmen kann."@de;
   dct:title "EUN SEN Access Mode Values"@en, "EUN SEN Access Mode Values"@de;
-  sdo:distribution _:G__2536 .
+  sdo:distribution _:G__2539 .
 
-_:G__2536 a sdo:DataDownload;
+_:G__2539 a sdo:DataDownload;
   sdo:contentUrl <http://europeanschoolnet-vbe.lexaurus.net/vbe/linkeddata/vocab/EUN/EUN.senAccessModeValues/topterms.skos>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/132> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/13500> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/accessibilitySummary/>;
@@ -1862,17 +1898,17 @@ _:G__2536 a sdo:DataDownload;
   dct:description "List of accessibility seals. Created in the context of the OpenEduHub."@en,
     "Liste von Barrierefreiheitssiegeln. Entstanden im Kontext des OpenEduHub."@de;
   dct:title "Accessibility seal"@en, "Barrierefreiheitssiegel"@de;
-  sdo:distribution _:G__2537, _:G__2538 .
+  sdo:distribution _:G__2540, _:G__2541 .
 
-_:G__2537 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/accessibilitySummary/index.json>;
+_:G__2540 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/accessibilitySummary/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2538 a sdo:DataDownload;
+_:G__2541 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/accessibilitySummary.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/133> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/13600> a wd:Q1469824;
   wdt:P126 "W3C"@de;
   wdt:P973 <https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20241209/#accessibilityFeature-vocabulary>;
   dct:language "de";
@@ -1881,7 +1917,7 @@ _:G__2538 a sdo:DataDownload;
   dct:title "Schema.org Accessibility Properties for Discoverability Vocabulary"@en,
     "Schema.org Accessibility Properties for Discoverability Vocabulary"@de .
 
-<http://example.org/135> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/13800> a wd:Q1469824;
   wdt:P126 "PBS Learning Media"@de;
   wdt:P973 <https://www.pbslearningmedia.org/search/>;
   dct:language "de";
@@ -1890,7 +1926,7 @@ _:G__2538 a sdo:DataDownload;
   dct:description "Types of adaptation of the PBS learning platform."@en, "Anpassungsarten der PBS Lernplattform."@de;
   dct:title "Types of adaptation"@en, "Anpassungsarten"@de .
 
-<http://example.org/136> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/13900> a wd:Q1469824;
   wdt:P126 "Mirette Elias, Steffen Lohmann Sören Auer"@de;
   wdt:P973 <https://doi.org/10.3390/info9120302>;
   dct:language "de";
@@ -1899,13 +1935,13 @@ _:G__2538 a sdo:DataDownload;
   dct:description "OpenCourseWare (OCW) systems have been established to provide open educational resources that are accessible by anyone, including learners with accessibility special needs and preferences. We need to find a formal and interoperable way to describe these preferences in order to use them in OCW systems and retrieve relevant educational resources. This formal representation should use standard accessibility definitions of OCW that can be reused by other OCW systems to represent accessibility concepts. In this article, we present an ontology to represent the accessibility needs of learners with respect to the IMS AfA specifications. The ontology definitions together with rule-based queries are used to retrieve relevant educational resources. Related to this, we developed a user interface component that enables users to create accessibility profiles representing their individual needs and preferences based on our ontology. We evaluated the approach with five example profiles."@en,
     "OpenCourseWare (OCW) systems have been established to provide open educational resources that are accessible by anyone, including learners with special accessibility needs and preferences. We need to find a formal and interoperable way to describe these preferences in order to use them in OCW systems and retrieve relevant educational resources. This formal representation should use standard accessibility definitions of OCW that can be reused by other OCW systems to represent accessibility concepts. In this article, we present an ontology to represent the accessibility needs of learners with respect to the IMS AfA specifications. The ontology definitions together with rule-based queries are used to retrieve relevant educational resources. Related to this, we developed a user interface component that enables users to create accessibility profiles representing their individual needs and preferences based on our ontology. We evaluated the approach with five examples profiles."@de;
   dct:title "AccessibleOCW Ontology"@en, "AccessibleOCW Ontology"@de;
-  sdo:distribution _:G__2539 .
+  sdo:distribution _:G__2542 .
 
-_:G__2539 a sdo:DataDownload;
+_:G__2542 a sdo:DataDownload;
   sdo:contentUrl <https://www.mdpi.com/2078-2489/9/12/302/pdf?version=1543491132>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/138> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/14100> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/learningMode/>;
@@ -1913,17 +1949,17 @@ _:G__2539 a sdo:DataDownload;
   sdo:about "Lehr-/Lernform (Interaktivitätstyp)"@de;
   dct:description "Predominant learning mode."@en, "Vorwiegender Lernmodus."@de;
   dct:title "Learning mode "@en, "Lernmodus "@de;
-  sdo:distribution _:G__2540, _:G__2541 .
+  sdo:distribution _:G__2543, _:G__2544 .
 
-_:G__2540 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/learningMode/index.json>;
+_:G__2543 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/learningMode/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2541 a sdo:DataDownload;
+_:G__2544 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/learningMode.ttl>;
   sdo:fileFormat "text/turtle" .
 
-<http://example.org/139> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/14200> a wd:Q1469824;
   wdt:P126 "Rolf Schumeister"@de;
   wdt:P973 <http://rolf.schulmeister.com/pdfs/interaktivitaet.pdf>;
   dct:language "de";
@@ -1932,13 +1968,13 @@ _:G__2541 a sdo:DataDownload;
   dct:description "Taxonomies of interactivity, e.g. a six-stage differentiation of the level of interactivity according to Schulmeister, 2002:"@en,
     "Taxonomien von Interaktivität, bspw. eine sechsstufige Differenzierung des Interaktivitätsniveaus nach Schulmeister, 2002:"@de;
   dct:title "Taxonomy of interactivity"@en, "Taxonomie von Interaktivität"@de;
-  sdo:distribution _:G__2542 .
+  sdo:distribution _:G__2545 .
 
-_:G__2542 a sdo:DataDownload;
+_:G__2545 a sdo:DataDownload;
   sdo:contentUrl <http://rolf.schulmeister.com/pdfs/interaktivitaet.pdf>;
   sdo:fileFormat "application/pdf" .
 
-<http://example.org/141> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/14400> a wd:Q1469824;
   wdt:P126 "e-teaching.org"@de;
   wdt:P973 <https://web.archive.org/web/20230929165323/https://www.e-teaching.org/community/digital-learning-map/faq#characteristics>;
   dct:language "de";
@@ -1946,13 +1982,13 @@ _:G__2542 a sdo:DataDownload;
   dct:description "Media properties of a resource."@en, "Medieneigenschaften einer Ressource."@de;
   dct:title "Media properties"@en, "Medieneigenschaften"@de .
 
-<http://example.org/144> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/14700> a wd:Q1469824;
   dct:language "de";
   sdo:about "Lehrformat, Veranstaltungsformat, Lehrmodus"@de;
   dct:description "No description available."@en, "Keine Beschreibung verfügbar."@de;
   dct:title "are all non-machine-readable values"@en, "sind alles keine maschinenlesbaren Werte"@de .
 
-<http://example.org/145> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/14800> a wd:Q1469824;
   wdt:P126 "Europäische Union"@de;
   wdt:P973 <https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/licence>;
   dct:language "de";
@@ -1960,7 +1996,7 @@ _:G__2542 a sdo:DataDownload;
   dct:description "Directory of European Union licenses."@en, "Verzeichnis von Lizenzen der Europäischen Union."@de;
   dct:title "EU license"@en, "EU - Lizenz"@de .
 
-<http://example.org/146> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/14900> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "Föderale IT-Kooperation"@de;
   wdt:P973 <https://www.dcat-ap.de/def/licenses/>;
@@ -1969,13 +2005,13 @@ _:G__2542 a sdo:DataDownload;
   dct:description "List of licenses that are permitted in the dct:license field of a DCAT-AP.de-compliant dcat:distribution for delivery to GovData. GovData recommends using the Germany 2.0 data license (zero or attribution) and the Creative Commons Attribution – 4.0 International. If this is not possible, the use of one of the remaining licenses designated for “free use” in the latest version is recommended."@en,
     "Liste der Lizenzen, die im Feld dct:license einer DCAT-AP.de-konformen dcat:distribution für die Zulieferung an GovData erlaubt sind. GovData empfiehlt die Verwendung der Datenlizenz Deutschland 2.0 (Zero oder Namensnennung) sowie der Creative Commons Namensnennung – 4.0 International. Soweit dies nicht möglich sein sollte, wird die Verwendung einer der übrigen zur „freien Nutzung“ ausgewiesenen Lizenzen in der jeweils neuesten Version empfohlen."@de;
   dct:title "DCAT AP"@en, "DCAT-AP"@de;
-  sdo:distribution _:G__2543 .
+  sdo:distribution _:G__2546 .
 
-_:G__2543 a sdo:DataDownload;
+_:G__2546 a sdo:DataDownload;
   sdo:contentUrl <https://www.dcat-ap.de/def/licenses/20210721.rdf>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/147> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/15000> a wd:Q1469824;
   wdt:P1324 <https://github.com/spdx/license-list-data>;
   wdt:P126 "SPDX Workgroup"@de;
   wdt:P973 <https://spdx.org/licenses/>;
@@ -1985,7 +2021,7 @@ _:G__2543 a sdo:DataDownload;
     "Die SPDX-Lizenzliste ist ein integraler Bestandteil der SPDX-Spezifikation. Die SPDX-Lizenzliste selbst ist eine Liste von häufig vorkommenden Lizenzen und Ausnahmen, die in freier und offener oder gemeinschaftlicher Software, Daten, Hardware oder Dokumentation verwendet werden. Die SPDX-Lizenzliste enthält einen standardisierten Kurzbezeichner, den vollständigen Namen, den Lizenztext und eine kanonische permanente URL für jede Lizenz und Ausnahme. "@de;
   dct:title "SPDX License List"@en, "SPDX License List"@de .
 
-<http://example.org/148> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/15100> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "Universität für angewandte Kunst Wien"@de;
   wdt:P973 <http://base.uni-ak.ac.at/portfolio/licenses/core>;
@@ -1993,21 +2029,21 @@ _:G__2543 a sdo:DataDownload;
   sdo:about "Lizenzen"@de;
   dct:description "List of licenses."@en, "Liste von Lizenzen."@de;
   dct:title "Portfolio Standard Licenses"@en, "Portfolio Standard Lizenzen"@de;
-  sdo:distribution _:G__2544, _:G__2545, _:G__2546 .
+  sdo:distribution _:G__2547, _:G__2548, _:G__2549 .
 
-_:G__2544 a sdo:DataDownload;
+_:G__2547 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/licenses/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Flicenses%2Fcore&format=application/ld%2Bjson>;
   sdo:fileFormat "application/json" .
 
-_:G__2545 a sdo:DataDownload;
+_:G__2548 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/licenses/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Flicenses%2Fcore&format=text/turtle>;
   sdo:fileFormat "text/turtle" .
 
-_:G__2546 a sdo:DataDownload;
+_:G__2549 a sdo:DataDownload;
   sdo:contentUrl <https://voc.uni-ak.ac.at/skosmos/rest/v1/licenses/data?uri=http%3A%2F%2Fbase.uni-ak.ac.at%2Fportfolio%2Flicenses%2Fcore&format=application/rdf%2Bxml>;
   sdo:fileFormat "application/xml" .
 
-<http://example.org/149> a wd:Q1469824;
+<https://w3id.org/eduvocs/id/15200> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   wdt:P126 "WirLernenOnline"@de;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/aggregationLevel/>;
@@ -2016,12 +2052,12 @@ _:G__2546 a sdo:DataDownload;
   dct:description "A list of values ​​for classifications in lesson planning, created in the context of the OpenEduHub. Extension of LOMv1.0"@en,
     "Eine Wertelliste für Einordnungen in Unterrichtsplanung, entstanden im Kontext des OpenEduHub. Erweiterung von LOMv1.0"@de;
   dct:title "Aggregation level"@en, "Aggregationslevel"@de;
-  sdo:distribution _:G__2547, _:G__2548 .
+  sdo:distribution _:G__2550, _:G__2551 .
 
-_:G__2547 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/aggregationLevel/index.json>;
+_:G__2550 a sdo:DataDownload;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/aggregationLevel/index.json>;
   sdo:fileFormat "application/json" .
 
-_:G__2548 a sdo:DataDownload;
+_:G__2551 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/openeduhub/oeh-metadata-vocabs/refs/heads/master/aggregationLevel.ttl>;
   sdo:fileFormat "text/turtle" .

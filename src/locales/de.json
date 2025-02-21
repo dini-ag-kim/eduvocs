@@ -121,5 +121,11 @@
 		"close": "Schließen",
 		"add": "Zu Merkzettel hinzufügen",
 		"reset": "Alle Einträge löschen"
+	},
+	"license": {
+		"disclaimer": "Mit Ausnahme von Symbolen, Logos, Marken und wo anders angegeben, ist der Inhalt dieser Website unter {licenseName} lizenziert.",
+		"cc": {
+			"by": "Creative Commons Namensnennung 4.0 International"
+		}
 	}
 }
