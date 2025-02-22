@@ -13,7 +13,7 @@
 
 	$effect(() => {
 		if ($db.initialized) {
-			result = $db.index?.store?.[data.id] || {};
+			result = $db.index?.store?.[data.id];
 		}
 	});
 

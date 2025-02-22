@@ -13,7 +13,7 @@
 
 	const toggleTheme = () => {
 		theme = isDarkMode ? lightTheme : darkTheme;
-		sessionStorage.setItem(themeAttribute, theme);
+		localStorage.setItem(themeAttribute, theme);
 		document.documentElement.setAttribute(themeAttribute, theme);
 	};
 
@@ -22,7 +22,7 @@
 		const prefTheme = prefersDarkMode ? darkTheme : lightTheme;
 		const currentTheme =
 			document.documentElement.getAttribute(themeAttribute) === darkTheme ? darkTheme : lightTheme;
-		const storedTheme = sessionStorage.getItem(themeAttribute);
+		const storedTheme = localStorage.getItem(themeAttribute);
 		theme = storedTheme || currentTheme || prefTheme;
 	});
 </script>

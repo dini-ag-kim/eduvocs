@@ -4,7 +4,7 @@
 
 	function toggleLanguage() {
 		locale.set($locale.slice(0, 2) === 'de' ? 'en' : 'de');
-		sessionStorage.setItem(sk.language, $locale.slice(0, 2));
+		localStorage.setItem(sk.language, $locale.slice(0, 2));
 	}
 </script>
 

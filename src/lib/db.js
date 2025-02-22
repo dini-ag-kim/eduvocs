@@ -206,11 +206,11 @@ export function toggleSelected(dbKey, val) {
 	db.update((db) => {
 		if (db[dbKey].includes(val)) {
 			const updated = { [dbKey]: [...db[dbKey].filter((v) => v !== val)] };
-			sessionStorage.setItem(`eduvocs:${dbKey}`, JSON.stringify(updated));
+			localStorage.setItem(`eduvocs:${dbKey}`, JSON.stringify(updated));
 			return { ...db, ...updated };
 		} else {
 			const updated = { [dbKey]: [...db[dbKey], val] };
-			sessionStorage.setItem(`eduvocs:${dbKey}`, JSON.stringify(updated));
+			localStorage.setItem(`eduvocs:${dbKey}`, JSON.stringify(updated));
 			return { ...db, ...updated };
 		}
 	});
@@ -219,7 +219,7 @@ export function toggleSelected(dbKey, val) {
 export function resetSelected(dbKey) {
 	db.update((db) => {
 		const updated = { [dbKey]: [] };
-		sessionStorage.setItem(`eduvocs:${dbKey}`, JSON.stringify(updated));
+		localStorage.setItem(`eduvocs:${dbKey}`, JSON.stringify(updated));
 		return { ...db, ...updated };
 	});
 }

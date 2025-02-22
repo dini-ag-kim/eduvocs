@@ -1,4 +1,5 @@
 export const VOCAB_PROPERTIES = {
+	eduvocs: 'https://w3id.org/eduvocs', // Namespace base uri
 	id: 'id', // http://purl.org/dc/terms/identifier
 	url: 'url', // https://schema.org/url
 	type: 'type', // http://www.w3.org/1999/02/22-rdf-syntax-ns#type
@@ -37,4 +38,4 @@ export const LANGUAGES = ['en', 'de'];
 export const STORAGE_KEYS = {
 	language: 'eduvocs:locale',
 	notepad: 'eduvocs:selectedVocabs'
-}
+};

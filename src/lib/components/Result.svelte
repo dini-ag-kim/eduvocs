@@ -17,7 +17,7 @@
 		return mdk.some((key) => result[vp[key]]);
 	}
 
-	function highlight(text) {
+	function highlight(text = '') {
 		const keyword = $db.query || '';
 		const regex = new RegExp(`(${keyword})`, 'gi');
 		return text.replace(regex, '<mark>$1</mark>');
@@ -69,9 +69,9 @@
 						<div class="collapse-title">
 							<p class={!isOpen ? 'line-clamp-3' : ''}>
 								{#if $locale.slice(0, 2) == 'de'}
-									{@html highlight(result[vp.description][1])}
+									{@html highlight(result[vp.description]?.[1])}
 								{:else}
-									{@html highlight(result[vp.description][0])}
+									{@html highlight(result[vp.description]?.[0])}
 								{/if}
 							</p>
 						</div>

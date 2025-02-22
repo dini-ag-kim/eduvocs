@@ -5,7 +5,7 @@
 
 	const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 	const preferredTheme = prefersDarkMode ? darkTheme : lightTheme;
-	const storedTheme = sessionStorage.getItem(themeAttribute);
+	const storedTheme = localStorage.getItem(themeAttribute);
 	const theme = storedTheme || preferredTheme;
 
 	document.documentElement.setAttribute(themeAttribute, theme);

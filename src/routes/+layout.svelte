@@ -19,11 +19,11 @@
 		await createIndex();
 
 		// get language
-		let savedLang = sessionStorage.getItem(sk.language) || getLocaleFromNavigator() || '';
+		let savedLang = localStorage.getItem(sk.language) || getLocaleFromNavigator() || '';
 		$locale = LANGUAGES.includes(savedLang) ? savedLang : 'en';
 
 		// get selected vocabs from localStorage
-		const selectedVocabsString = sessionStorage.getItem(sk.notepad) || '{"selectedVocabs": []}';
+		const selectedVocabsString = localStorage.getItem(sk.notepad) || '{"selectedVocabs": []}';
 		const selectedVocabs = await JSON.parse(selectedVocabsString);
 		db.update((db) => ({ ...db, ...selectedVocabs }));
 	});
