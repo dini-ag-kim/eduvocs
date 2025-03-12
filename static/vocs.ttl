@@ -91,18 +91,18 @@ _:G__2421 a sdo:DataDownload;
   sdo:educationalLevel "Schule"@de;
   wdt:P1324 <https://github.com/unterrichtsvideos/vocabs/blob/main/subjects.ttl>;
   wdt:P126 "unterrichtsvideos.net"@de;
-  wdt:P973 <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/subject/index.de.json>;
+  wdt:P973 <https://w3id.org/unterrichtsvideos.net/vocabs/subject/>;
   sdo:url <https://unterrichtsvideos.net/metaportal>;
   dct:language "de";
   dct:modified "2022-05-24"^^xsd:date;
   dct:issued "2021-03-03"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
   dct:description "List of values ​​for subjects in school."@en, "Werteliste von Fächern im Schulbereich."@de;
-  dct:title "School subjects"@en, "Schulfächer"@de;
+  dct:title "School subjects in the meta video portal"@en, "Schulfächer im Meta-Videoportal"@de;
   sdo:distribution _:G__2422, _:G__2423 .
 
 _:G__2422 a sdo:DataDownload;
-  sdo:contentUrl <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/subject/index.de.json>;
+  sdo:contentUrl <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/subject/index.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2423 a sdo:DataDownload;
@@ -261,12 +261,16 @@ _:G__2430 a sdo:DataDownload;
 <https://w3id.org/eduvocs/id/12> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Schule"@de;
-  wdt:P126 "SODIX/FWU"@de;
+  wdt:P126 "FWU"@de;
   wdt:P973 <https://vocabs.sodix.de/sodix/educational/sachgebietssystematik/sachgebietssystematik>;
   dct:language "de";
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "The nationwide subject area classification assigns the media to the main school subjects and other important educational goals and areas. Subject Area SystematicsIts hierarchical structure allows the selection and printing of media lists and directories with different information densities. It is indispensable for media centers and schools to structure their own inventory. The nationwide subject area system was developed in the 1990s by the AG Media Distribution and Documentation and is constantly updated."@en,
-    "Die bundeseinheitliche Sachgebietssystematik ordnet die Medien den wesentlichen Schulfächern und anderen wichtigen Bildungszielen und -bereichen zu. SachgebietssystematikIhre hierarchische Gliederung erlaubt die Selektion und den Ausdruck von Medienlisten und Verzeichnissen mit unterschiedlicher Informationsdichte. Für Medienzentren und Schulen ist sie zur Strukturierung des eigenen Bestands unverzichtbar. Die bundeseinheitliche Sachgebietssystematik wurde in den 1990er Jahren von der AG Mediendistribution und Dokumentation entwickelt und wird ständig aktualisiert."@de;
+  dct:description """The nationwide subject area classification assigns the media to the main school subjects and other important educational goals and areas. Subject Area SystematicsIts hierarchical structure allows the selection and printing of media lists and directories with different information densities. It is indispensable for media centers and schools to structure their own inventory. The nationwide subject area system was developed in the 1990s by the AG Media Distribution and Documentation and is constantly updated.
+
+The list of values ​​is used for SODIX."""@en,
+    """Die bundeseinheitliche Sachgebietssystematik ordnet die Medien den wesentlichen Schulfächern und anderen wichtigen Bildungszielen und -bereichen zu. SachgebietssystematikIhre hierarchische Gliederung erlaubt die Selektion und den Ausdruck von Medienlisten und Verzeichnissen mit unterschiedlicher Informationsdichte. Für Medienzentren und Schulen ist sie zur Strukturierung des eigenen Bestands unverzichtbar. Die bundeseinheitliche Sachgebietssystematik wurde in den 1990er Jahren von der AG Mediendistribution und Dokumentation entwickelt und wird ständig aktualisiert.
+
+Die Werteliste wird für SODIX verwendet."""@de;
   dct:title "Subject area systematics AG-MUD"@en, "Sachgebietssystematik AG-MUD"@de;
   sdo:distribution _:G__2431 .
 
@@ -321,7 +325,7 @@ _:G__2433 a sdo:DataDownload;
   sdo:distribution _:G__2434, _:G__2435 .
 
 _:G__2434 a sdo:DataDownload;
-  sdo:contentUrl <http://id.loc.gov/authorities/subjects.skos.json>;
+  sdo:contentUrl <https://id.loc.gov/authorities/subjects.skos.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2435 a sdo:DataDownload;
@@ -467,7 +471,7 @@ _:G__2446 a sdo:DataDownload;
   sdo:distribution _:G__2447, _:G__2448 .
 
 _:G__2447 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/languageLevel/index.json>;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/languageLevel/index.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2448 a sdo:DataDownload;
@@ -494,7 +498,7 @@ Ziel ist es, einen allgemeinen Bezugsrahmen für Entwickler digitaler Kompetenzm
   sdo:distribution _:G__2449, _:G__2450 .
 
 _:G__2449 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/digCompEdu/index.json>;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/digCompEdu/index.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2450 a sdo:DataDownload;
@@ -518,7 +522,7 @@ _:G__2450 a sdo:DataDownload;
   sdo:distribution _:G__2451, _:G__2452 .
 
 _:G__2451 a sdo:DataDownload;
-  sdo:contentUrl <http://w3id.org/openeduhub/vocabs/orientierungsrahmenNRW/index.json>;
+  sdo:contentUrl <https://w3id.org/openeduhub/vocabs/orientierungsrahmenNRW/index.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2452 a sdo:DataDownload;
@@ -848,7 +852,7 @@ State graduation requirement"""@de;
   dct:language "en";
   sdo:about "Lernkontrollen"@de;
   dct:description "The reason an assessment is designed or conducted."@en, "Der Grund, aus dem eine Bewertung konzipiert oder durchgeführt wird."@de;
-  dct:title "List of evaluation purposes"@en, "Liste von Bewertungszwecken"@de .
+  dct:title "List of assessment purposes"@en, "Liste von Bewertungszwecken"@de .
 
 <https://w3id.org/eduvocs/id/44> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
@@ -1155,9 +1159,9 @@ _:G__2481 a sdo:DataDownload;
 <https://w3id.org/eduvocs/id/56> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Schule"@de;
-  wdt:P1324 <https://github.com/unterrichtsvideos/vocabs/blob/main/grade.ttl>;
+  wdt:P1324 <https://github.com/unterrichtsvideos/vocabs/blob/main/grades.ttl>;
   wdt:P126 "unterrichtsvideos.net"@de;
-  wdt:P973 <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/grade/index.de.html>;
+  wdt:P973 <https://w3id.org/unterrichtsvideos.net/vocabs/grade/>;
   sdo:url <https://unterrichtsvideos.net/metaportal>;
   dct:language "de";
   dct:modified "2022-08-26"^^xsd:date;
@@ -1230,7 +1234,8 @@ Berufsschule"""@de;
   sdo:url <https://mundo.schule/>;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
-  dct:description "Lists of values ​​for school types at mundo.schule"@en, "Wertelisten von Schularten bei mundo.schule"@de;
+  dct:description "Lists of values ​​for school types at mundo.schule / SODIX."@en,
+    "Wertelisten von Schularten bei mundo.schule / SODIX."@de;
   dct:title "School types Mundo"@en, "Schularten Mundo"@de .
 
 <https://w3id.org/eduvocs/id/61> a wd:Q1469824;
@@ -1281,7 +1286,7 @@ _:G__2490 a sdo:DataDownload;
   sdo:educationalLevel "Schule"@de;
   wdt:P1324 <https://github.com/unterrichtsvideos/vocabs/blob/main/schoolTypes.ttl>;
   wdt:P126 "unterrichtsvideos.net"@de;
-  wdt:P973 <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/schooltype/index.de.html>;
+  wdt:P973 <https://w3id.org/unterrichtsvideos.net/vocabs/schooltype/>;
   sdo:url <https://unterrichtsvideos.net/metaportal/>;
   dct:language "de";
   dct:modified "2022-05-24"^^xsd:date;
@@ -1399,7 +1404,7 @@ _:G__2497 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
   dct:creator "Hochschulkompass"@de;
-  dct:description "University degrees used by Hochschulkompass."@en, "Hochschulabschlüsse, verwendet bei Hochschulkompass."@de;
+  dct:description "University degrees used at Hochschulkompass."@en, "Hochschulabschlüsse, verwendet bei Hochschulkompass."@de;
   dct:title "Degrees"@en, "Abschlüsse"@de .
 
 <https://w3id.org/eduvocs/id/73> a wd:Q1469824;
@@ -1441,7 +1446,8 @@ _:G__2499 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
   dct:creator "HubbS"@de;
-  dct:description "List of careers from the vocational school hub."@en, "Liste von Berufen des Hubs für berufliche Schulen."@de;
+  dct:description "List of careers from the vocational school hub. The list of values ​​is used for SODIX."@en,
+    "Liste von Berufen des Hubs für berufliche Schulen. Die Werteliste wird für SODIX verwendet."@de;
   dct:title "Profession/professional field"@en, "Beruf / Berufsfeld"@de .
 
 <https://w3id.org/eduvocs/id/76> a wd:Q1469824;
@@ -1549,7 +1555,7 @@ _:G__2505 a sdo:DataDownload;
   sdo:distribution _:G__2506, _:G__2507, _:G__2508 .
 
 _:G__2506 a sdo:DataDownload;
-  sdo:contentUrl <http://id.loc.gov/vocabulary/languages.json>;
+  sdo:contentUrl <https://id.loc.gov/vocabulary/languages.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2507 a sdo:DataDownload;
@@ -1575,7 +1581,7 @@ _:G__2508 a sdo:DataDownload;
   sdo:distribution _:G__2509, _:G__2510, _:G__2511 .
 
 _:G__2509 a sdo:DataDownload;
-  sdo:contentUrl <http://id.loc.gov/vocabulary/iso639-1.json>;
+  sdo:contentUrl <https://id.loc.gov/vocabulary/iso639-1.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2510 a sdo:DataDownload;
@@ -1909,12 +1915,12 @@ _:G__2528 a sdo:DataDownload;
 <https://w3id.org/eduvocs/id/101> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
-  wdt:P126 "SODIX"@de;
+  wdt:P126 "FWU"@de;
   wdt:P973 <https://vocabs.sodix.de/sodix/educational/learningresourcetype/learningresourcetype>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "A list of values ​​for types of learning resources as used in the SODIX content hub. Ordered list, predominant type first."@en,
-    "Eine Wertelliste für Typen von Lernressourcen, wie er im SODIX content hub zum Einsatz kommt. Geordnete Liste, der vorherrschende Typ zuerst."@de;
+  dct:description "A list of values ​​for types of learning resources as used in the SODIX Content Hub. Ordered list, predominant type first."@en,
+    "Eine Wertelliste für Typen von Lernressourcen, wie er im SODIX Content Hub zum Einsatz kommt. Geordnete Liste, der vorherrschende Typ zuerst."@de;
   dct:title "Type of learning resource"@en, "Typ der Lernressource"@de;
   sdo:distribution _:G__2529 .
 
@@ -2077,9 +2083,11 @@ Other
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
   wdt:P1324 <https://github.com/unterrichtsvideos/vocabs/blob/main/materialTypes.ttl>;
   wdt:P126 "unterrichtsvideos.net"@de;
-  wdt:P973 <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/materialTypes/index.de.html>;
+  wdt:P973 <https://w3id.org/unterrichtsvideos.net/vocabs/materialtype/>;
   sdo:url <https://unterrichtsvideos.net/metaportal>;
   dct:language "de";
+  dct:modified "2022-08-24"^^xsd:date;
+  dct:issued "2022-08-24"^^xsd:date;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "unterrrichtsvideos.net"@de;
   dct:description "A value list for material types."@en, "Eine Wertelliste für Materialtypen."@de;
@@ -2087,7 +2095,7 @@ Other
   sdo:distribution _:G__2532, _:G__2533 .
 
 _:G__2532 a sdo:DataDownload;
-  sdo:contentUrl <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/materialTypes/index.json>;
+  sdo:contentUrl <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/materialtype/index.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2533 a sdo:DataDownload;
@@ -2099,9 +2107,11 @@ _:G__2533 a sdo:DataDownload;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
   wdt:P1324 <https://github.com/unterrichtsvideos/vocabs/blob/main/videoTypes.ttl>;
   wdt:P126 "unterrichtsvideos.net"@de;
-  wdt:P973 <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/videoTypes/index.de.html>;
+  wdt:P973 <https://w3id.org/unterrichtsvideos.net/vocabs/videotype/>;
   sdo:url <https://unterrichtsvideos.net/metaportal>;
   dct:language "de";
+  dct:modified "2022-06-01"^^xsd:date;
+  dct:issued "2022-06-01"^^xsd:date;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "unterrrichtsvideos.net"@de;
   dct:description "A value list for video types from the Meta video portal network."@en,
@@ -2110,7 +2120,7 @@ _:G__2533 a sdo:DataDownload;
   sdo:distribution _:G__2534, _:G__2535 .
 
 _:G__2534 a sdo:DataDownload;
-  sdo:contentUrl <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/videoTypes/index.json>;
+  sdo:contentUrl <https://unterrichtsvideos.github.io/vocabs/w3id.org/unterrichtsvideos.net/vocabs/videotype/index.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2535 a sdo:DataDownload;
@@ -2191,7 +2201,7 @@ _:G__2538 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "euroCRIS"@de;
-  dct:description "The subtypes of an activity that are used for more specific or granular analysis."@en,
+  dct:description "The subtypes of an activity that are used for more specific or fine-grained analysis."@en,
     "Die Subtypen einer Aktivität, die für eine spezifischere oder feinere Analyse verwendet werden."@de;
   dct:title "Sub-activity types"@en, "Sub-Aktivitätstypen"@de .
 
@@ -2325,7 +2335,7 @@ XML file"""@de;
   sdo:distribution _:G__2551, _:G__2552 .
 
 _:G__2551 a sdo:DataDownload;
-  sdo:contentUrl <http://id.loc.gov/vocabulary/mencformat.json>;
+  sdo:contentUrl <https://id.loc.gov/vocabulary/mencformat.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2552 a sdo:DataDownload;
@@ -2383,7 +2393,7 @@ video"""@de;
   sdo:distribution _:G__2555, _:G__2556 .
 
 _:G__2555 a sdo:DataDownload;
-  sdo:contentUrl <http://id.loc.gov/vocabulary/mediaTypes.json>;
+  sdo:contentUrl <https://id.loc.gov/vocabulary/mediaTypes.json>;
   sdo:fileFormat "application/json" .
 
 _:G__2556 a sdo:DataDownload;
@@ -2615,8 +2625,7 @@ Note
   dct:description "Item types at Zotero."@en, "Artikeltypen bei Zotero."@de;
   dct:title "Item types"@en, "Artikeltypen"@de .
 
-<https://w3id.org/eduvocs/id/127> a wd:Q1469824;
-  wdt:P5009 "SKOS"@de;
+<https://w3id.org/eduvocs/id/127> wdt:P5009 "SKOS"@de;
   eduvocs:rawVocab """assessment design
 assessment method
 assessment resource
@@ -2645,15 +2654,15 @@ unit of learning"""@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "Learning resource type values ​​for use in ICOPER metadata for the LOM Learning Resource Type property."@en,
-    "Werte für Lernressourcentypen zur Verwendung in ICOPER-Metadaten für die Eigenschaft LOM-Lernressourcentyp."@de;
-  dct:title "ICOPER Learning Resource Types"@en, "ICOPER Learning Resource Types"@de .
+  dct:description "Learning resource type values ​​for use in ICOPER metadata for the LOM Learning Resource Type property."@en;
+  a wd:Q1469824;
+  dct:description "Werte für Lernressourcentypen zur Verwendung in ICOPER-Metadaten für die Eigenschaft LOM-Lernressourcentyp."@de;
+  dct:title "ICOPER Learning Resource Types"@en, "ICOPER Learning Resource Types"@de;
+  sdo:distribution _:G__2560 .
 
 _:G__2560 a sdo:DataDownload;
   sdo:contentUrl <http://europeanschoolnet-vbe.lexaurus.net/vbe/linkeddata/vocab/ICOPER/ICOPER.learningResourceTypeValues/topterms.skos>;
   sdo:fileFormat "application/xml" .
-
-<https://w3id.org/eduvocs/id/127> sdo:distribution _:G__2560 .
 
 <https://w3id.org/eduvocs/id/128> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
