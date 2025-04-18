@@ -19,7 +19,7 @@
 
 	function copyToClipboard() {
 		navigator.clipboard
-			.writeText(window.location.href)
+			.writeText(result.id ?? window.location.href)
 			.then(() => {
 				copyToClipboardMessage = $t('event.copy-clipboard');
 			})
