@@ -28,7 +28,7 @@ export const VOCAB_PROPERTIES = {
 };
 
 export const PROJECT_URL = {
-	report: 'https://github.com/sroertgen/edu-vocabs/issues/new'
+	report: 'https://github.com/dini-ag-kim/eduvocs/issues/new'
 };
 
 export const METADATA_KEYS = ['issued', 'compliesWith'];

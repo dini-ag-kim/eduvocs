@@ -1,5 +1,5 @@
 export const config = {
-	gitRepo: 'https://github.com/sroertgen/edu-vocabs',
+	gitRepo: 'https://github.com/dini-ag-kim/eduvocs',
 	filterKeys: ['about', 'educationalLevel', 'P126'],
 	sortKeys: ['name', 'issued', 'maintainedBy', 'about', 'educationalLevel'],
 	index: {

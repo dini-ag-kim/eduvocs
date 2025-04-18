@@ -87,7 +87,7 @@ export function fillResults() {
 export function search(event) {
 	event.preventDefault();
 	const searchTerm = get(db).query;
-	const tags = Object.values(get(db).selectedFilters).flat();
+	const tags = Object.values(get(db).selectedFilters || {}).flat() || [];
 
 	// show results when search term is empty and no filters are selected
 	if (searchTerm === '' && tags.length === 0) {
