@@ -87,13 +87,14 @@ export function fillResults() {
 export function search(event) {
 	event.preventDefault();
 	const searchTerm = get(db).query;
-	// show results when searchterm is empty string
-	if (searchTerm === '') {
+	const tags = Object.values(get(db).selectedFilters).flat();
+
+	// show results when search term is empty and no filters are selected
+	if (searchTerm === '' && tags.length === 0) {
 		fillResults();
 		return;
 	}
 
-	const tags = Object.values(get(db).selectedFilters).flat();
 	const groupedResults = get(db).index.search(searchTerm, {
 		index: ['id', 'title', 'about', 'P126'],
 		enrich: true,
@@ -146,11 +147,13 @@ export function handleFilterSelect(key, val) {
 		const indexInSelectedFilters = db.selectedFilters[key].indexOf(val);
 		let selectedFilters;
 		if (indexInSelectedFilters > -1) {
+			// Remove previously selected filter
 			selectedFilters = {
 				...db.selectedFilters,
 				[key]: db.selectedFilters[key].filter((e) => e !== val)
 			};
 		} else {
+			// Select new filter
 			selectedFilters = { ...db.selectedFilters, [key]: [...db.selectedFilters[key], val] };
 		}
 		return { ...db, selectedFilters };
