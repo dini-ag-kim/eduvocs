@@ -19,6 +19,7 @@ jobs:
         key: ${{ secrets.SSHKEY }}
         source: "."
         target: "/home/eduvocs/eduvocs"
+        overwrite: true
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
