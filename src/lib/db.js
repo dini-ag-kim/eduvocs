@@ -96,7 +96,7 @@ export function search(event) {
 	}
 
 	const groupedResults = get(db).index.search(searchTerm, {
-		index: ['id', 'title', 'about', 'P126'],
+		index: ['id', 'title', 'description', 'about', 'P126'],
 		enrich: true,
 		tag: tags
 	});
