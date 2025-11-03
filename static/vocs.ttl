@@ -16,7 +16,7 @@
   dct:language "de";
   dct:issued "2021-03-03"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "List of values ​​for subjects in school."@en, "Werteliste von Fächern im Schulbereich."@de;
+  dct:description "List of subjects in the school system."@en, "Werteliste von Fächern im Schulbereich."@de;
   dct:title "School subjects"@en, "Schulfächer"@de;
   sdo:distribution _:G__2417, _:G__2418 .
 
@@ -37,7 +37,7 @@ _:G__2418 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2020-04-08"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "List of values ​​for subjects in school."@en, "Werteliste von Fächern im Schulbereich."@de;
+  dct:description "List of subjects in the school system."@en, "Werteliste von Fächern im Schulbereich."@de;
   dct:title "School subjects"@en, "Schulfächer"@de;
   sdo:distribution _:G__2419, _:G__2420 .
 
@@ -97,8 +97,8 @@ _:G__2421 a sdo:DataDownload;
   dct:modified "2022-05-24"^^xsd:date;
   dct:issued "2021-03-03"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "List of values ​​for subjects in school."@en, "Werteliste von Fächern im Schulbereich."@de;
-  dct:title "School subjects in the meta video portal"@en, "Schulfächer im Meta-Videoportal"@de;
+  dct:description "List of subjects in the school system."@en, "Werteliste von Fächern im Schulbereich."@de;
+  dct:title "School subjects in the Meta video portal"@en, "Schulfächer im Meta-Videoportal"@de;
   sdo:distribution _:G__2422, _:G__2423 .
 
 _:G__2422 a sdo:DataDownload;
@@ -125,8 +125,8 @@ _:G__2423 a sdo:DataDownload;
   sdo:url <https://digitallearninglab.de/>;
   dct:language "de";
   sdo:about "Kompetenzen"@de;
-  dct:description "Competencies in the digital learning lab."@en, "Kompetenzen im digital learning lab."@de;
-  dct:title "Competencies in the digital world (KMK)"@en, "Kompetenzen in der digitalen Welt (KMK)"@de;
+  dct:description "Skills in the digital learning lab."@en, "Kompetenzen im digital learning lab."@de;
+  dct:title "Digital Competencies (KMK)"@en, "Kompetenzen in der digitalen Welt (KMK)"@de;
   sdo:distribution _:G__2424 .
 
 _:G__2424 a sdo:DataDownload;
@@ -179,9 +179,9 @@ technology"""@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
   dct:language "en";
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "This term directory EUN Subject Values ​​is a sublist of the LRE Thesaurus."@en,
+  dct:description "This EUN Subject Values ​​term list is a sublist of the LRE Thesaurus."@en,
     "Dieses Termverzeichnis EUN Subject Values ist eine Unterliste des LRE Thesaurus."@de;
-  dct:title "EUN subjects values"@en, "EUN Fächer Werte"@de;
+  dct:title "EUN Subject Values"@en, "EUN Fächer Werte"@de;
   sdo:distribution _:G__2425, _:G__2426 .
 
 _:G__2425 a sdo:DataDownload;
@@ -199,9 +199,9 @@ _:G__2426 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2023-03-01"^^xsd:date;
   sdo:about "Abschlüsse"@de;
-  dct:description "The directory lists all 327 recognized training occupations in industry and crafts, in the public service, in housekeeping, agriculture, shipping and in the freelance professions. At the start of training in 2022, two new professions – inland waterway captain and kitchen specialist – and twelve modernized training professions came into force. For all professions, the duration of training, legal basis, elective qualifications or focal points as well as the assignment to the German Qualifications Framework (DQR) are listed here. The statistical part provides information on the number and quantitative development of the training occupations as well as the number of trainees since 1970. The directory has been published by the Federal Institute for Vocational Training since 1977 and is published annually. "@en,
+  dct:description "The directory lists all 327 recognized training occupations in industry and trade, the public sector, domestic services, agriculture, maritime shipping, and the liberal professions. At the start of training in 2022, two new occupations – inland waterway captain and kitchen specialist – and twelve modernized training occupations came into effect. For all occupations, information such as training duration, legal basis, elective qualifications or specializations, and their classification within the German Qualifications Framework (DQR) is provided. The statistical section offers data on the number and quantitative development of training occupations, as well as the number of trainees since 1970. The directory has been published annually by the Federal Institute for Vocational Education and Training (BIBB) since 1977."@en,
     "Das Verzeichnis führt alle 327 anerkannten Ausbildungsberufe in Industrie und Handwerk, im öffentlichen Dienst, in der Hauswirtschaft, der Landwirtschaft, der Seeschifffahrt und in den freien Berufen auf. Zum Ausbildungsbeginn 2022 traten zwei neue Berufe – Binnenschifffahrtskapitän/-in und Fachkraft Küche – und zwölf modernisierte Ausbildungsberufe in Kraft. Zu allen Berufen sind hier u.a. Ausbildungsdauer, Rechtsgrundlagen, Wahlqualifikationen oder Schwerpunkte sowie die Zuordnung zum Deutschen Qualifikationsrahmen (DQR) verzeichnet. Der statistische Teil liefert Angaben zur Anzahl und zur quantitativen Entwicklung der Ausbildungsberufe sowie zur Zahl der Auszubildenden seit 1970. Das Verzeichnis wird seit 1977 vom Bundesinstitut für Berufsbildung herausgegeben und erscheint jährlich. "@de;
-  dct:title "Directory of training occupations 2023"@en, "Verzeichnis der Ausbildungsberufe 2023"@de;
+  dct:title "List of training occupations 2023"@en, "Verzeichnis der Ausbildungsberufe 2023"@de;
   sdo:distribution _:G__2427 .
 
 _:G__2427 a sdo:DataDownload;
@@ -215,9 +215,9 @@ _:G__2427 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2024-02-01"^^xsd:date;
   sdo:about "Abschlüsse"@de;
-  dct:description "The directory lists all 328 recognized training occupations in industry and crafts, in the public service, in housekeeping, agriculture, shipping and in the freelance professions. At the start of training in 2023, a new profession – designer for immersive media – and five modernized training professions came into force. For all professions, the duration of training, legal basis, focus, subject areas, elective qualifications and assignment to the German Qualifications Framework (DQR) are listed. The statistical part provides information on the number and quantitative development of the training occupations as well as the number of trainees since 1970. The directory has been published by the Federal Institute for Vocational Training since 1977 and is published annually."@en,
+  dct:description "The directory lists all 328 recognized training occupations in industry and trade, the public sector, domestic services, agriculture, maritime shipping, and the liberal professions. At the start of training in 2023, a new occupation – Immersive Media Designer – and five modernized training occupations came into effect. For each occupation, information includes the duration of training, legal basis, areas of focus, specializations, elective qualifications, and its classification within the German Qualifications Framework (DQR). The statistical section provides data on the number and quantitative development of training occupations, as well as the number of trainees since 1970. The directory has been published annually by the Federal Institute for Vocational Education and Training (BIBB) since 1977."@en,
     "Das Verzeichnis führt alle 328 anerkannten Ausbildungsberufe in Industrie und Handwerk, im öffentlichen Dienst, in der Hauswirtschaft, der Landwirtschaft, der Seeschifffahrt und in den freien Berufen auf. Zum Ausbildungsbeginn 2023 traten ein neuer Beruf – Gestalter/-in für immersive Medien – und fünf modernisierte Ausbildungsberufe in Kraft. Zu allen Berufen sind u.a. Ausbildungsdauer, Rechtsgrundlagen, Schwerpunkte, Fachrichtungen, Wahlqualifikationen sowie die Zuordnung zum Deutschen Qualifikationsrahmen (DQR) aufgeführt. Der statistische Teil liefert Angaben zur Anzahl und zur quantitativen Entwicklung der Ausbildungsberufe sowie zur Zahl der Auszubildenden seit 1970. Das Verzeichnis wird seit 1977 vom Bundesinstitut für Berufsbildung herausgegeben und erscheint jährlich."@de;
-  dct:title "Directory of training occupations 2024"@en, "Verzeichnis der Ausbildungsberufe 2024"@de;
+  dct:title "List of training occupations 2024"@en, "Verzeichnis der Ausbildungsberufe 2024"@de;
   sdo:distribution _:G__2428 .
 
 _:G__2428 a sdo:DataDownload;
@@ -233,9 +233,9 @@ _:G__2428 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2019-12-11"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "This SKOS classification is based on the Destatis “system of subject groups, study areas and subjects”."@en,
+  dct:description "This SKOS classification is based on the Destatis \"system of subject groups, fields of study and subjects of study\"."@en,
     "Diese SKOS-Klassifikation basiert auf der Destatis-\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"."@de;
-  dct:title "University subject system"@en, "Hochschulfächersystematik"@de;
+  dct:title "University subject classification"@en, "Hochschulfächersystematik"@de;
   sdo:distribution _:G__2429, _:G__2430 .
 
 _:G__2429 a sdo:DataDownload;
@@ -255,7 +255,7 @@ _:G__2430 a sdo:DataDownload;
   sdo:url <https://www.bildungsserver.de/elixier/>;
   dct:language "de";
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "Systematics of the educational server."@en, "Systematik des Bildungsservers."@de;
+  dct:description "Systematics of the education server."@en, "Systematik des Bildungsservers."@de;
   dct:title "ELIXIR system"@en, "ELIXIER-Systematik"@de .
 
 <https://w3id.org/eduvocs/id/12> a wd:Q1469824;
@@ -265,13 +265,13 @@ _:G__2430 a sdo:DataDownload;
   wdt:P973 <https://vocabs.sodix.de/sodix/educational/sachgebietssystematik/sachgebietssystematik>;
   dct:language "de";
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description """The nationwide subject area classification assigns the media to the main school subjects and other important educational goals and areas. Subject Area SystematicsIts hierarchical structure allows the selection and printing of media lists and directories with different information densities. It is indispensable for media centers and schools to structure their own inventory. The nationwide subject area system was developed in the 1990s by the AG Media Distribution and Documentation and is constantly updated.
+  dct:description """The standardized subject classification system assigns media to the main school subjects and other important educational goals and areas. Its hierarchical structure allows for the selection and printing of media lists and directories with varying levels of detail. It is indispensable for media centers and schools to organize their own collections. The standardized subject classification system was developed in the 1990s by the Media Distribution and Documentation Working Group and is continuously updated.
 
-The list of values ​​is used for SODIX."""@en,
+The value list is used for SODIX."""@en,
     """Die bundeseinheitliche Sachgebietssystematik ordnet die Medien den wesentlichen Schulfächern und anderen wichtigen Bildungszielen und -bereichen zu. SachgebietssystematikIhre hierarchische Gliederung erlaubt die Selektion und den Ausdruck von Medienlisten und Verzeichnissen mit unterschiedlicher Informationsdichte. Für Medienzentren und Schulen ist sie zur Strukturierung des eigenen Bestands unverzichtbar. Die bundeseinheitliche Sachgebietssystematik wurde in den 1990er Jahren von der AG Mediendistribution und Dokumentation entwickelt und wird ständig aktualisiert.
 
 Die Werteliste wird für SODIX verwendet."""@de;
-  dct:title "Subject area systematics AG-MUD"@en, "Sachgebietssystematik AG-MUD"@de;
+  dct:title "Subject area classification AG-MUD"@en, "Sachgebietssystematik AG-MUD"@de;
   sdo:distribution _:G__2431 .
 
 _:G__2431 a sdo:DataDownload;
@@ -319,7 +319,7 @@ _:G__2433 a sdo:DataDownload;
   dct:modified "2025-02-15"^^xsd:date;
   dct:issued "2011-04-26"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "Library of Congress Subject Headings (LCSH) has been actively maintained since 1898 to catalog the materials present in the Library of Congress. Because of cooperative cataloging, other libraries in the United States also use LCSH to provide access to their collections. Additionally, LCSH is used internationally, often in translation. LCSH includes in this service all Library of Congress Subject Headings, free-floating divisions (thematic and formal), Genre/Form Headings, Children's (AC) Headings, and Validation Marks* for which authority entries have been created. The content also includes some names (personal and corporate) such as William Shakespeare, Jesus Christ, and Harvard University, as well as geographical names that are added to the LCSH when needed to create subdivisions, provide a model for subdivision practice, or provide a reference structure for other terms. This content is expanded beyond the printed edition of the LCSH (the “red books”) with the inclusion of validation strings. *Validation strings: Some authority entries refer to headings constructed by adding subdivisions. These records are the result of an ongoing project to programmatically create authority records for valid subject strings from subject strings found in bibliographic records. The authority records for these keyword chains were created so that the entire chain could be machine validated. The strings do not have broader, narrower, or related terms."@en,
+  dct:description "Library of Congress Subject Headings (LCSH) has been actively maintained since 1898 to catalog the materials held at the Library of Congress. Due to cooperative cataloging, other libraries in the United States also use LCSH to provide access to their collections. Furthermore, LCSH is used internationally, often in translation. In this service, LCSH includes all Library of Congress Subject Headings, free-floating subdivisions (thematic and formal), Genre/Form Headings, Children's (AC) Headings, and validation marks* for which authority records have been created. The content also includes some names (personal and corporate names) such as William Shakespeare, Jesus Christ, and Harvard University, as well as geographical designations, which are added to LCSH when needed to create subdivisions, provide a pattern for subdivision practice, or offer a reference structure for other terms. This content is expanded beyond the printed edition of LCSH (the \"red books\") through the inclusion of validation strings. *Validation strings: Some authority entries refer to headings constructed by adding subdivisions. These records are the result of an ongoing project to programmatically generate authority records for valid keyword strings from keyword strings found in bibliographic records. The authority records for these keyword strings were created to allow for machine validation of the entire string. The strings do not contain any broader, narrower, or related terms."@en,
     "Library of Congress Subject Headings (LCSH) wird seit 1898 aktiv gepflegt, um die in der Library of Congress vorhandenen Materialien zu katalogisieren. Aufgrund der kooperativen Katalogisierung verwenden auch andere Bibliotheken in den Vereinigten Staaten LCSH, um den Zugang zu ihren Sammlungen zu ermöglichen. Darüber hinaus wird LCSH international verwendet, oft in Übersetzung. LCSH umfasst in diesem Dienst alle Library of Congress Subject Headings, frei schwimmende Unterteilungen (thematisch und formal), Genre/Form Headings, Children's (AC) Headings und Validierungszeichen*, für die Autoritätseinträge erstellt wurden. Zum Inhalt gehören auch einige Namen (Personen- und Körperschaftsnamen) wie William Shakespeare, Jesus Christus und die Harvard University sowie geografische Bezeichnungen, die dem LCSH hinzugefügt werden, wenn sie benötigt werden, um Unterteilungen zu erstellen, ein Muster für die Unterteilungspraxis zu liefern oder eine Referenzstruktur für andere Begriffe bereitzustellen. Dieser Inhalt wird über die gedruckte Ausgabe des LCSH (die „roten Bücher“) hinaus durch die Aufnahme von Validierungszeichenfolgen erweitert. *Validierungsstrings: Einige Autoritätseinträge beziehen sich auf Überschriften, die durch Hinzufügen von Unterteilungen aufgebaut wurden. Diese Datensätze sind das Ergebnis eines laufenden Projekts zur programmatischen Erstellung von Autoritätsdatensätzen für gültige Schlagwortketten aus Schlagwortketten, die in bibliografischen Datensätzen gefunden wurden. Die Autoritätsdatensätze für diese Schlagwortketten wurden erstellt, damit die gesamte Kette maschinell validiert werden kann. Die Zeichenfolgen haben keine umfassenderen, engeren oder verwandten Begriffe."@de;
   dct:title "Subjects (MARC21)"@en, "Fächer (MARC21)"@de;
   sdo:distribution _:G__2434, _:G__2435 .
@@ -338,9 +338,9 @@ _:G__2435 a sdo:DataDownload;
   wdt:P973 <https://eur-lex.europa.eu/browse/eurovoc.html>;
   dct:language "de";
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description """EuroVoc is the EU's multilingual and multidisciplinary thesaurus. It contains keywords organized into 21 areas and 127 subareas that are used to describe the content of documents in EUR-Lex.
+  dct:description """EuroVoc is the EU's multilingual and multidisciplinary thesaurus. It contains keywords organized into 21 fields and 127 subfields, used to describe the content of documents in EUR-Lex.
 
-Search EU law and related documents (legislation, preparatory documents, international agreements, case law notices, parliamentary questions, etc.) by area and sub-area."""@en,
+Search EU law and related documents (legislation, preparatory documents, international agreements, case law notices, parliamentary questions, etc.) by field and subfield."""@en,
     """EuroVoc ist der mehrsprachige und multidisziplinäre Thesaurus der EU. Er enthält Schlüsselwörter, die in 21 Bereichen und 127 Unterbereichen organisiert sind und zur Beschreibung des Inhalts von Dokumenten in EUR-Lex verwendet werden.
 
 Durchsuchen Sie das EU-Recht und verwandte Dokumente (Rechtsvorschriften, vorbereitende Dokumente, internationale Abkommen, Mitteilungen zur Rechtsprechung, parlamentarische Anfragen usw.) nach Bereichen und Unterbereichen."""@de;
@@ -356,7 +356,7 @@ Durchsuchen Sie das EU-Recht und verwandte Dokumente (Rechtsvorschriften, vorber
   dct:modified "2024-10-08"^^xsd:date;
   dct:issued "1977-01-01"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "The UNESCO Thesaurus is a controlled and structured list of terms used in thematic analysis and retrieval of documents and publications in the fields of education, culture, natural sciences, social sciences and humanities, communication and information. Its multidisciplinary terminology is continually expanded and updated, reflecting the evolution of UNESCO's programs and activities."@en,
+  dct:description "The UNESCO Thesaurus is a controlled and structured list of terms used for thematic analysis and retrieval of documents and publications in the fields of education, culture, natural sciences, social sciences and humanities, communication, and information. Its multidisciplinary terminology is constantly expanded and updated, reflecting the evolution of UNESCO's programs and activities."@en,
     "Der UNESCO-Thesaurus ist eine kontrollierte und strukturierte Liste von Begriffen, die bei der thematischen Analyse und beim Auffinden von Dokumenten und Veröffentlichungen in den Bereichen Bildung, Kultur, Naturwissenschaften, Sozial- und Geisteswissenschaften, Kommunikation und Information verwendet werden. Seine multidisziplinäre Terminologie wird ständig erweitert und aktualisiert und spiegelt die Entwicklung der Programme und Aktivitäten der UNESCO wider."@de;
   dct:title "UNESCO Thesaurus"@en, "UNESCO Thesaurus"@de;
   sdo:distribution _:G__2436, _:G__2437 .
@@ -378,7 +378,7 @@ _:G__2437 a sdo:DataDownload;
   dct:issued "-"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
   dct:description "No description available."@en, "Keine Beschreibung verfügbar."@de;
-  dct:title "branches of science/art"@en, "Wissenschafts-/ Kunstzweige"@de;
+  dct:title "Science/Art branches"@en, "Wissenschafts-/ Kunstzweige"@de;
   sdo:distribution _:G__2438, _:G__2439, _:G__2440 .
 
 _:G__2438 a sdo:DataDownload;
@@ -427,7 +427,7 @@ _:G__2443 a sdo:DataDownload;
   dct:issued "-"^^xsd:date;
   sdo:about "Abschlüsse"@de;
   dct:description "Directory of historical fields of study."@en, "Verzeichnis historischer Studienrichtungen."@de;
-  dct:title "Historical fields of study"@en, "Historische Studienrichtungen"@de;
+  dct:title "Historical Studies"@en, "Historische Studienrichtungen"@de;
   sdo:distribution _:G__2444, _:G__2445, _:G__2446 .
 
 _:G__2444 a sdo:DataDownload;
@@ -449,9 +449,9 @@ _:G__2446 a sdo:DataDownload;
   wdt:P973 <https://esco.ec.europa.eu/de/classification>;
   dct:language "de";
   sdo:about "Kompetenzen"@de;
-  dct:description "ESCO categorizes the skills, competencies, qualifications and professions relevant to the labor market and education and training in the EU. It systematically shows the relationships between the different concepts."@en,
+  dct:description "ESCO categorizes the skills, competences, qualifications, and occupations relevant to the labor market and general and vocational education in the EU. It systematically illustrates the relationships between the various concepts."@en,
     "ESCO kategorisiert die Fähigkeiten, Kompetenzen, Qualifikationen und Berufe, die für den Arbeitsmarkt und die allgemeine und berufliche Bildung in der EU relevant sind. Es zeigt systematisch die Beziehungen zwischen den verschiedenen Konzepten."@de;
-  dct:title "European Classification of Skills/Competencies, Qualifications and Occupations (ESCO)"@en,
+  dct:title "European Classification of Skills, Qualifications and Occupations (ESCO)"@en,
     "Europäische Klassifizierung für Fähigkeiten/Kompetenzen, Qualifikationen und Berufe (ESCO)"@de .
 
 <https://w3id.org/eduvocs/id/22> a wd:Q1469824;
@@ -466,7 +466,7 @@ _:G__2446 a sdo:DataDownload;
   sdo:about "Kompetenzen"@de;
   dct:description "Based on the Common European Framework of Reference for Languages ​​(DAAD 2024) (Glaboniat and Council of Europe 2010) (Trim et al. 2010) / Common European Framework of Reference for Languages ​​(CEFR), published by the Council of Europe"@en,
     "Basierend auf dem Gemeinsamen Europäischen Referenzrahmen für Sprachen (DAAD 2024) (Glaboniat and Europarat 2010) (Trim et al. 2010) / Common European Framework of Reference for Languages (CEFR), herausgegeben vom Europarat"@de;
-  dct:title "Language levels according to the Common European Framework of Reference for Languages, GER"@en,
+  dct:title "Language proficiency levels according to the Common European Framework of Reference (CEFR)"@en,
     "Sprachniveaustufen nach dem Gemeinsamen Europäischen Referenzrahmen, GER"@de;
   sdo:distribution _:G__2447, _:G__2448 .
 
@@ -488,11 +488,11 @@ _:G__2448 a sdo:DataDownload;
   dct:issued "2023-03-16"^^xsd:date;
   sdo:about "Kompetenzen"@de;
   dct:creator "(European Commission. Joint Research Centre., Redecker, and Punie 2017)"@de;
-  dct:description """The European Framework for Digital Literacy for Teachers is aimed at teachers at all levels of education, from early childhood to higher and adult education, including education and training, special education and non-formal learning contexts. 
+  dct:description """The European Framework for Educators' Digital Competence is aimed at educators at all levels of education, from early childhood education to higher and adult education, including general and vocational education and training, special education, and non-formal learning contexts.
 
-The aim is to provide a general framework of reference for developers of digital competency models, i.e. Member States, regional governments, relevant national and regional agencies, educational organizations themselves and public or private providers of vocational training.
+Its goal is to provide a general reference framework for developers of digital competence models, i.e., for Member States, regional governments, relevant national and regional agencies, educational organizations themselves, and public or private providers of vocational training.
 
-Created in the ComeIn.nrw project, also used at WirLernenOnline and in the meta video portal lehrsvideos.net"""@en,
+Developed within the ComeIn.nrw project, it is also used by WirLernenOnline and the meta-video portal unterrichtsvideos.net."""@en,
     """Der Europäische Rahmen für die digitale Kompetenz Lehrender richtet sich an Lehrende auf allen Bildungsebenen, von der frühen Kindheit bis zur Hochschul- und Erwachsenenbildung, einschließlich allgemeiner und beruflicher Bildung und Ausbildung, Sonderpädagogik und nicht formaler Lernkontexte. 
 
 Ziel ist es, einen allgemeinen Bezugsrahmen für Entwickler digitaler Kompetenzmodelle bereitzustellen, d.h. für Mitgliedstaaten, Regionalregierungen, relevante nationale und regionale Agenturen, Bildungsorganisationen selbst sowie öffentliche oder private Anbieter von Berufsausbildungen.
@@ -519,13 +519,13 @@ _:G__2450 a sdo:DataDownload;
   dct:issued "2023-03-16"^^xsd:date;
   sdo:about "Kompetenzen"@de;
   dct:creator "Eickelmann 2020"@de;
-  dct:description """With the orientation framework, the state of North Rhine-Westphalia has created a binding basis for teacher training and further education in the digitalized world. Based on the well-known fields of action for teachers - teaching, educating, promoting learning and achievement, advising and developing schools - the orientation framework shows which new - but central in the future under the conditions of digitalization - competencies that need to be trained. The orientation framework makes it transparent which pedagogical and didactic competencies the state considers to be essential for teachers to respond to the challenges and opportunities of digitalization. This paves the way for the future of teacher training and further education.
+  dct:description """With its framework for orientation, the state of North Rhine-Westphalia has created a binding foundation for teacher training and professional development in the digital age. Building on the established areas of responsibility for teachers—teaching, educating, promoting learning and achievement, advising, and developing schools—the framework identifies the new competencies that, under the conditions of digitalization, will be crucial in the future. The framework clarifies which pedagogical and didactic competencies the state considers essential for teachers to proactively address the challenges and opportunities of digitalization. This sets a forward-looking course for teacher training and professional development.
 
-Created in the ComeIn.nrw project, also used at WirLernenOnline."""@en,
+Developed within the ComeIn.nrw project, also used by WirLernenOnline, among others."""@en,
     """Mit dem Orientierungsrahmen hat das Land Nordrhein-Westfalen eine verbindliche Grundlage für die Lehreraus- und Lehrerfortbildung in der digitalisierten Welt geschaffen. Anknüpfend an die bekannten Handlungsfelder für Lehrerinnen und Lehrer – Unterrichten, Erziehen, Lernen und Leisten fördern, Beraten und Schule entwickeln – zeigt der Orientierungsrahmen auf, welche neuen – unter den Bedingungen der Digitalisierung künftig aber zentralen – Kompetenzen, es auszubilden gilt. Der Orientierungsrahmen macht transparent, welche pädagogischen und didaktischen Kompetenzen das Land bei Lehrkräften für grundlegend hält, den Herausforderungen und Chancen der Digitalisierung gestaltend zu begegnen. Für die Lehreraus- und Lehrerfortbildung sind damit zukunftsweisende Weichen gestellt worden.
 
 Erstellt im ComeIn.nrw-Projekt, u.a. auch verwendet bei WirLernenOnline."""@de;
-  dct:title "Orientation framework for teacher training and teacher training in North Rhine-Westphalia"@en,
+  dct:title "Orientation framework for teacher training and professional development in North Rhine-Westphalia"@en,
     "Orientierungsrahmen für die Lehrerausbildung und Lehrerfortbildung in NRW"@de;
   sdo:distribution _:G__2451, _:G__2452 .
 
@@ -547,7 +547,7 @@ _:G__2452 a sdo:DataDownload;
   dct:issued "2019"^^xsd:date;
   sdo:about "Kompetenzen"@de;
   dct:creator "CCR 2020"@de;
-  dct:description "The CCR's Four Dimensional (4D) Educational Framework is so named to illustrate that today's students must develop in four dimensions - knowledge, skills, character and meta-learning - to best serve themselves and society. The core principle of a 4D education is to link knowledge transfer with the other three dimensions. But how is this done? By dividing these three dimensions into a framework of competencies and sub-competencies, teachers can make their teaching more effective, targeted, logical and relevant."@en,
+  dct:description "The CCR's four-dimensional (4D) educational framework was named to emphasize that today's students need to develop in four dimensions—knowledge, skills, character, and meta-learning—in order to serve themselves and society as effectively as possible. The core principle of 4D education is to link knowledge delivery with the other three dimensions. But how is this done? By breaking these three dimensions down into a framework of competencies and sub-competencies, teachers can make their teaching more effective, purposeful, logical, and relevant."@en,
     "Der vierdimensionale (4D) Bildungsrahmen der CCR wurde so benannt, um zu verdeutlichen, dass die Schüler von heute sich in vier Dimensionen entwickeln müssen - Wissen, Fähigkeiten, Charakter und Meta-Lernen - um sich selbst und der Gesellschaft so gut wie möglich zu dienen. Das Kernprinzip einer 4D-Bildung besteht darin, die Wissensvermittlung mit den anderen drei Dimensionen zu verknüpfen. Aber wie wird das gemacht? Indem diese drei Dimensionen in einen Rahmen von Kompetenzen und Teilkompetenzen unterteilt werden, können Lehrkräfte ihren Unterricht effektiver, zielgerichteter, logischer und relevanter gestalten."@de;
   dct:title "4D Competencies Framework"@en, "4D Competencies Framework"@de .
 
@@ -562,11 +562,12 @@ _:G__2452 a sdo:DataDownload;
   dct:modified "2021-09-17"^^xsd:date;
   dct:issued "2021-09-17"^^xsd:date;
   sdo:about "Kompetenzen"@de;
-  dct:description """The UDE model describes both basic requirements and institutional and teaching-related aspects of teachers' digitalization-related skills.
-The inner core of the model is the promotion of students’ subject-specific and digitalization-related skills. All surrounding areas are geared towards this."""@en,
+  dct:description """The UDE model describes both fundamental prerequisites and institutional and teaching-related aspects of teachers' digitalization-related competencies.
+
+The core of the model is the promotion of students' subject-specific and digitalization-related competencies. All surrounding areas are aligned with this goal."""@en,
     """Das UDE-Modell beschreibt sowohl grundlegende Voraussetzungen als auch institutionelle und unterrichtsbezogene Aspekte der digitalisierungsbezogenen Kompetenzen von Lehrkräften.
 Den inneren Kern des Modells bildet die Förderung der fachspezifischen und digitalisierungsbezogenen Kompetenzen von Schüler*innen. Alle umliegenden Bereiche sind darauf ausgerichtet."""@de;
-  dct:title "UDE model: An integrative model of digitalization-related competencies for teacher training"@en,
+  dct:title "UDE Model: An integrative model of digitalization-related competencies for teacher training"@en,
     "UDE-Modell: Ein integratives Modell digitalisierungsbezogener Kompetenzen für die Lehramtsausbildung"@de;
   sdo:distribution _:G__2453, _:G__2454 .
 
@@ -586,19 +587,14 @@ _:G__2454 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2022-08-26"^^xsd:date;
   sdo:about "Kompetenzen"@de;
-  dct:description """Digitalization and mediatization have had an impact in all areas of our lives and work.
-led to decisive changes in the world. These go beyond a purely technical one
-progress and lead to a broad cultural and social
-Change that affects school teaching and learning and coping and shaping
-ment of life and work processes of children, adolescents and young adults
-effects."""@en,
+  dct:description "Digitization and mediatization have led to decisive changes in all areas of our lives and work. These go beyond purely technical progress and result in a broad cultural and societal transformation that affects teaching and learning in schools and the management and shaping of life and work processes by children, adolescents, and young adults."@en,
     """Die Digitalisierung und Mediatisierung haben in allen Bereichen unserer Lebens- und Arbeits-
 welt zu entscheidenden Veränderungen geführt. Diese gehen über einen rein technischen
 Fortschritt hinaus und führen zu einem breit angelegten kulturellen und gesellschaftlichen
 Wandel, der sich auf das schulische Lehren und Lernen und auf die Bewältigung und Gestal-
 tung von Lebens- bzw. Arbeitsprozessen von Kindern, Jugendlichen und jungen Erwachsenen
 auswirkt."""@de;
-  dct:title "Competencies in the digital world (KMK)"@en, "Kompetenzen in der digitalen Welt (KMK)"@de;
+  dct:title "Digital Competencies (KMK)"@en, "Kompetenzen in der digitalen Welt (KMK)"@de;
   sdo:distribution _:G__2455, _:G__2456 .
 
 _:G__2455 a sdo:DataDownload;
@@ -619,19 +615,14 @@ _:G__2456 a sdo:DataDownload;
   dct:modified "2023-03-14"^^xsd:date;
   dct:issued "2021-08-04"^^xsd:date;
   sdo:about "Kompetenzen"@de;
-  dct:description """Digitalization and mediatization have had an impact in all areas of our lives and work.
-led to decisive changes in the world. These go beyond a purely technical one
-progress and lead to a broad cultural and social
-Change that affects school teaching and learning and coping and shaping
-ment of life and work processes of children, adolescents and young adults
-effects."""@en,
+  dct:description "Digitization and mediatization have led to decisive changes in all areas of our lives and work. These go beyond purely technical progress and result in a broad cultural and societal transformation that affects teaching and learning in schools and the management and shaping of life and work processes by children, adolescents, and young adults."@en,
     """Die Digitalisierung und Mediatisierung haben in allen Bereichen unserer Lebens- und Arbeits-
 welt zu entscheidenden Veränderungen geführt. Diese gehen über einen rein technischen
 Fortschritt hinaus und führen zu einem breit angelegten kulturellen und gesellschaftlichen
 Wandel, der sich auf das schulische Lehren und Lernen und auf die Bewältigung und Gestal-
 tung von Lebens- bzw. Arbeitsprozessen von Kindern, Jugendlichen und jungen Erwachsenen
 auswirkt."""@de;
-  dct:title "Competencies in the digital world (KMK)"@en, "Kompetenzen in der digitalen Welt (KMK)"@de;
+  dct:title "Digital Competencies (KMK)"@en, "Kompetenzen in der digitalen Welt (KMK)"@de;
   sdo:distribution _:G__2457, _:G__2458 .
 
 _:G__2457 a sdo:DataDownload;
@@ -651,9 +642,9 @@ _:G__2458 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2023-03-16"^^xsd:date;
   sdo:about "Kompetenzen"@de;
-  dct:description "Standard for school and teaching development to promote media competence at primary and lower secondary level as well as to promote key digital skills at vocational colleges"@en,
+  dct:description "Standard for school and lesson development to promote media literacy in primary and lower secondary education and to promote digital key skills at vocational colleges"@en,
     "Standard für die Schul- und Unterrichtsentwicklung zur Förderung von Medienkompetenz in der Primarstufe und der Sekundarstufe I sowie zur Förderung digitaler Schlüsselkompetenzen am Berufskolleg"@de;
-  dct:title "Media Competence Framework NRW"@en, "Medienkompetenzrahmen NRW"@de;
+  dct:title "Media Literacy Framework NRW"@en, "Medienkompetenzrahmen NRW"@de;
   sdo:distribution _:G__2459, _:G__2460 .
 
 _:G__2459 a sdo:DataDownload;
@@ -674,9 +665,9 @@ _:G__2460 a sdo:DataDownload;
   dct:modified "2021-09-17"^^xsd:date;
   dct:issued "2021-09-17"^^xsd:date;
   sdo:about "Kompetenzen"@de;
-  dct:description "The DaZKom project is a cooperation project between the Leuphana University of Lüneburg and the University of Bielefeld. The project is funded by the BMBF as part of the transfer project \"Competence models and instruments for assessing competence in the higher education sector - validations and methodological innovations\" (KoKoHs)\" (https://www.dazkom.de/links/). The aim of the project is to theoretically model and empirically test competencies in the area of ​​German as a second language (DaZ), which teachers must possess in addition to their disciplinary expertise in order to teach, in particular, students with a non-German language of origin in the regular to support teaching appropriately."@en,
+  dct:description "The DaZKom project is a collaborative project between Leuphana University Lüneburg and Bielefeld University. It is funded by the German Federal Ministry of Education and Research (BMBF) as part of the transfer project \"Competence Models and Instruments for Competence Assessment in Higher Education – Validations and Methodological Innovations\" (KoKoHs) (https://www.dazkom.de/links/). The project aims to theoretically model and empirically test competences in the field of German as a Second Language (GSL) that teachers need in addition to their disciplinary expertise in order to adequately support students, especially those whose native language is not German, in regular classroom settings."@en,
     "Das DaZKom-Projekt ist ein Kooperationsprojekt der Leuphana Universität Lüneburg und der Universität Bielefeld. Gefördert wird das Projekt vom BMBF im Rahmen des Transferprojektes „Kompetenzmodelle und Instrumente der Kompetenzerfassung im Hochschulsektor – Validierungen und methodische Innovationen“ (KoKoHs)\" (https://www.dazkom.de/links/). Das Projekt hat das Ziel der theoretischen Modellierung und empirischen Überprüfung von Kompetenzen im Bereich Deutsch als Zweitsprache (DaZ), die Lehrer*innen zusätzlich zu ihrer disziplinären Expertise besitzen müssen, um v.a. SchülerInnen mit nichtdeutscher Herkunftssprache im regulären Unterricht angemessen fördern zu können."@de;
-  dct:title "DaZKom: A model of professional skills for prospective teachers in the area of ​​German as a second language"@en,
+  dct:title "DaZKom: A model of professional competencies of prospective teachers in the field of German as a second language"@en,
     "DaZKom: Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache"@de;
   sdo:distribution _:G__2461, _:G__2462 .
 
@@ -696,7 +687,7 @@ _:G__2462 a sdo:DataDownload;
   wdt:P973 <https://github.com/iqb-vocabs/iqb-vocabs.github.io>;
   dct:language "de";
   sdo:about "Bildungsstandards sowie Lehrplan-/Curricula-orientierte Wertelisten"@de;
-  dct:description "Educational standards are performance expectations of students that are based on subject didactics and formulated at a medium level of abstraction. They thus occupy a middle position between very general educational goals on the one hand and specific tasks on the other and relate them to each other. This means they are open to the future and open to use as well as capable of achieving social consensus. The test results can be used to demonstrate how well students are able to solve subject-related tasks and problems."@en,
+  dct:description "Educational standards are performance expectations for students that are based on subject-specific didactics and formulated at a medium level of abstraction. They thus occupy a middle ground between very general educational goals on the one hand and concrete tasks on the other, relating the two. This makes them both future-proof and adaptable, as well as capable of achieving societal consensus. Test results can be used to demonstrate how well students are able to solve subject-related tasks and problems."@en,
     "Bildungsstandards sind fachdidaktisch begründete und auf mittlerem Abstraktionsgrad formulierte Leistungserwartungen an die Schüler*innen. Sie nehmen damit eine Mittelstellung zwischen sehr allgemeinen Bildungszielen einerseits und konkreten Aufgabenstellungen andererseits ein und setzen diese miteinander in Beziehung. Sie sind dadurch sowohl zukunfts- und verwendungsoffen als auch gesellschaftlich konsensfähig. Mithilfe der Testergebnisse kann nachgewiesen werden, wie gut Schüler*innen in der Lage sind, fachbezogene Aufgaben und Probleme zu lösen."@de;
   dct:title "Educational Standards (IQB)"@en, "Bildungsstandards (IQB)"@de .
 
@@ -707,7 +698,7 @@ _:G__2462 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Bildungsstandards sowie Lehrplan-/Curricula-orientierte Wertelisten"@de;
   dct:description "Curricula of the state of Rhineland-Palatinate."@en, "Lehrpläne des Landes Rheinland-Pfalz."@de;
-  dct:title "Curricula Rhineland-Palatinate"@en, "Lehrpläne Rheinland-Pfalz"@de .
+  dct:title "Curricula in Rhineland-Palatinate"@en, "Lehrpläne Rheinland-Pfalz"@de .
 
 <https://w3id.org/eduvocs/id/34> a wd:Q1469824;
   sdo:educationalLevel "Schule"@de;
@@ -716,9 +707,9 @@ _:G__2462 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Bildungsstandards sowie Lehrplan-/Curricula-orientierte Wertelisten"@de;
   dct:creator "ISQ"@de;
-  dct:description "The competency browser is an easy way to explore the educational standards for the subjects German, mathematics and English/French for primary and lower secondary school. For teachers in particular, the development of educational standards offers an original access to the competency concepts of the framework curricula and comparative work (VERA). The skills are illustrated with tasks and supported with didactic tips for developing skills in class."@en,
+  dct:description "The competency browser is a simple way to explore the educational standards for German, mathematics, and English/French for primary and lower secondary education. In particular, for teachers, the unfolding of the educational standards offers an original approach to the competency concepts of the curriculum frameworks and standardized achievement tests (VERA). The competencies are illustrated with tasks and supported by didactic suggestions for developing them in the classroom."@en,
     "Der Kompetenzbrowser ist ein einfacher Weg, die Bildungsstandards für die Fächer Deutsch, Mathematik und Englisch/Französisch für die Primar- und Sekundarstufe I zu erkunden. Insbesondere für Lehrkräfte bietet die Entfaltung der Bildungsstandards einen originellen Zugang zu den Kompetenzkonzeptionen der Rahmenlehrpläne und Vergleichsarbeiten (VERA). Die Kompetenzen werden mit Aufgaben illustriert und mit didaktischen Hinweisen zur Kompetenzentwicklung im Unterricht unterlegt."@de;
-  dct:title "Competence browser from the Institute for School Quality of the States of Berlin and Brandenburg e. V. (ISQ)"@en,
+  dct:title "Competence browser of the Institute for School Quality of the states of Berlin and Brandenburg (ISQ)"@en,
     "Kompetenzbrowser des Instituts für Schulqualität der Länder Berlin und Brandenburg e. V. (ISQ)"@de .
 
 <https://w3id.org/eduvocs/id/36> a wd:Q1469824;
@@ -748,12 +739,13 @@ _:G__2462 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2019-05-16"^^xsd:date;
   sdo:about "Hochschule: Standards und Modulkataloge"@de;
-  dct:description """Standards in teacher training describe requirements for the actions of teachers.
-They refer to competencies and thus to abilities, skills and attitudes,
-that a teacher should have in order to cope with professional requirements. Included
-professional action also includes the competence for collegial cooperation and cooperation
-operation with other professions and institutions.
-The desired competencies result in requirements for the entire training
+  dct:description """Standards in teacher education describe the requirements for teachers' actions.
+
+They refer to competencies and thus to abilities, skills, and attitudes
+that a teacher should possess to meet professional demands.
+Professional action also includes the competence for collegial collaboration and cooperation with other professions and institutions.
+
+These desired competencies result in requirements for the entire training program
 and professional practice."""@en,
     """Standards in der Lehrerbildung beschreiben Anforderungen an das Handeln von Lehrkräften.
 Sie beziehen sich auf Kompetenzen und somit auf Fähigkeiten, Fertigkeiten und Einstellungen,
@@ -762,7 +754,7 @@ schließt berufliches Handeln auch die Kompetenz zu kollegialer Zusammenarbeit u
 operation mit anderen Professionen und Einrichtungen ein.
 Aus den angestrebten Kompetenzen ergeben sich Anforderungen für die gesamte Ausbildung
 und die Berufspraxis."""@de;
-  dct:title "KMK: Standards for teacher training: educational sciences"@en, "KMK: Standards für die Lehrerbildung: Bildungswissenschaften"@de;
+  dct:title "KMK: Standards for teacher education: Educational sciences"@en, "KMK: Standards für die Lehrerbildung: Bildungswissenschaften"@de;
   sdo:distribution _:G__2463, _:G__2464 .
 
 _:G__2463 a sdo:DataDownload;
@@ -781,7 +773,7 @@ _:G__2464 a sdo:DataDownload;
   sdo:about "Bildungsstandards sowie Lehrplan-/Curricula-orientierte Wertelisten"@de;
   dct:description "Orientation plans for education and upbringing in kindergarten."@en,
     "Orientierungspläne für Bildung und Erziehung im Kindergarten."@de;
-  dct:title "Collection of plans from different countries at primary level"@en, "Sammlung von Plänen verschiedener Länder im Primarbereich"@de .
+  dct:title "Collection of plans from various countries for primary education"@en, "Sammlung von Plänen verschiedener Länder im Primarbereich"@de .
 
 <https://w3id.org/eduvocs/id/40> a wd:Q1469824;
   sdo:educationalLevel "Schule"@de;
@@ -789,7 +781,7 @@ _:G__2464 a sdo:DataDownload;
   wdt:P973 <https://www.nextgenscience.org/>;
   dct:language "de";
   sdo:about "Bildungsstandards sowie Lehrplan-/Curricula-orientierte Wertelisten"@de;
-  dct:description "Within the Next Generation Science Standards (NGSS), there are three distinct and equally important dimensions of science learning. These dimensions are combined to form each standard - or performance expectation - and each dimension works with the other two to help students develop a coherent understanding of science over time."@en,
+  dct:description "The Next Generation Science Standards (NGSS) include three distinct and equally important dimensions of scientific learning. These dimensions are combined to form each standard—or performance expectation—and each dimension works in conjunction with the other two to help students develop a coherent understanding of science over time."@en,
     "Im Rahmen der Next Generation Science Standards (NGSS) gibt es drei verschiedene und gleichermaßen wichtige Dimensionen des wissenschaftlichen Lernens. Diese Dimensionen werden kombiniert, um jeden Standard - oder jede Leistungserwartung - zu bilden, und jede Dimension arbeitet mit den beiden anderen zusammen, um den Schülern zu helfen, im Laufe der Zeit ein zusammenhängendes Verständnis der Wissenschaft zu entwickeln."@de;
   dct:title "Next Generation Science Standards "@en, "NextGeneration Science Standards "@de .
 
@@ -828,8 +820,8 @@ Other"""@de;
   wdt:P973 <https://ceds.ed.gov/element/000029>;
   dct:language "en";
   sdo:about "Lernkontrollen"@de;
-  dct:description "The category of a review based on format and content."@en, "Die Kategorie einer Bewertung auf der Grundlage von Format und Inhalt."@de;
-  dct:title "List of assessment types"@en, "Liste von Bewertungsarten"@de .
+  dct:description "The category of an evaluation based on format and content."@en, "Die Kategorie einer Bewertung auf der Grundlage von Format und Inhalt."@de;
+  dct:title "List of rating types"@en, "Liste von Bewertungsarten"@de .
 
 <https://w3id.org/eduvocs/id/42> a wd:Q1469824;
   eduvocs:rawVocab """Admission
@@ -858,7 +850,7 @@ State graduation requirement"""@de;
   wdt:P973 <https://ceds.ed.gov/element/000026>;
   dct:language "en";
   sdo:about "Lernkontrollen"@de;
-  dct:description "The reason an assessment is designed or conducted."@en, "Der Grund, aus dem eine Bewertung konzipiert oder durchgeführt wird."@de;
+  dct:description "The reason why an assessment is designed or carried out."@en, "Der Grund, aus dem eine Bewertung konzipiert oder durchgeführt wird."@de;
   dct:title "List of evaluation purposes"@en, "Liste von Bewertungszwecken"@de .
 
 <https://w3id.org/eduvocs/id/44> a wd:Q1469824;
@@ -870,9 +862,9 @@ State graduation requirement"""@de;
   dct:language "de";
   sdo:about "Bildungsstufen"@de;
   dct:creator "UNESCO ISCED-2011"@de;
-  dct:description "A list of values ​​for the level in the education system as a teaching/learning context for which the learning object is designated."@en,
+  dct:description "A value list for the level in the education system as a teaching/learning context for which the learning object is designated."@en,
     "Eine Wertelliste für die Stufe im Bildungssystem als Lehr-/Lernkontext, für den Lernobjekt ausgewiesen ist."@de;
-  dct:title "Levels of education"@en, "Bildungsstufen"@de;
+  dct:title "Educational levels"@en, "Bildungsstufen"@de;
   sdo:distribution _:G__2465, _:G__2466 .
 
 _:G__2465 a sdo:DataDownload;
@@ -890,9 +882,9 @@ _:G__2466 a sdo:DataDownload;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/educationalContext/>;
   dct:language "de";
   sdo:about "Bildungsstufen"@de;
-  dct:description "A value list for the educational level at which the learning object can be used. Created in the context of the OpenEduHub."@en,
+  dct:description "A value list for the educational level at which the learning object can be used. Developed in the context of the OpenEduHub."@en,
     "Eine Wertelliste für die Bildungsstufe, in der das Lernobjekt genutzt werden kann. Entstanden im Kontext des OpenEduHub."@de;
-  dct:title "Levels of education"@en, "Bildungsstufen"@de;
+  dct:title "Educational levels"@en, "Bildungsstufen"@de;
   sdo:distribution _:G__2467, _:G__2468 .
 
 _:G__2467 a sdo:DataDownload;
@@ -913,7 +905,7 @@ _:G__2468 a sdo:DataDownload;
   dct:issued "1997"^^xsd:date;
   sdo:about "Bildungsstufen"@de;
   dct:creator "UNESCO"@de;
-  dct:description "This is a SKOS representation of ISCED educational levels in 1997."@en,
+  dct:description "This is a SKOS representation of the ISCED education levels from 1997."@en,
     "Dies ist eine SKOS-Darstellung der ISCED-Bildungsniveaus von 1997."@de;
   dct:title "International Standard Classification of Education 1997"@en, "International Standard Classification of Education 1997"@de;
   sdo:distribution _:G__2469, _:G__2470 .
@@ -936,7 +928,7 @@ _:G__2470 a sdo:DataDownload;
   dct:issued "2011"^^xsd:date;
   sdo:about "Bildungsstufen"@de;
   dct:creator "UNESCO"@de;
-  dct:description "This is a SKOS representation of ISCED education levels in 2011."@en,
+  dct:description "This is a SKOS representation of the ISCED education levels from 2011."@en,
     "Dies ist eine SKOS-Darstellung der ISCED-Bildungsniveaus von 2011."@de;
   dct:title "International Standard Classification of Education 2011"@en, "International Standard Classification of Education 2011"@de;
   sdo:distribution _:G__2471, _:G__2472 .
@@ -959,7 +951,7 @@ _:G__2472 a sdo:DataDownload;
   dct:issued "2013"^^xsd:date;
   sdo:about "Bildungsstufen"@de;
   dct:creator "UNESCO"@de;
-  dct:description "This is a SKOS representation of ISCED education levels in 2013."@en,
+  dct:description "This is a SKOS representation of the ISCED education levels from 2013."@en,
     "Dies ist eine SKOS-Darstellung der ISCED-Bildungsniveaus von 2013."@de;
   dct:title "International Standard Classification of Education 2013"@en, "International Standard Classification of Education 2013"@de;
   sdo:distribution _:G__2473, _:G__2474 .
@@ -988,10 +980,11 @@ Nicht definiert"""@de;
   dct:language "de";
   dct:issued "2020-9"^^xsd:date;
   sdo:about "Bildungsstufen"@de;
-  dct:description """Main learning environment for the
-Use of the resource"""@en, """Hauptsächliches Lernumfeld für die
+  dct:description """Primary learning environment for the
+use of the resource"""@en,
+    """Hauptsächliches Lernumfeld für die
 Verwendung der Ressource"""@de;
-  dct:title "Education level (LOM-CH)"@en, "Bildungsstufe (LOM-CH)"@de;
+  dct:title "Educational level (LOM-CH)"@en, "Bildungsstufe (LOM-CH)"@de;
   sdo:distribution _:G__2475 .
 
 _:G__2475 a sdo:DataDownload;
@@ -1032,9 +1025,9 @@ Other"""@de;
   wdt:P973 <https://ceds.ed.gov/element/001246>;
   dct:language "en";
   sdo:about "Bildungsstufen"@de;
-  dct:description "The educational level, grade level, or primary instructional level for which a learning resource is intended."@en,
+  dct:description "The educational level, grade level, or primary teaching level for which a learning resource is intended."@en,
     "Die Bildungsstufe, die Klassenstufe oder die primäre Unterrichtsstufe, für die eine Lernressource bestimmt ist."@de;
-  dct:title "Education level for learning resources"@en, "Bildungsniveau für Lernressourcen"@de .
+  dct:title "Educational level for learning resources"@en, "Bildungsniveau für Lernressourcen"@de .
 
 <https://w3id.org/eduvocs/id/51> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
@@ -1077,7 +1070,7 @@ vocational education"""@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
   dct:language "de";
   sdo:about "Bildungsstufen"@de;
-  dct:description "This vocabulary contains terms that indicate the institutional environment or level of education appropriate for use of the LO."@en,
+  dct:description "This vocabulary contains terms that indicate the institutional environment or the level of education appropriate for using the LO."@en,
     "Dieses Vokabular enthält Begriffe, die das institutionelle Umfeld oder das für die Verwendung des LO geeignete Bildungsniveau angeben."@de;
   dct:title "LRE Pedagogical Learning Context"@en, "LRE Pädagogischer Lernkontext"@de;
   sdo:distribution _:G__2477 .
@@ -1119,7 +1112,7 @@ Gymnasium SEK II"""@de;
   sdo:about "Bildungsstufen"@de;
   dct:description "Educational levels of the German school system, used in LOM-DE."@en,
     "Bildungsstufen des deutschen Schulsystems, verwendet in LOM-DE."@de;
-  dct:title "Levels of education (LOM-DE)"@en, "Bildungsstufen (LOM-DE)"@de;
+  dct:title "Educational levels (LOM-DE)"@en, "Bildungsstufen (LOM-DE)"@de;
   sdo:distribution _:G__2478 .
 
 _:G__2478 a sdo:DataDownload;
@@ -1133,8 +1126,8 @@ _:G__2478 a sdo:DataDownload;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/educationalLevel/>;
   dct:language "de";
   sdo:about "Klassenstufen, Jahrgangsstufen oder Fachsemester"@de;
-  dct:description "A value list for grade levels"@en, "Eine Wertelliste für Klassenstufen"@de;
-  dct:title "grade level"@en, "Klassenstufe"@de;
+  dct:description "A ranking list for grade levels"@en, "Eine Wertelliste für Klassenstufen"@de;
+  dct:title "Grade level"@en, "Klassenstufe"@de;
   sdo:distribution _:G__2479, _:G__2480 .
 
 _:G__2479 a sdo:DataDownload;
@@ -1151,8 +1144,8 @@ _:G__2480 a sdo:DataDownload;
   wdt:P973 <https://web.archive.org/web/20240210154653/https://xschule.digital/def/xschule/1.0/spec/xsc_spezifikation_1.0.pdf>;
   dct:language "de";
   sdo:about "Klassenstufen, Jahrgangsstufen oder Fachsemester"@de;
-  dct:description "Grades of the general education school system."@en, "Jahrgangsstufen des allgemeinbildenden Schulsystems."@de;
-  dct:title "XSchool: grade level"@en, "XSchule: Jahrgangsstufe"@de;
+  dct:description "Year groups of the general education school system."@en, "Jahrgangsstufen des allgemeinbildenden Schulsystems."@de;
+  dct:title "School: Year group"@en, "XSchule: Jahrgangsstufe"@de;
   sdo:distribution _:G__2481, _:G__2482 .
 
 _:G__2481 a sdo:DataDownload;
@@ -1174,8 +1167,8 @@ _:G__2482 a sdo:DataDownload;
   dct:modified "2022-08-26"^^xsd:date;
   dct:issued "2022-06-01"^^xsd:date;
   sdo:about "Klassenstufen, Jahrgangsstufen oder Fachsemester"@de;
-  dct:description "A list of values ​​for the grade level."@en, "Eine Wertelliste für die Jahrgangsstufe."@de;
-  dct:title "Grades (meta video portal)"@en, "Jahrgangsstufen (Meta-Videoportal)"@de;
+  dct:description "A ranking list for the grade level."@en, "Eine Wertelliste für die Jahrgangsstufe."@de;
+  dct:title "Year groups (Meta-Videoportal)"@en, "Jahrgangsstufen (Meta-Videoportal)"@de;
   sdo:distribution _:G__2483, _:G__2484 .
 
 _:G__2483 a sdo:DataDownload;
@@ -1194,9 +1187,9 @@ _:G__2484 a sdo:DataDownload;
   wdt:P973 <https://w3id.org/kim/schularten/>;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
-  dct:description "A list of values ​​for types of schools in the German school system. A type of school is characterized by the fact that it has an independent character in terms of curricula, educational goals and qualification levels. It does not have to be an administratively independent organizational unit."@en,
+  dct:description "A ranking of school types within the German school system. A school type is characterized by its independent nature with regard to curricula, educational goals, and qualification levels. It does not necessarily have to be an independent administrative organizational unit."@en,
     "Eine Wertelliste für Schularten im deutschen Schulsystem. Eine Schulart zeichnet sich dadurch aus, dass sie im Hinblick auf Lehrpläne, Bildungsziele und Qualifkationsniveau einen eigenständigen Charakter besitzt. Sie muss dazu keine verwaltungstechnische eigenständige Organisationseinheit sein."@de;
-  dct:title "School type vocabulary"@en, "Schularten-Vokabular"@de;
+  dct:title "Vocabulary for different types of schools"@en, "Schularten-Vokabular"@de;
   sdo:distribution _:G__2485, _:G__2486 .
 
 _:G__2485 a sdo:DataDownload;
@@ -1215,9 +1208,9 @@ _:G__2486 a sdo:DataDownload;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/schoolType/>;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
-  dct:description "A list of values ​​of the types of schools that exist in Germany."@en,
+  dct:description "A list of values ​​for the types of schools that exist in Germany."@en,
     "Eine Werteliste der Schularten, die es in Deutschland gibt."@de;
-  dct:title "School type vocabulary"@en, "Schularten-Vokabular"@de;
+  dct:title "Vocabulary for different types of schools"@en, "Schularten-Vokabular"@de;
   sdo:distribution _:G__2487, _:G__2488 .
 
 _:G__2487 a sdo:DataDownload;
@@ -1241,8 +1234,7 @@ Berufsschule"""@de;
   sdo:url <https://mundo.schule/>;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
-  dct:description "Lists of values ​​for school types at mundo.schule / SODIX."@en,
-    "Wertelisten von Schularten bei mundo.schule / SODIX."@de;
+  dct:description "Value lists for school types at mundo.schule / SODIX."@en, "Wertelisten von Schularten bei mundo.schule / SODIX."@de;
   dct:title "School types Mundo"@en, "Schularten Mundo"@de .
 
 <https://w3id.org/eduvocs/id/61> a wd:Q1469824;
@@ -1251,7 +1243,7 @@ Berufsschule"""@de;
   wdt:P973 <https://web.archive.org/web/20240210154500/https://xbildung.de/def/xbildung/1.0/spec/xbd_spezifikation_1.0.pdf>;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
-  dct:description "Based on the states' core data set for individual school statistical data"@en,
+  dct:description "Based on the core dataset of the federal states for individual school statistics"@en,
     "Basierend auf Kerndatensatz der Länder für schulstatistische Individualdaten"@de;
   dct:title "Type of school"@en, "Art der Schule"@de;
   sdo:distribution _:G__2489, _:G__2490 .
@@ -1285,7 +1277,7 @@ _:G__2491 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
   dct:creator "Fobizz"@de;
-  dct:description "Types of schools on the fobizz platform."@en, "Schularten der Plattform fobizz."@de;
+  dct:description "School types on the fobizz platform."@en, "Schularten der Plattform fobizz."@de;
   dct:title "Types of schools"@en, "Schularten"@de .
 
 <https://w3id.org/eduvocs/id/64> a wd:Q1469824;
@@ -1298,7 +1290,7 @@ _:G__2491 a sdo:DataDownload;
   dct:modified "2022-05-24"^^xsd:date;
   dct:issued "2021-04-22"^^xsd:date;
   sdo:about "Schularten, Schultypen, Schulformen"@de;
-  dct:description "Types of schools from türrrichtsvideos.net"@en, "Schularten von unterrrichtsvideos.net"@de;
+  dct:description "School types from unterrrichtsvideos.net"@en, "Schularten von unterrrichtsvideos.net"@de;
   dct:title "Types of schools"@en, "Schularten"@de;
   sdo:distribution _:G__2492, _:G__2493 .
 
@@ -1317,7 +1309,7 @@ _:G__2493 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
   dct:creator "meinUnterricht"@de;
-  dct:description "Types of schools according to meinlehr.de"@en, "Schularten nach meinunterricht.de"@de;
+  dct:description "School types according to meinunterricht.de"@en, "Schularten nach meinunterricht.de"@de;
   dct:title "Types of schools"@en, "Schularten"@de .
 
 <https://w3id.org/eduvocs/id/66> a wd:Q1469824;
@@ -1326,7 +1318,7 @@ _:G__2493 a sdo:DataDownload;
   wdt:P126 "digital.learning.lab"@de;
   dct:language "de";
   sdo:about "Schularten, Schultypen, Schulformen"@de;
-  dct:description "Types of schools at digitallearninglab.de"@en, "Schularten des digitallearninglab.de"@de;
+  dct:description "School types of digitallearninglab.de"@en, "Schularten des digitallearninglab.de"@de;
   dct:title "Types of schools"@en, "Schularten"@de .
 
 <https://w3id.org/eduvocs/id/67> a wd:Q1469824;
@@ -1345,9 +1337,9 @@ _:G__2493 a sdo:DataDownload;
   wdt:P973 <https://xschule.digital/def/xschule/1.1/spec/xsc_spezifikation_1.1.pdf>;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
-  dct:description "School qualifications according to XHochschule with ISCED mapping."@en,
+  dct:description "School leaving certificates according to XUniversity with ISCED mapping."@en,
     "Schulabschlüsse nach XHochschule mit ISCED Mapping."@de;
-  dct:title "School qualifications"@en, "Schulabschlüsse"@de;
+  dct:title "School leaving certificates"@en, "Schulabschlüsse"@de;
   sdo:distribution _:G__2494, _:G__2495 .
 
 _:G__2494 a sdo:DataDownload;
@@ -1366,8 +1358,9 @@ _:G__2495 a sdo:DataDownload;
   wdt:P973 <https://w3id.org/kim/schulabschluesse/>;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
-  dct:description "School qualifications with mappings to Wikidata and DNB."@en, "Schulabschlüsse mit Mappings zu Wikidata und DNB."@de;
-  dct:title "School qualifications"@en, "Schulabschlüsse"@de;
+  dct:description "School leaving certificates with mappings to Wikidata and DNB."@en,
+    "Schulabschlüsse mit Mappings zu Wikidata und DNB."@de;
+  dct:title "School leaving certificates"@en, "Schulabschlüsse"@de;
   sdo:distribution _:G__2496, _:G__2497 .
 
 _:G__2496 a sdo:DataDownload;
@@ -1384,9 +1377,9 @@ _:G__2497 a sdo:DataDownload;
   wdt:P973 <https://xhochschule.de/def/xhochschule/1.0/spec/xhs_spezifikation_1.0.pdf>;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
-  dct:description "University degrees according to XHochschule with ISCED mapping."@en,
+  dct:description "University degrees according to XUniversity with ISCED mapping."@en,
     "Hochschulabschlüsse nach XHochschule mit ISCED Mapping."@de;
-  dct:title "University degrees"@en, "Hochschulabschlüsse"@de;
+  dct:title "university degrees"@en, "Hochschulabschlüsse"@de;
   sdo:distribution _:G__2498 .
 
 _:G__2498 a sdo:DataDownload;
@@ -1401,7 +1394,8 @@ _:G__2498 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
   dct:description "University degrees according to Destatis."@en, "Hochschulabschlüsse nach Destatis."@de;
-  dct:title "Destatis key tables for qualifications in the survey portal"@en, "Destatis Schlüsseltabellen für Abschlüsse im Erhebungsportal"@de .
+  dct:title "Destatis key tables for financial statements in the survey portal"@en,
+    "Destatis Schlüsseltabellen für Abschlüsse im Erhebungsportal"@de .
 
 <https://w3id.org/eduvocs/id/72> a wd:Q1469824;
   sdo:educationalLevel "Hochschule"@de;
@@ -1410,7 +1404,7 @@ _:G__2498 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
   dct:creator "Hochschulkompass"@de;
-  dct:description "University degrees used by Hochschulkompass."@en, "Hochschulabschlüsse, verwendet bei Hochschulkompass."@de;
+  dct:description "University degrees, as used by Hochschulkompass."@en, "Hochschulabschlüsse, verwendet bei Hochschulkompass."@de;
   dct:title "Degrees"@en, "Abschlüsse"@de .
 
 <https://w3id.org/eduvocs/id/73> a wd:Q1469824;
@@ -1421,9 +1415,9 @@ _:G__2498 a sdo:DataDownload;
   wdt:P973 <https://w3id.org/kim/kmk-vocabs/lehramtstypen/>;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
-  dct:description "A list of values ​​for the types of teachers the resource is suitable for."@en,
+  dct:description "A list of values ​​for teaching qualifications for which the resource is suitable."@en,
     "Eine Werteliste für Lehramtstypen, für die die Ressource geeignet ist."@de;
-  dct:title "Types of teaching positions"@en, "Lehramtstypen"@de;
+  dct:title "Types of teaching qualifications"@en, "Lehramtstypen"@de;
   sdo:distribution _:G__2499, _:G__2500 .
 
 _:G__2499 a sdo:DataDownload;
@@ -1441,7 +1435,7 @@ _:G__2500 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
   dct:creator "Bundesinstitut für Berufsbildung (BIBB)"@de;
-  dct:description "This standard work documents the valid legal basis for all training occupations according to BBiG and HwO. In addition, it contains training regulations as well as federal and state regulations on training and further education for professions in the health and social services and much more. The directory is updated annually."@en,
+  dct:description "This standard reference work documents the applicable legal foundations for all vocational training occupations according to the Vocational Training Act (BBiG) and the Crafts and Trades Code (HwO). Furthermore, it contains regulations on continuing education and training, as well as federal and state regulations on training and further education for professions in the health and social services sectors, and much more. The directory is updated annually."@en,
     "Dieses Standardwerk dokumentiert die gültigen Rechtsgrundlagen aller Ausbildungsberufe nach BBiG und HwO. Darüber hinaus enthält es Fortbildungsregelungen sowie bundesrechtliche und landesrechtliche Regelungen zur Ausbildung und Weiterbildung für Berufe im Gesundheits- und Sozialwesen und vieles mehr. Das Verzeichnis wird jährlich aktualisiert."@de;
   dct:title "List of recognized training occupations"@en, "Verzeichnis der anerkannten Ausbildungsberufe"@de .
 
@@ -1452,9 +1446,9 @@ _:G__2500 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
   dct:creator "HubbS"@de;
-  dct:description "List of careers from the vocational school hub. The list of values ​​is used for SODIX."@en,
+  dct:description "List of occupations from the vocational school hub. This list of values ​​is used for SODIX."@en,
     "Liste von Berufen des Hubs für berufliche Schulen. Die Werteliste wird für SODIX verwendet."@de;
-  dct:title "Profession/professional field"@en, "Beruf / Berufsfeld"@de .
+  dct:title "Occupation / Professional field"@en, "Beruf / Berufsfeld"@de .
 
 <https://w3id.org/eduvocs/id/76> a wd:Q1469824;
   eduvocs:rawVocab """Datenschutz & IT-Sicherheit
@@ -1476,8 +1470,8 @@ Textil"""@de;
   dct:language "de";
   sdo:about "Fach- und Themenzuordnung"@de;
   dct:creator "Netzwerk Q4.0"@de;
-  dct:description "List of topics for further training."@en, "Auflistung von Themen für Weiterbildungstrainings."@de;
-  dct:title "Topic / training"@en, "Thema / Trainings"@de .
+  dct:description "List of topics for further training courses."@en, "Auflistung von Themen für Weiterbildungstrainings."@de;
+  dct:title "Topic / Training"@en, "Thema / Trainings"@de .
 
 <https://w3id.org/eduvocs/id/77> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
@@ -1487,7 +1481,7 @@ Textil"""@de;
   wdt:P973 <https://w3id.org/openeduhub/vocabs/graduation/>;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
-  dct:description "A list of values ​​for school and university degrees. Created in the context of the OpenEduHub."@en,
+  dct:description "A ranking of school and university degrees. Created in the context of the OpenEduHub."@en,
     "Eine Wertelliste für schulische und Hochschulabschlüsse. Entstanden im Kontext des OpenEduHub."@de;
   dct:title "Diploma"@en, "Abschluss"@de;
   sdo:distribution _:G__2501, _:G__2502 .
@@ -1515,7 +1509,7 @@ upper secondary level"""@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
   dct:language "de";
   sdo:about "Abschlüsse"@de;
-  dct:description "List of qualifications on European Schoolnet."@en, "Liste von Abschlüssen im European Schoolnet."@de;
+  dct:description "List of qualifications in the European Schoolnet."@en, "Liste von Abschlüssen im European Schoolnet."@de;
   dct:title "Degrees (Ed Level/Degree Earned Values)"@en, "Abschlüsse (Ed Level/Degree Earned Values)"@de;
   sdo:distribution _:G__2503 .
 
@@ -1532,7 +1526,7 @@ _:G__2503 a sdo:DataDownload;
   sdo:about "Sprachen"@de;
   dct:description "Language thesaurus according to ISO 639-1"@en, "Sprachthesaurus gemäß ISO 639-1"@de;
   dct:title """
-ISO 639-1 language thesaurus"""@en, """
+ISO 639-1 Language Thesaurus"""@en, """
 ISO 639-1 Sprachthesaurus"""@de;
   sdo:distribution _:G__2504, _:G__2505, _:G__2506 .
 
@@ -1555,7 +1549,7 @@ _:G__2506 a sdo:DataDownload;
   dct:language "de";
   dct:modified "2013-11-25"^^xsd:date;
   sdo:about "Sprachen"@de;
-  dct:description "The MARC list of languages ​​contains three-character, lowercase letter sequences that serve as identifiers for languages ​​and language groups. The codes are usually based on the first three letters of the English form or, in some cases, the vernacular form of the corresponding language name. The codes are varied as necessary to resolve conflicts and are not intended as abbreviations for a language name. Generally, when the name of a language in the list is changed, the original code is retained. The codes in this list correspond to the ISO 639-2 codes (bibliographic codes) and some ISO 639-5 codes, although the language name names may be different. They are linked to the corresponding codes in ISO 639-2 and ISO 639-5 and the corresponding two-digit codes in ISO 639-1. The list contains over 480 discrete codes. It is also searchable at: MARC code list for languages."@en,
+  dct:description "The MARC list for languages ​​contains three-letter, lowercase sequences that serve as identifiers for languages ​​and language groups. The codes are generally based on the first three letters of the English form or, in some cases, the vernacular form of the corresponding language name. The codes are varied as needed to resolve conflicts and are not intended as abbreviations for a language name. If the name of a language in the list is changed, the original code is generally retained. The codes in this list correspond to the codes of ISO 639-2 (bibliographic codes) and some codes of ISO 639-5, although the designations of the language names may differ. They are linked to the corresponding codes in ISO 639-2 and ISO 639-5 and the corresponding two-letter codes in ISO 639-1. The list contains over 480 discrete codes. It is also searchable at: MARC code list for languages."@en,
     "Die MARC-Liste für Sprachen enthält dreistellige, klein geschriebene Buchstabenfolgen, die als Bezeichner für Sprachen und Sprachgruppen dienen. Die Codes basieren in der Regel auf den ersten drei Buchstaben der englischen Form oder, in einigen Fällen, der landessprachlichen Form des entsprechenden Sprachnamens. Die Codes werden bei Bedarf variiert, um Konflikte zu lösen, und sind nicht als Abkürzungen für einen Sprachnamen gedacht. Wenn der Name einer Sprache in der Liste geändert wird, wird der ursprüngliche Code im Allgemeinen beibehalten. Die Codes in dieser Liste entsprechen den Codes der ISO 639-2 (bibliografische Codes) und einigen Codes der ISO 639-5, auch wenn die Bezeichnungen der Sprachnamen unterschiedlich sein können. Sie sind mit den entsprechenden Codes in ISO 639-2 und ISO 639-5 und den entsprechenden zweistelligen Codes in ISO 639-1 verknüpft. Die Liste enthält über 480 diskrete Codes. Sie ist auch durchsuchbar unter: MARC-Code-Liste für Sprachen."@de;
   dct:title "Languages ​​(MARC)"@en, "Sprachen (MARC)"@de;
   sdo:distribution _:G__2507, _:G__2508, _:G__2509 .
@@ -1581,7 +1575,7 @@ _:G__2509 a sdo:DataDownload;
   dct:modified "2009-09-01"^^xsd:date;
   dct:issued "2009-09-01"^^xsd:date;
   sdo:about "Sprachen"@de;
-  dct:description "ISO 639-1 is the first part of the international ISO 639 language code family. ISO 639-1 contains two-character, lowercase letter sequences that are used to identify languages. The list contains about 180 discrete codes. There are also three-character ISO 639-2 codes for all ISO 639-1 languages. These codes are linked to the codes for the same languages ​​in ISO 639-2 and the MARC Language Codes."@en,
+  dct:description "ISO 639-1 is the first part of the international ISO 639 language code family. ISO 639-1 contains two-letter, lowercase sequences used to identify languages. The list includes approximately 180 discrete codes. For all ISO 639-1 languages, there are also three-character ISO 639-2 codes. These codes are linked to the codes for the same languages ​​in ISO 639-2 and to the MARC language codes."@en,
     "ISO 639-1 ist der erste Teil der internationalen ISO 639-Sprachcodefamilie. ISO 639-1 enthält zweistellige, klein geschriebene Buchstabenfolgen, die zur Identifizierung von Sprachen dienen. Die Liste enthält etwa 180 diskrete Codes. Für alle ISO 639-1-Sprachen gibt es auch ISO 639-2-Codes mit drei Zeichen. Diese Codes sind mit den Codes für dieselben Sprachen in ISO 639-2 und den MARC Language Codes verknüpft."@de;
   dct:title "Languages ​​ISO 639-1"@en, "Sprachen ISO 639-1"@de;
   sdo:distribution _:G__2510, _:G__2511, _:G__2512 .
@@ -1607,7 +1601,7 @@ _:G__2512 a sdo:DataDownload;
   dct:modified "2024-04-03"^^xsd:date;
   dct:issued "2024-04-03"^^xsd:date;
   sdo:about "Sprachen"@de;
-  dct:description "ISO 639-2 is part of the ISO 639 language code family, which also includes a two-character code set (ISO 639-1) for representing language names. ISO 639-2 contains codes for all languages ​​included in ISO 639-1 and several hundred additional languages. The ISO 639-2 (Bibliography) codes were developed for use in bibliographic metadata, e.g. B. for libraries, information services and publishers, while ISO 639-2 (Terminology) is aimed at terminology, lexicography and linguistic applications. The lists are identical, except for 20 languages ​​that have different bibliographic and terminological codes. The list contains over 500 discrete codes. The ISO 639-2 (bibliographic) codes correspond to the MARC language codes. The ISO 639-2 codes are linked to two-digit codes for the same language in ISO 639-1, to the MARC language codes, and to corresponding language group codes in ISO 639-5."@en,
+  dct:description "ISO 639-2 is part of the ISO 639 language code family, which also includes a two-digit code set (ISO 639-1) for representing language names. ISO 639-2 contains codes for all languages ​​included in ISO 639-1 and several hundred additional languages. The codes of ISO 639-2 (Bibliography) were developed for use in bibliographic metadata, for example, by libraries, information services, and publishers, while ISO 639-2 (Terminology) is geared toward terminology, lexicography, and linguistic applications. The lists are identical, except for 20 languages, which have different bibliographic and terminological codes. The list contains over 500 discrete codes. The ISO 639-2 (Bibliographic) codes correspond to the MARC language codes. The ISO 639-2 codes are linked to two-digit codes for the same language in ISO 639-1, to the MARC language codes, and to corresponding codes for language groups in ISO 639-5."@en,
     "ISO 639-2 ist Teil der ISO 639-Sprachcodefamilie, die auch einen zweistelligen Codesatz (ISO 639-1) für die Darstellung von Sprachnamen enthält. ISO 639-2 enthält Codes für alle in ISO 639-1 enthaltenen Sprachen und mehrere hundert weitere Sprachen. Die Codes von ISO 639-2 (Bibliografie) wurden für die Verwendung in bibliografischen Metadaten entwickelt, z. B. für Bibliotheken, Informationsdienste und Verlage, während ISO 639-2 (Terminologie) auf Terminologie, Lexikografie und linguistische Anwendungen ausgerichtet ist. Die Listen sind identisch, mit Ausnahme von 20 Sprachen, die unterschiedliche bibliographische und terminologische Codes haben. Die Liste enthält über 500 diskrete Codes. Die ISO 639-2 (bibliographischen) Codes entsprechen den MARC-Sprachcodes. Die ISO 639-2-Codes sind mit zweistelligen Codes für dieselbe Sprache in ISO 639-1, mit den MARC-Sprachcodes und mit entsprechenden Codes für Sprachgruppen in ISO 639-5 verknüpft."@de;
   dct:title "Languages ​​ISO 639-2"@en, "Sprachen ISO 639-2"@de;
   sdo:distribution _:G__2513, _:G__2514 .
@@ -1626,7 +1620,7 @@ _:G__2514 a sdo:DataDownload;
   wdt:P973 <http://id.loc.gov/vocabulary/iso639-5>;
   dct:language "de";
   sdo:about "Sprachen"@de;
-  dct:description "ISO 639-5 contains three-character lowercase letter sequences that serve as identifiers for representing names of living and extinct language families and language groups. The list contains over 100 discrete codes. The codes in this list include all language group codes in the MARC language code scheme and over 40 other groups. The codes are linked to the corresponding codes in the MARC language code list and in ISO 639-2."@en,
+  dct:description "ISO 639-5 contains three-letter, lowercase sequences that serve as identifiers for the names of living and extinct language families and language groups. The list contains over 100 discrete codes. The codes in this list include all codes for language groups in the MARC language code scheme and over 40 additional groups. The codes are linked to the corresponding codes in the MARC language code list and in ISO 639-2."@en,
     "ISO 639-5 enthält dreistellige klein geschriebene Buchstabenfolgen, die als Bezeichner für die Darstellung von Namen lebender und ausgestorbener Sprachfamilien und Sprachgruppen dienen. Die Liste enthält über 100 diskrete Codes. Die Codes in dieser Liste umfassen alle Codes für Sprachgruppen im MARC-Sprachcodeschema und über 40 weitere Gruppen. Die Codes sind mit den entsprechenden Codes in der MARC-Sprachcodeliste und in ISO 639-2 verknüpft."@de;
   dct:title "Languages ​​ISO 6395"@en, "Sprachen ISO 6395"@de .
 
@@ -1638,9 +1632,9 @@ _:G__2514 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Zielgruppen"@de;
   dct:creator "LRMI"@de;
-  dct:description "The LRMI Audience Role Vocabulary defines the primary or intended roles of the audience (beneficiaries) of the resource being described. It is used to provide values ​​for the lrmi educationalRole property."@en,
+  dct:description "The LRMI Audience Role Vocabulary defines the primary or intended roles of the audience (beneficiaries) of the described resource. It serves to provide values ​​for the LRMI educationalRole property."@en,
     "Das LRMI Audience Role Vocabulary definiert die primären oder beabsichtigten Rollen des Publikums (Nutznießers) der beschriebenen Ressource. Es dient der Bereitstellung von Werten für die Eigenschaft lrmi educationalRole."@de;
-  dct:title "Target group"@en, "Zielgruppe"@de;
+  dct:title "Target audience"@en, "Zielgruppe"@de;
   sdo:distribution _:G__2515 .
 
 _:G__2515 a sdo:DataDownload;
@@ -1655,9 +1649,9 @@ _:G__2515 a sdo:DataDownload;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/intendedEndUserRole/>;
   dct:language "de";
   sdo:about "Zielgruppen"@de;
-  dct:description "A list of values ​​for roles for which the resource was created. Created in the context of the OpenEduHub."@en,
+  dct:description "A value list for the roles for which the resource was created. Developed in the context of the OpenEduHub."@en,
     "Eine Werteliste für Rollen, für die die Ressource erstellt wurde. Entstanden im Kontext des OpenEduHub."@de;
-  dct:title "Target group"@en, "Zielgruppe"@de;
+  dct:title "Target audience"@en, "Zielgruppe"@de;
   sdo:distribution _:G__2516, _:G__2517 .
 
 _:G__2516 a sdo:DataDownload;
@@ -1688,9 +1682,9 @@ youth panel"""@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
   dct:language "de";
   sdo:about "Zielgruppen"@de;
-  dct:description "List of values ​​of target groups from the European Schoolnet (EUN Target Groups)."@en,
+  dct:description "Value list of target groups of the European Schoolnet (EUN Target Groups)."@en,
     "Werteliste von Zielgruppen des European Schoolnet (EUN Target Groups)."@de;
-  dct:title "Target group"@en, "Zielgruppe"@de;
+  dct:title "Target audience"@en, "Zielgruppe"@de;
   sdo:distribution _:G__2518 .
 
 _:G__2518 a sdo:DataDownload;
@@ -1711,7 +1705,7 @@ specialized"""@de;
   wdt:P973 <http://id.loc.gov/vocabulary/maudience>;
   dct:language "de";
   sdo:about "Zielgruppen"@de;
-  dct:description "Category of users for whom the content of a resource is intended or for whom the content is considered appropriate."@en,
+  dct:description "Category of users for whom the content of a resource is intended or for whom the content is considered suitable."@en,
     "Kategorie von Benutzern, für die der Inhalt einer Ressource bestimmt ist oder für die der Inhalt als geeignet angesehen wird."@de;
   dct:title "Target groups"@en, "Zielgruppen"@de .
 
@@ -1735,9 +1729,9 @@ specialized"""@de;
   dct:language "de";
   sdo:about "Zielgruppen"@de;
   dct:creator "ComeIn"@de;
-  dct:description "A list of values ​​for the target group of learners for whom the resource was designed."@en,
+  dct:description "A list of values ​​for target groups as learners, for whom the resource was designed."@en,
     "Eine Werteliste für Zielgruppen als Lernende, für welche die Ressource konzipiert wurde."@de;
-  dct:title "Groups of people/target groups"@en, "Personengruppen / Zielgruppen"@de;
+  dct:title "Target groups / groups of people"@en, "Personengruppen / Zielgruppen"@de;
   sdo:distribution _:G__2519, _:G__2520 .
 
 _:G__2519 a sdo:DataDownload;
@@ -1757,7 +1751,7 @@ _:G__2520 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Zielgruppen"@de;
   dct:creator "BIRD"@de;
-  dct:description "A list of values ​​for the target groups of educational offers, as created in the BIRD reference project."@en,
+  dct:description "A list of values ​​for the target groups of educational offerings, as created in the BIRD reference project."@en,
     "Eine Werteliste für die Zielgruppen von Bildungsangeboten, wie sie im BIRD Referenzprojekt angelegt wurde."@de;
   dct:title "Groups of people (BIRD)"@en, "Personengruppen (BIRD)"@de;
   sdo:distribution _:G__2521, _:G__2522 .
@@ -1778,7 +1772,7 @@ _:G__2522 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2024-05-21"^^xsd:date;
   sdo:about "Zielgruppen"@de;
-  dct:description "A list of audiences that can be associated with a resource."@en,
+  dct:description "A list of target audiences that can be assigned to a resource."@en,
     "Eine Liste von Zielgruppen, die einer Ressource zugeordnet werden können."@de;
   dct:title "Target groups"@en, "Zielgruppen"@de;
   sdo:distribution _:G__2523, _:G__2524 .
@@ -1846,9 +1840,9 @@ other"""@de;
   wdt:P126 "FWU"@de;
   dct:language "en";
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "Specific type of learning object Object, the most dominant type first."@en,
+  dct:description "Specific type of learning object, the most dominant type first."@en,
     "Spezifische Art von Lernobjekt Objekt, die dominanteste Art zuerst."@de;
-  dct:title "Learning resource types (LOM-DE)"@en, "Lernressourcentypen (LOM-DE)"@de .
+  dct:title "Learning Resource Types (LOM-DE)"@en, "Lernressourcentypen (LOM-DE)"@de .
 
 <https://w3id.org/eduvocs/id/97> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
@@ -1860,9 +1854,9 @@ other"""@de;
   sdo:url <https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "A list of values ​​for types of learning resources (Learning Resource Type), created in the context of the metadata schema \"LOM for Higher Education OER Repositories\"."@en,
+  dct:description "A value list for types of learning resources (Learning Resource Type), created in the context of the metadata schema \"LOM for Higher Education OER Repositories\"."@en,
     "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des Metadatenschemas \"LOM for Higher Education OER Repositories\"."@de;
-  dct:title "College Campus Resource Types (HCRT)"@en, "Hochschulcampus Ressourcentypen (HCRT)"@de;
+  dct:title "University Campus Resource Types (HCRT)"@en, "Hochschulcampus Ressourcentypen (HCRT)"@de;
   sdo:distribution _:G__2525, _:G__2526 .
 
 _:G__2525 a sdo:DataDownload;
@@ -1880,8 +1874,8 @@ _:G__2526 a sdo:DataDownload;
   wdt:P973 <https://web.archive.org/web/20241114021057/https://agmud.de/eaf-erweitertes-austauschformat/>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "List of media types from AG MuD."@en, "Liste von Medienarten der AG MuD."@de;
-  dct:title "Media types / media classification EAF"@en, "Medienarten / Medienklassifikation EAF"@de .
+  dct:description "List of media types from the AG MuD."@en, "Liste von Medienarten der AG MuD."@de;
+  dct:title "Media types / Media classification EAF"@en, "Medienarten / Medienklassifikation EAF"@de .
 
 <https://w3id.org/eduvocs/id/99> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
@@ -1891,8 +1885,8 @@ _:G__2526 a sdo:DataDownload;
   wdt:P973 <http://w3id.org/openeduhub/vocabs/new_lrt/>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "Comprehensive collection of resource types."@en, "Umfassende Zusammenstellung von Ressourcentypen."@de;
-  dct:title "Advanced learning resource types"@en, "Erweiterte Lernressourcentypen"@de;
+  dct:description "Comprehensive compilation of resource types."@en, "Umfassende Zusammenstellung von Ressourcentypen."@de;
+  dct:title "Extended Learning Resource Types"@en, "Erweiterte Lernressourcentypen"@de;
   sdo:distribution _:G__2527, _:G__2528 .
 
 _:G__2527 a sdo:DataDownload;
@@ -1930,7 +1924,7 @@ _:G__2530 a sdo:DataDownload;
   wdt:P973 <https://vocabs.sodix.de/sodix/educational/learningresourcetype/learningresourcetype>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "A list of values ​​for types of learning resources used in the SODIX Content Hub. Ordered list, predominant type first."@en,
+  dct:description "A priority list for types of learning resources, as used in the SODIX Content Hub. Ordered list, with the most prevalent type first."@en,
     "Eine Wertelliste für Typen von Lernressourcen, wie er im SODIX Content Hub zum Einsatz kommt. Geordnete Liste, der vorherrschende Typ zuerst."@de;
   dct:title "Type of learning resource"@en, "Typ der Lernressource"@de;
   sdo:distribution _:G__2531 .
@@ -1980,9 +1974,9 @@ unterstützendes Dokument"""@de;
   dct:language "de";
   dct:issued "2022-04-05"^^xsd:date;
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "A controlled vocabulary denoting different types of learning resources. Such a resource has one or more physical or digital representations and includes, specifies or conditions a learning activity or learning experience."@en,
+  dct:description "A controlled vocabulary that denotes different types of learning resources. Such a resource has one or more physical or digital representations and involves, specifies, or implies a learning activity or learning experience."@en,
     "Ein kontrolliertes Vokabular, das verschiedene Arten von Lernressourcen bezeichnet. Eine solche Ressource hat ein oder mehrere physische oder digitiale Repräsentationen und beinhaltet, spezifiziert oder bedingt eine Lernaktivität or Lernerfahrung."@de;
-  dct:title "LRMI learning resource type vocabulary"@en, "LRMI Lernressourcentyp Vokabular"@de;
+  dct:title "LRMI Learning Resource Type Vocabulary"@en, "LRMI Lernressourcentyp Vokabular"@de;
   sdo:distribution _:G__2532 .
 
 _:G__2532 a sdo:DataDownload;
@@ -1997,7 +1991,7 @@ _:G__2532 a sdo:DataDownload;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "Datacite"@de;
   dct:description "Resource types according to the Datacite schema."@en, "Ressourcentypen gemäß des Datacite Schemas."@de;
-  dct:title "DataCite resource types"@en, "DataCite Ressourcentypen"@de;
+  dct:title "DataCite Resource Types"@en, "DataCite Ressourcentypen"@de;
   sdo:distribution _:G__2533 .
 
 _:G__2533 a sdo:DataDownload;
@@ -2066,7 +2060,7 @@ Videodisc"""@de;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "Common Education Data Standard"@de;
-  dct:description "A type of physical storage medium on which the learning resource is provided or available."@en,
+  dct:description "A type of physical data carrier on which the learning resource is provided or available."@en,
     "Eine Art physischer Datenträger, auf dem die Lernressource bereitgestellt oder verfügbar ist."@de;
   dct:title "Physical Media Type"@en, "Physical Media Type"@de .
 
@@ -2085,9 +2079,9 @@ Other
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "Common Education Data Standard"@de;
-  dct:description "The purpose of work in the context of education.The purpose of work in the context of education."@en,
+  dct:description "The purpose of work in the context of education. The purpose of work in the context of education."@en,
     "Der Zweck der Arbeit im Kontext der Bildung.Der Zweck der Arbeit im Kontext der Bildung."@de;
-  dct:title "Educational use"@en, "Educational Use"@de .
+  dct:title "Educational Use"@en, "Educational Use"@de .
 
 <https://w3id.org/eduvocs/id/108> a wd:Q1469824;
   wdt:P5009 "SKOS"@de;
@@ -2101,9 +2095,9 @@ Other
   dct:issued "2022-08-24"^^xsd:date;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "unterrrichtsvideos.net"@de;
-  dct:description "A list of values ​​for accompanying materials for resources on the meta video portal."@en,
+  dct:description "A value list for accompanying materials for resources of the Meta video portal."@en,
     "Eine Wertelliste für Begleitmaterialien zu Ressourcen des Meta-Videoportals."@de;
-  dct:title "Supporting material types"@en, "Begleitmaterialtypen"@de;
+  dct:title "Accompanying material types"@en, "Begleitmaterialtypen"@de;
   sdo:distribution _:G__2534, _:G__2535 .
 
 _:G__2534 a sdo:DataDownload;
@@ -2126,9 +2120,9 @@ _:G__2535 a sdo:DataDownload;
   dct:issued "2022-06-01"^^xsd:date;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "unterrrichtsvideos.net"@de;
-  dct:description "A value list for video types from the Meta video portal network."@en,
+  dct:description "A ranking list for video types from the Meta video portal network."@en,
     "Eine Wertelliste für Videoarten des Meta-Videoportal-Verbundes."@de;
-  dct:title "Video Types"@en, "Videotypen"@de;
+  dct:title "Video types"@en, "Videotypen"@de;
   sdo:distribution _:G__2536, _:G__2537 .
 
 _:G__2536 a sdo:DataDownload;
@@ -2147,8 +2141,8 @@ _:G__2537 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "ORCA.nrw"@de;
-  dct:description "List of values ​​of media types."@en, "Werteliste von Medientypen."@de;
-  dct:title "Media Types"@en, "Medientypen"@de;
+  dct:description "List of media types."@en, "Werteliste von Medientypen."@de;
+  dct:title "Media types"@en, "Medientypen"@de;
   sdo:distribution _:G__2538 .
 
 _:G__2538 a sdo:DataDownload;
@@ -2182,9 +2176,9 @@ _:G__2538 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "euroCRIS"@de;
-  dct:description "This schema contains CERIF vocabulary terms that are applicable in link entities and thus represent output types."@en,
+  dct:description "This schema contains CERIF vocabulary terms that are applicable in linking entities and thus represent output types."@en,
     "Dieses Schema enthält CERIF-Vokabularbegriffe, die in Verknüpfungsentitäten anwendbar sind und somit Ausgabetypen darstellen."@de;
-  dct:title "Output types"@en, "Output Types"@de;
+  dct:title "Output Types"@en, "Output Types"@de;
   sdo:distribution _:G__2539 .
 
 _:G__2539 a sdo:DataDownload;
@@ -2199,7 +2193,7 @@ _:G__2539 a sdo:DataDownload;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "euroCRIS"@de;
   dct:description "The types of research activity."@en, "Die Arten der Forschungstätigkeit."@de;
-  dct:title "Activity Types"@en, "Aktivitätstypen"@de;
+  dct:title "Activity types"@en, "Aktivitätstypen"@de;
   sdo:distribution _:G__2540 .
 
 _:G__2540 a sdo:DataDownload;
@@ -2213,7 +2207,7 @@ _:G__2540 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "euroCRIS"@de;
-  dct:description "The subtypes of an activity that are used for more specific or fine-grained analysis."@en,
+  dct:description "The subtypes of an activity that are used for a more specific or finer analysis."@en,
     "Die Subtypen einer Aktivität, die für eine spezifischere oder feinere Analyse verwendet werden."@de;
   dct:title "Sub-activity types"@en, "Sub-Aktivitätstypen"@de .
 
@@ -2294,7 +2288,7 @@ _:G__2549 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Schlagworte"@de;
   dct:description "List of applied keywords."@en, "Liste angewandter Schlagworte."@de;
-  dct:title "Applied keywords"@en, "Angewandte Schlagwörter"@de;
+  dct:title "Keywords used"@en, "Angewandte Schlagwörter"@de;
   sdo:distribution _:G__2550, _:G__2551, _:G__2552 .
 
 _:G__2550 a sdo:DataDownload;
@@ -2399,9 +2393,9 @@ video"""@de;
   dct:issued "2021-08-13"^^xsd:date;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "LC/MARC"@de;
-  dct:description "The media types schema is derived from a controlled list of values ​​that reflect the general type of mediating device required to display, play, execute, etc., the content of a resource, and is used primarily in RDA cataloging."@en,
+  dct:description "The scheme of media types is derived from a controlled list of values ​​that reflect the general type of mediating device required to display, play, execute, etc. the content of a resource, and is mainly used in RDA cataloging."@en,
     "Das Schema der Medientypen ist von einer kontrollierten Liste von Werten abgeleitet, die den allgemeinen Typ des Vermittlungsgeräts widerspiegeln, das erforderlich ist, um den Inhalt einer Ressource anzuzeigen, abzuspielen, auszuführen usw., und das hauptsächlich in der RDA-Katalogisierung verwendet wird."@de;
-  dct:title "Media Types"@en, "Medientypen"@de;
+  dct:title "Media types"@en, "Medientypen"@de;
   sdo:distribution _:G__2557, _:G__2558 .
 
 _:G__2557 a sdo:DataDownload;
@@ -2446,9 +2440,9 @@ unspecified"""@de;
   dct:issued "2021-08-13"^^xsd:date;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "LC/MARC"@de;
-  dct:description "The Content Types schema is derived from a controlled list of values ​​that represent the form of communication through which a work is expressed, used primarily in RDA cataloging."@en,
+  dct:description "The scheme of content types is derived from a controlled list of values ​​that represent the form of communication through which a work is expressed and is mainly used in RDA cataloging."@en,
     "Das Schema der Inhaltstypen ist von einer kontrollierten Liste von Werten abgeleitet, die die Form der Kommunikation darstellen, durch die ein Werk ausgedrückt wird und die hauptsächlich in der RDA-Katalogisierung verwendet wird."@de;
-  dct:title "Content Types"@en, "Inhaltstypen"@de;
+  dct:title "Content types"@en, "Inhaltstypen"@de;
   sdo:distribution _:G__2559, _:G__2560 .
 
 _:G__2559 a sdo:DataDownload;
@@ -2537,7 +2531,7 @@ Legacy Worktypes
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "ORCID"@de;
   dct:description "List of work types that ORCID supports."@en, "Liste von Arbeitstypen, die ORCID unterstützt."@de;
-  dct:title "Work types"@en, "Arbeitstypen"@de .
+  dct:title "Types of work"@en, "Arbeitstypen"@de .
 
 <https://w3id.org/eduvocs/id/125> a wd:Q1469824;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
@@ -2548,7 +2542,7 @@ Legacy Worktypes
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "IANA"@de;
   dct:description "Directory of IANA media types."@en, "Verzeichnis der IANA Medientypen."@de;
-  dct:title "Media Types"@en, "Medientypen"@de;
+  dct:title "Media types"@en, "Medientypen"@de;
   sdo:distribution _:G__2561 .
 
 _:G__2561 a sdo:DataDownload;
@@ -2634,7 +2628,7 @@ Note
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "Zotero"@de;
   dct:description "Item types at Zotero."@en, "Artikeltypen bei Zotero."@de;
-  dct:title "Item types"@en;
+  dct:title "Article types"@en;
   a wd:Q1469824;
   dct:title "Artikeltypen"@de .
 
@@ -2668,7 +2662,7 @@ unit of learning"""@de;
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "Learning resource type values ​​for use in ICOPER metadata for the LOM Learning Resource Type property."@en,
+  dct:description "Learning resource type values ​​for use in ICOPER metadata for the LOM learning resource type property."@en,
     "Werte für Lernressourcentypen zur Verwendung in ICOPER-Metadaten für die Eigenschaft LOM-Lernressourcentyp."@de;
   dct:title "ICOPER Learning Resource Types"@en, "ICOPER Learning Resource Types"@de;
   sdo:distribution _:G__2562 .
@@ -2725,7 +2719,7 @@ learning resource
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
   dct:language "de";
   sdo:about "Ressourcentyp, Medientyp"@de;
-  dct:description "This vocabulary provides values ​​that indicate the type(s) of the learning object or the potential educational use(s) of the learning object. There are two categories of learning objects: learning resources and learning objects. A “learning object” is a simple atomic object (e.g. an image, audio, or video file), while a “learning resource” is a more detailed learning material such as a course or lesson plan. Learning materials and learning resources support different phases of developing and providing learning content. It is important not to allow “assets” and “learning resources” to be mixed. One or more values ​​should be selected for this element. The elements are ordered so that the first value indicates the most important one."@en,
+  dct:description "This vocabulary provides values ​​that indicate the type(s) of the learning object or its potential pedagogical use(s). There are two categories of learning objects: learning resources and learning objects. A \"learning object\" is a simple, atomic object (e.g., an image, an audio, or a video file), while a \"learning resource\" is more detailed learning material such as a course or lesson plan. Learning assets and learning resources support different phases of developing and delivering learning content. It is important not to confuse \"assets\" and \"learning resources.\" One or more values ​​should be selected for this element. The elements are ordered so that the first value indicates the most important."@en,
     "Dieses Vokabular liefert Werte, die die Art(en) des Lernobjekts oder die potenzielle(n) pädagogische(n) Verwendung(en) des Lernobjekts angeben. Es gibt zwei Kategorien von Lernobjekten: Lernressourcen und Lernobjekte. Ein „Lernobjekt“ ist ein einfaches atomares Objekt (z. B. ein Bild, eine Audio- oder eine Videodatei), während eine „Lernressource“ ein ausführlicheres Lernmaterial wie ein Kurs oder ein Unterrichtsplan ist. Lernmittel und Lernressourcen unterstützen unterschiedliche Phasen der Entwicklung und Bereitstellung von Lerninhalten. Es ist wichtig, keine Vermischung von „Assets“ und „Lernressourcen“ zuzulassen. Für dieses Element sollten ein oder mehrere Werte ausgewählt werden. Die Elemente sind so geordnet, dass der erste Wert den wichtigsten angibt."@de;
   dct:title "LRE Learning Resource Types (European Schoolnet Vocabulary)"@en, "LRE Learning Resource Types (European Schoolnet Vocabulary)"@de;
   sdo:distribution _:G__2563 .
@@ -2844,9 +2838,9 @@ _:G__2564 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2023-11-02"^^xsd:date;
   sdo:about "Barrierearmut"@de;
-  dct:description "Portal for the Accessible Information Technology Regulation (BITV 2.0), which contains various relevant lists and terms."@en,
+  dct:description "Portal for the Barrier-Free Information Technology Ordinance (BITV 2.0), which contains various relevant lists and terms."@en,
     "Portal zur Barrierefreie-Informationstechnik-Verordnung (BITV 2.0), das verschiedene relevante Listen und Begriffe enthält."@de;
-  dct:title "Barrier-free Information Technology Regulation 2.0 (BITV) "@en, "Barrierefreie-Informationstechnik-Verordnung 2.0 (BITV) "@de .
+  dct:title "Accessible Information Technology Ordinance 2.0 (BITV)"@en, "Barrierefreie-Informationstechnik-Verordnung 2.0 (BITV) "@de .
 
 <https://w3id.org/eduvocs/id/131> a wd:Q1469824;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
@@ -2887,7 +2881,7 @@ visual
   wdt:P973 <http://europeanschoolnet-vbe.lexaurus.net/vbe/browse>;
   dct:language "de";
   sdo:about "Barrierearmut"@de;
-  dct:description "This vocabulary describes the human sensory-perceptual system or the cognitive faculty through which a person can process or perceive information (EUN SEN)."@en,
+  dct:description "This vocabulary describes the human sensory perception system or cognitive ability through which a person can process or perceive information (EUN SEN)."@en,
     "Dieses Vokabular beschreibt das menschliche sensorische Wahrnehmungssystem oder das kognitive Vermögen, durch das eine Person Informationen verarbeiten oder wahrnehmen kann (EUN SEN)."@de;
   dct:title "Access modes"@en, "Zugriffsmodi"@de;
   sdo:distribution _:G__2565 .
@@ -2924,8 +2918,8 @@ _:G__2567 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2024-12-09"^^xsd:date;
   sdo:about "Barrierearmut"@de;
-  dct:description "Vocabulary for mapping Accesiblity properties."@en, "Vokabular zur Abbildung von Accesiblity Eigenschaften."@de;
-  dct:title "Schema.org accessibility properties for the discoverability vocabulary"@en,
+  dct:description "Vocabulary for mapping accessibility properties."@en, "Vokabular zur Abbildung von Accesiblity Eigenschaften."@de;
+  dct:title "Schema.org accessibility properties for the recognizability vocabulary"@en,
     "Schema.org-Zugänglichkeitseigenschaften für das Erkennbarkeitsvokabular"@de .
 
 <https://w3id.org/eduvocs/id/136> a wd:Q1469824;
@@ -2961,7 +2955,7 @@ Video with Synchronized American Sign Language (ASL)
   dct:language "de";
   dct:issued "2024-02"^^xsd:date;
   sdo:about "Barrierearmut"@de;
-  dct:description "An alternative manner or form providing access to the work to an authorized person when the copy or phonogram in the accessible format is used exclusively by the authorized person to provide him or her with access as practical and convenient as that of a person without such disability (20 U.S.C. § 121(d)(1))."@en,
+  dct:description "An alternative manner or form that provides an authorized person with access to the work when the copy or sound recording in the accessible format is used exclusively by the authorized person to provide them with access that is as practical and convenient as that which a person without such a disability would have (20 U.S.C. § 121(d)(1))."@en,
     "Eine alternative Art und Weise oder Form, die einer berechtigten Person Zugang zu dem Werk verschafft, wenn die Kopie oder der Tonträger in dem zugänglichen Format ausschließlich von der berechtigten Person verwendet wird, um ihr einen ebenso praktikablen und bequemen Zugang zu ermöglichen wie einer Person ohne eine solche Behinderung (20 U.S.C. § 121(d)(1))."@de;
   dct:title "Accessibility format"@en, "Zugänglichkeitsformat"@de .
 
@@ -2978,9 +2972,9 @@ Control Flexibility
   sdo:url <https://www.pbslearningmedia.org/search/>;
   dct:language "de";
   sdo:about "Barrierearmut"@de;
-  dct:description "Types of customization and flexibility in controlling the PBS learning platform."@en,
+  dct:description "Customization options and flexibility in controlling the PBS learning platform."@en,
     "Anpassungsarten und Flexibilität bei der Steuerung der PBS Lernplattform."@de;
-  dct:title "Accessibility: Types of Adaptation"@en, "Zugänglichkeit: Anpassungsarten"@de .
+  dct:title "Accessibility: Types of adaptation"@en, "Zugänglichkeit: Anpassungsarten"@de .
 
 <https://w3id.org/eduvocs/id/138> a wd:Q1469824;
   sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
@@ -2989,7 +2983,7 @@ Control Flexibility
   dct:language "de";
   dct:issued "2018-11-29"^^xsd:date;
   sdo:about "Barrierearmut"@de;
-  dct:description "OpenCourseWare (OCW) systems are designed to provide open educational resources that are accessible to everyone, including learners with special access needs and preferences. We need to find a formal and interoperable way to describe these preferences so that they can be used in OCW systems and access relevant educational resources. This formal representation should use standard OCW accessibility definitions that can be reused by other OCW systems to represent accessibility concepts. In this article, we present an ontology for representing learners' accessibility needs in relation to the IMS AfA specifications. The ontology definitions are used along with rule-based queries to retrieve relevant educational resources. In this context, we have developed a user interface component that allows users to create accessibility profiles based on our ontology that represent their individual needs and preferences. We evaluated the approach using five example profiles."@en,
+  dct:description "OpenCourseWare (OCW) systems were established to provide open educational resources accessible to everyone, including learners with specific access needs and preferences. We need to find a formal and interoperable way to describe these preferences so they can be used in OCW systems to retrieve relevant educational resources. This formal representation should use standard OCW accessibility definitions that can be reused by other OCW systems to represent accessibility concepts. In this article, we present an ontology for representing learners' accessibility needs in relation to the IMS AfA specifications. The ontology definitions are used, along with rule-based queries, to retrieve relevant educational resources. In this context, we have developed a user interface component that allows users to create accessibility profiles based on our ontology, representing their individual needs and preferences. We evaluated the approach using five example profiles."@en,
     "OpenCourseWare (OCW)-Systeme wurden eingerichtet, um offene Bildungsressourcen bereitzustellen, die für jedermann zugänglich sind, auch für Lernende mit besonderen Zugangsanforderungen und -präferenzen. Wir müssen einen formalen und interoperablen Weg finden, um diese Präferenzen zu beschreiben, damit sie in OCW-Systemen verwendet und relevante Bildungsressourcen abgerufen werden können. Diese formale Darstellung sollte Standarddefinitionen für die Zugänglichkeit von OCW verwenden, die von anderen OCW-Systemen zur Darstellung von Zugänglichkeitskonzepten wiederverwendet werden können. In diesem Artikel stellen wir eine Ontologie zur Darstellung der Zugänglichkeitsbedürfnisse von Lernenden in Bezug auf die IMS AfA Spezifikationen vor. Die Ontologiedefinitionen werden zusammen mit regelbasierten Abfragen verwendet, um relevante Bildungsressourcen abzurufen. In diesem Zusammenhang haben wir eine Benutzerschnittstellenkomponente entwickelt, die es den Benutzern ermöglicht, auf der Grundlage unserer Ontologie Zugänglichkeitsprofile zu erstellen, die ihre individuellen Bedürfnisse und Präferenzen darstellen. Wir haben den Ansatz anhand von fünf Beispielprofilen evaluiert."@de;
   dct:title "AccessibleOCW Ontology"@en, "AccessibleOCW Ontology"@de;
   sdo:distribution _:G__2568, _:G__2569 .
@@ -3019,9 +3013,9 @@ mixed
   dct:language "de";
   dct:issued "2017-12-20"^^xsd:date;
   sdo:about "Lehr-/Lernform (Interaktivitätstyp)"@de;
-  dct:description "The LRMI Interactivity Type Vocabulary defines some possible values ​​for the type of interactivity of a learning resource. It is used to provide values ​​for the lrmi interactivityType property."@en,
+  dct:description "The LRMI Interactivity Type Vocabulary defines several possible values ​​for the type of interactivity of a learning resource. It serves to provide values ​​for the `lrmi interactivityType` property."@en,
     "Das LRMI Interactivity Type Vocabulary definiert einige mögliche Werte für die Art der Interaktivität einer Lernressource. Es dient der Bereitstellung von Werten für die Eigenschaft lrmi interactivityType."@de;
-  dct:title "LRMI interactivity type vocabulary"@en, "LRMI Interaktivitätstyp Vokabular"@de;
+  dct:title "LRMI Interactivity Type Vocabulary"@en, "LRMI Interaktivitätstyp Vokabular"@de;
   sdo:distribution _:G__2570 .
 
 _:G__2570 a sdo:DataDownload;
@@ -3037,7 +3031,7 @@ _:G__2570 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Lehr-/Lernform (Interaktivitätstyp)"@de;
   dct:description "Predominant learning mode."@en, "Vorwiegender Lernmodus."@de;
-  dct:title "Learning mode "@en, "Lernmodus "@de;
+  dct:title "Learning mode"@en, "Lernmodus "@de;
   sdo:distribution _:G__2571, _:G__2572 .
 
 _:G__2571 a sdo:DataDownload;
@@ -3055,9 +3049,9 @@ _:G__2572 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2002-04"^^xsd:date;
   sdo:about "Lehr-/Lernform (Interaktivitätstyp)"@de;
-  dct:description "Taxonomies of interactivity, e.g. a six-stage differentiation of the level of interactivity according to Schulmeister, 2002."@en,
+  dct:description "Taxonomies of interactivity, e.g. a six-level differentiation of the interactivity level according to Schulmeister, 2002."@en,
     "Taxonomien von Interaktivität, bspw. eine sechsstufige Differenzierung des Interaktivitätsniveaus nach Schulmeister, 2002."@de;
-  dct:title "Taxonomy of interactivity"@en, "Taxonomie von Interaktivität"@de;
+  dct:title "Taxonomy of Interactivity"@en, "Taxonomie von Interaktivität"@de;
   sdo:distribution _:G__2573 .
 
 _:G__2573 a sdo:DataDownload;
@@ -3072,7 +3066,7 @@ Synchron: Gruppenorientiertes Lehren und Lernen, bei dem die Teilnehmer zur glei
   wdt:P973 <https://ceds.ed.gov/elements.aspx?v=12#>;
   dct:language "de";
   sdo:about "Lehr-/Lernform (Interaktivitätstyp)"@de;
-  dct:description "The primary type of interaction, synchronous or asynchronous, defined for the learning resource."@en,
+  dct:description "The primary type of interaction, synchronous or asynchronous, that has been defined for the learning resource."@en,
     "Die primäre Art der Interaktion, synchron oder asynchron, die für die Lernressource definiert wurde."@de;
   dct:title "Learning Resource Interaction Mode"@en, "Learning Resource Interaction Mode"@de .
 
@@ -3321,9 +3315,9 @@ Andere Freeware Lizenz"""@de;
   dct:language "de";
   dct:issued "2021-07-21"^^xsd:date;
   sdo:about "Lizenzen"@de;
-  dct:description "List of licenses that are permitted in the dct:license field of a DCAT-AP.de-compliant dcat:distribution for delivery to GovData. GovData recommends using the Germany 2.0 data license (zero or attribution) and the Creative Commons Attribution – 4.0 International. If this is not possible, the use of one of the remaining licenses designated for “free use” in the latest version is recommended."@en,
+  dct:description "List of licenses permitted in the dct:license field of a DCAT-AP.de-compliant dcat:distribution for delivery to GovData. GovData recommends using the Data License Germany 2.0 (Zero or Attribution) and the Creative Commons Attribution 4.0 International license. If this is not possible, the use of one of the other licenses designated for \"free use\" in its latest version is recommended."@en,
     "Liste der Lizenzen, die im Feld dct:license einer DCAT-AP.de-konformen dcat:distribution für die Zulieferung an GovData erlaubt sind. GovData empfiehlt die Verwendung der Datenlizenz Deutschland 2.0 (Zero oder Namensnennung) sowie der Creative Commons Namensnennung – 4.0 International. Soweit dies nicht möglich sein sollte, wird die Verwendung einer der übrigen zur „freien Nutzung“ ausgewiesenen Lizenzen in der jeweils neuesten Version empfohlen."@de;
-  dct:title "DCAT AP"@en, "DCAT-AP"@de;
+  dct:title "DCAT-AP"@en, "DCAT-AP"@de;
   sdo:distribution _:G__2575 .
 
 _:G__2575 a sdo:DataDownload;
@@ -3986,7 +3980,7 @@ Zope Public License 2.1"""@de;
   dct:language "de";
   dct:issued "2024-12-30"^^xsd:date;
   sdo:about "Lizenzen"@de;
-  dct:description "The SPDX license list is an integral part of the SPDX specification. The SPDX License List itself is a list of common licenses and exemptions used in free and open or shared software, data, hardware or documentation. The SPDX license list contains a standardized short identifier, full name, license text and a canonical permanent URL for each license and exception. "@en,
+  dct:description "The SPDX License List is an integral part of the SPDX specification. The SPDX License List itself is a list of commonly used licenses and exceptions in free and open-source or community-based software, data, hardware, or documentation. The SPDX License List includes a standardized short identifier, the full name, the license text, and a canonical permanent URL for each license and exception."@en,
     "Die SPDX-Lizenzliste ist ein integraler Bestandteil der SPDX-Spezifikation. Die SPDX-Lizenzliste selbst ist eine Liste von häufig vorkommenden Lizenzen und Ausnahmen, die in freier und offener oder gemeinschaftlicher Software, Daten, Hardware oder Dokumentation verwendet werden. Die SPDX-Lizenzliste enthält einen standardisierten Kurzbezeichner, den vollständigen Namen, den Lizenztext und eine kanonische permanente URL für jede Lizenz und Ausnahme. "@de;
   dct:title "SPDX License List"@en, "SPDX License List"@de;
   sdo:distribution _:G__2576, _:G__2577, _:G__2578 .
@@ -4011,7 +4005,7 @@ _:G__2578 a sdo:DataDownload;
   dct:language "de";
   sdo:about "Lizenzen"@de;
   dct:description "List of licenses"@en, "Liste von Lizenzen"@de;
-  dct:title "Portfolio: Standard licenses"@en, "Portfolio: Standard Lizenzen"@de;
+  dct:title "Portfolio: Standard Licenses"@en, "Portfolio: Standard Lizenzen"@de;
   sdo:distribution _:G__2579, _:G__2580, _:G__2581 .
 
 _:G__2579 a sdo:DataDownload;
@@ -4036,7 +4030,7 @@ _:G__2581 a sdo:DataDownload;
   dct:modified "2024-02-26"^^xsd:date;
   dct:issued "2020-07-28"^^xsd:date;
   sdo:about "Granularität"@de;
-  dct:description "A list of values ​​for classification in lesson planning. Extension of LOMv1.0"@en,
+  dct:description "A value list for classifying lessons in lesson planning. Extension of LOMv1.0"@en,
     "Eine Wertelliste für Einordnungen in die Unterrichtsplanung. Erweiterung von LOMv1.0"@de;
   dct:title "Aggregation level"@en, "Aggregationslevel"@de;
   sdo:distribution _:G__2582, _:G__2583 .
@@ -4060,7 +4054,7 @@ _:G__2583 a sdo:DataDownload;
   sdo:about "Zielgruppen"@de;
   dct:description "The affected person who has the problem and is looking for information"@en,
     "Die betroffene Person, die das Problem hat und nach Informationen sucht"@de;
-  dct:title "problem bearer"@en, "Problemträger"@de;
+  dct:title "Problem carrier"@en, "Problemträger"@de;
   sdo:distribution _:G__2584, _:G__2585 .
 
 _:G__2584 a sdo:DataDownload;
@@ -4080,7 +4074,7 @@ _:G__2585 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2025-02-04"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "Areas of university teaching where problems can arise"@en, "Bereiche der Hochschullehre, in denen Probleme auftauchen können"@de;
+  dct:description "Areas of higher education where problems can arise"@en, "Bereiche der Hochschullehre, in denen Probleme auftauchen können"@de;
   dct:title "Problem areas"@en, "Problemfelder"@de;
   sdo:distribution _:G__2586, _:G__2587 .
 
@@ -4101,7 +4095,7 @@ _:G__2587 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2025-02-04"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "Problems that can arise in university teaching"@en, "Probleme, die in der Hochschullehre auftreten können"@de;
+  dct:description "Problems that can occur in higher education"@en, "Probleme, die in der Hochschullehre auftreten können"@de;
   dct:title "problem"@en, "Problem"@de;
   sdo:distribution _:G__2588, _:G__2589 .
 
@@ -4122,7 +4116,7 @@ _:G__2589 a sdo:DataDownload;
   dct:language "de";
   dct:issued "2025-02-04"^^xsd:date;
   sdo:about "Fach- und Themenzuordnung"@de;
-  dct:description "Symptoms of problems in university teaching"@en, "Symptome für Probleme in der Hochschullehre"@de;
+  dct:description "Symptoms of problems in higher education"@en, "Symptome für Probleme in der Hochschullehre"@de;
   dct:title "symptom"@en, "Symptom"@de;
   sdo:distribution _:G__2590, _:G__2591 .
 
@@ -4145,7 +4139,7 @@ _:G__2591 a sdo:DataDownload;
   dct:issued "2025-03-12"^^xsd:date;
   sdo:about "Lizenzen"@de;
   dct:creator "unterrrichtsvideos.net"@de;
-  dct:description "Licenses for resources in the meta-video portal lehrsvideos.net with mappings on Creative Commons, EU licenses, DCAT-AP and RightsStatements.org"@en,
+  dct:description "Licenses for resources in the meta-video portal unterrichtsvideos.net with mappings to Creative Commons, EU licenses, DCAT-AP and RightsStatements.org"@en,
     "Lizenzen für Ressourcen im Meta-Videoportal unterrichtsvideos.net mit Mappings auf Creative Commons, EU-Lizenzen, DCAT-AP und RightsStatements.org"@de;
   dct:title "Licenses"@en, "Lizenzen"@de;
   sdo:distribution _:G__2592, _:G__2593 .
@@ -4169,7 +4163,7 @@ _:G__2593 a sdo:DataDownload;
   dct:issued "2025-03-12"^^xsd:date;
   sdo:about "Zielgruppen"@de;
   dct:creator "unterrrichtsvideos.net"@de;
-  dct:description "A list of values ​​for target groups of the Meta-Videoportal network."@en,
+  dct:description "A list of values ​​for target groups of the Meta video portal network."@en,
     "Eine Werteliste für Zielgruppen des Meta-Videoportal-Verbundes."@de;
   dct:title "Target groups"@en, "Zielgruppen"@de;
   sdo:distribution _:G__2594, _:G__2595 .
@@ -4193,8 +4187,8 @@ _:G__2595 a sdo:DataDownload;
   dct:issued "2025-03-12"^^xsd:date;
   sdo:about "Kompetenzen"@de;
   dct:creator "unterrrichtsvideos.net"@de;
-  dct:description "The MAIN Teach model is an approach to conceptualizing teaching quality."@en,
-    "Das MAIN-Teach-Modell ist ein Ansatz zur Konzeptualisierung von Unterrichtsqualität."@de;
+  dct:description "The MAIN-Teach model is an approach to conceptualizing teaching quality (Charalambous & Praetorius, 2020)."@en,
+    "Das MAIN-Teach-Modell ist ein Ansatz zur Konzeptualisierung von Unterrichtsqualität (Charalambous & Praetorius, 2020)."@de;
   dct:title "MAIN-Teach model for teaching quality"@en, "MAIN-Teach-Modell für Unterrichtsqualität"@de;
   sdo:distribution _:G__2596, _:G__2597 .
 
@@ -4218,7 +4212,7 @@ _:G__2597 a sdo:DataDownload;
   sdo:about "Schlagworte"@de;
   dct:creator "unterrrichtsvideos.net"@de;
   dct:description "A list of values ​​for teaching phases."@en, "Eine Wertelliste für Unterrichtsphasen."@de;
-  dct:title "teaching phases"@en, "Unterrichtsphasen"@de;
+  dct:title "Teaching phases"@en, "Unterrichtsphasen"@de;
   sdo:distribution _:G__2598, _:G__2599 .
 
 _:G__2598 a sdo:DataDownload;
@@ -4241,7 +4235,7 @@ _:G__2599 a sdo:DataDownload;
   sdo:about "Schlagworte"@de;
   dct:creator "unterrrichtsvideos.net"@de;
   dct:description "A value list for classroom activities."@en, "Eine Wertelliste für Unterrichtsaktivitäten."@de;
-  dct:title "Classroom activities"@en, "Unterrichtsaktivitäten"@de;
+  dct:title "Teaching activities"@en, "Unterrichtsaktivitäten"@de;
   sdo:distribution _:G__2600, _:G__2601 .
 
 _:G__2600 a sdo:DataDownload;
@@ -4286,7 +4280,7 @@ _:G__2603 a sdo:DataDownload;
   dct:issued "2025-03-12"^^xsd:date;
   sdo:about "Granularität"@de;
   dct:creator "unterrrichtsvideos.net"@de;
-  dct:description "A list of values ​​for resource granularity levels in the meta video portal."@en,
+  dct:description "A list of values ​​for granularity levels of resources in the Meta video portal."@en,
     "Eine Werteliste für Granularitätsstufen von Ressourcen im Meta-Videoportal."@de;
   dct:title "Granularity of resources"@en, "Granularität von Ressourcen"@de;
   sdo:distribution _:G__2604, _:G__2605 .
@@ -4310,8 +4304,7 @@ _:G__2605 a sdo:DataDownload;
   dct:issued "2025-03-12"^^xsd:date;
   sdo:about "Ressourcentyp, Medientyp"@de;
   dct:creator "unterrrichtsvideos.net"@de;
-  dct:description "A list of values ​​for resource types in the meta video portal."@en,
-    "Eine Werteliste für Ressourcentypen im Meta-Videoportal."@de;
+  dct:description "A value list for resource types in the Meta video portal."@en, "Eine Werteliste für Ressourcentypen im Meta-Videoportal."@de;
   dct:title "Resource types"@en, "Ressourcentypen"@de;
   sdo:distribution _:G__2606, _:G__2607 .
 
@@ -4322,3 +4315,56 @@ _:G__2606 a sdo:DataDownload;
 _:G__2607 a sdo:DataDownload;
   sdo:contentUrl <https://raw.githubusercontent.com/unterrichtsvideos/vocabs/refs/heads/main/resourceType.ttl>;
   sdo:fileFormat "text/turtle" .
+
+<https://w3id.org/eduvocs/id/163> a wd:Q1469824;
+  sdo:educationalLevel "Hochschule"@de;
+  dcat:endpointURL <https://vocabs.acdh.oeaw.ac.at/rest/v1/oefos/data>;
+  wdt:P126 "Statistik Austria - data.statistik.gv.at"@de;
+  wdt:P973 <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/Schema>;
+  dct:license "https://creativecommons.org/licenses/by/4.0/";
+  dct:language "de";
+  dct:issued "2012"^^xsd:date;
+  sdo:about "Fach- und Themenzuordnung"@de;
+  dct:creator "Statistik Austria"@de;
+  dct:description "The Austrian Classification of Scientific Fields 2012 (ÖFOS 2012) is the version adapted to Austrian conditions of the revised international classification Fields of Science and Technology (FOS), which was published as Fields of Research and Development (FORD) in the Frascati Manual 2015 and whose application is binding in international comparison and especially within the European statistical system."@en,
+    "Die Österreichische Systematik der Wissenschaftszweige 2012 (ÖFOS 2012) ist die auf die österreichischen Gegebenheiten abgestimmte Version der revidierten internationalen Klassifikation Fields of Science and Technology (FOS), die als Fields of Research and Development (FORD) im Frascati Manual 2015 veröffentlicht wurde und deren Anwendung im internationalen Vergleich und insbesondere innerhalb des europäischen statistischen Systems verbindlich ist."@de;
+  dct:title "Science and technology sectors in Austria (ÖFOS, FOS)"@en, "Wissenschafts- und Technologiebereiche in Österreich (ÖFOS, FOS)"@de;
+  sdo:distribution _:G__2608, _:G__2609, _:G__2610 .
+
+_:G__2608 a sdo:DataDownload;
+  sdo:contentUrl <https://vocabs.acdh.oeaw.ac.at/rest/v1/oefos/data?uri=https%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Foefosdisciplines%2FSchema&format=application/ld%2Bjson>;
+  sdo:fileFormat "application/json" .
+
+_:G__2609 a sdo:DataDownload;
+  sdo:contentUrl <https://vocabs.acdh.oeaw.ac.at/rest/v1/oefos/data?uri=https%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Foefosdisciplines%2FSchema&format=text/turtle>;
+  sdo:fileFormat "text/turtle" .
+
+_:G__2610 a sdo:DataDownload;
+  sdo:contentUrl <https://vocabs.acdh.oeaw.ac.at/rest/v1/oefos/data?uri=https%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Foefosdisciplines%2FSchema&format=application/rdf%2Bxml>;
+  sdo:fileFormat "application/xml" .
+
+<https://w3id.org/eduvocs/id/164> a wd:Q1469824;
+  sdo:educationalLevel "Bildungsbereichsübergreifend"@de;
+  wdt:P1324 <https://vocabularies.coar-repositories.org>;
+  wdt:P126 "COAR"@de;
+  wdt:P973 <https://vocabularies.coar-repositories.org/resource_types/>;
+  dct:language "de";
+  dct:issued "2024-12-03"^^xsd:date;
+  sdo:about "Ressourcentyp, Medientyp"@de;
+  dct:creator "COAR"@de;
+  dct:description "The \"Controlled Vocabularies for Repositories (COAR) Resource Type\" vocabulary defines concepts for identifying the type of resource. Such resources, like publications, research data, and audio and video objects, are typically deposited in institutional and thematic repositories or published in e-journals. This vocabulary supports a hierarchical model that links narrower and broader concepts. Multilingual terms take into account regional differences in language and terminology. The concepts in this vocabulary are cross-referenced with terms and concepts in similar vocabularies and dictionaries."@en,
+    "Das Vokabular „Controlled Vocabularies for Repositories (COAR) Resource Type” definiert Konzepte zur Identifizierung der Gattung einer Ressource. Solche Ressourcen, wie Publikationen, Forschungsdaten, Audio- und Videoobjekte, werden in der Regel in institutionellen und thematischen Repositorien hinterlegt oder in E-Journals veröffentlicht. Dieses Vokabular unterstützt ein hierarchisches Modell, das engere und weiter gefasste Konzepte miteinander verknüpft. Mehrsprachige Bezeichnungen berücksichtigen regionale Unterschiede in Sprache und Terminologie. Die Konzepte dieses Vokabulars werden mit Begriffen und Konzepten ähnlicher Vokabulare und Wörterbücher abgeglichen."@de;
+  dct:title "Resource types (COAR)"@en, "Ressourcentypen (COAR)"@de;
+  sdo:distribution _:G__2611, _:G__2612, _:G__2613 .
+
+_:G__2611 a sdo:DataDownload;
+  sdo:contentUrl <https://vocabularies.coar-repositories.org/resource_types/resource_types.nt>;
+  sdo:fileFormat "text/turtle" .
+
+_:G__2612 a sdo:DataDownload;
+  sdo:contentUrl <https://vocabularies.coar-repositories.org/resource_types/resource_types_for_dspace_de.xml>;
+  sdo:fileFormat "application/xml" .
+
+_:G__2613 a sdo:DataDownload;
+  sdo:contentUrl <https://coar-repositories.org/wp-content/uploads/2025/06/coar_vocabulary-poster-2025.pdf>;
+  sdo:fileFormat "application/pdf" .
