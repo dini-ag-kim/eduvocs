@@ -9,7 +9,7 @@ export const config = {
 		charset: 'latin',
 		document: {
 			id: 'id',
-			index: ['id', 'title', 'about', 'P126'],
+			index: ['id', 'title', 'description', 'about', 'P126'],
 			tag: 'tag',
 			store: true
 		}
